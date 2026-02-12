@@ -1,0 +1,2764 @@
+{
+  "metadata": {
+    "version": "1.0",
+    "totalCount": 54
+  },
+  "women": [
+    {
+      "id": "marie-curie",
+      "name": {
+        "tr": "Marie Curie",
+        "en": "Marie Curie"
+      },
+      "birthYear": 1867,
+      "deathYear": 1934,
+      "nationality": "PL",
+      "countryOfWork": "FR",
+      "coordinates": {
+        "lat": 48.8566,
+        "lng": 2.3522
+      },
+      "category": "science",
+      "subcategory": "physics",
+      "era": "modern",
+      "bio": {
+        "tr": "Radyoaktivite alanında öncü çalışmalarıyla tanınan Marie Curie, Nobel Ödülü kazanan ilk kadın ve iki farklı bilim dalında Nobel kazanan tek kişidir. Polonyum ve radyum elementlerini keşfetmiş, radyoaktivitenin tıpta kullanılmasının temellerini atmıştır. I. Dünya Savaşı sırasında mobil röntgen üniteleri geliştirerek cephede yaralı askerlerin tedavisine katkıda bulunmuştur.",
+        "en": "Marie Curie was a pioneer in the field of radioactivity, the first woman to win a Nobel Prize, and the only person to win Nobel Prizes in two different sciences. She discovered the elements polonium and radium, and laid the groundwork for the use of radioactivity in medicine. During World War I, she developed mobile X-ray units to help treat wounded soldiers on the front lines."
+      },
+      "shortBio": {
+        "tr": "İki Nobel Ödülü kazanan ilk ve tek kişi",
+        "en": "First and only person to win two Nobel Prizes in different sciences"
+      },
+      "quote": {
+        "tr": "Hayatta korkulacak bir şey yok, sadece anlaşılması gereken şeyler var.",
+        "en": "Nothing in life is to be feared, it is only to be understood."
+      },
+      "achievements": {
+        "tr": [
+          "Nobel Fizik Ödülü (1903)",
+          "Nobel Kimya Ödülü (1911)",
+          "Polonyum ve Radyum'un keşfi"
+        ],
+        "en": [
+          "Nobel Prize in Physics (1903)",
+          "Nobel Prize in Chemistry (1911)",
+          "Discovery of Polonium and Radium"
+        ]
+      },
+      "illustrationFile": "marie-curie.webp",
+      "accentColor": "#6B4C9A",
+      "tags": [
+        "nobel",
+        "physics",
+        "chemistry",
+        "pioneer",
+        "radioactivity"
+      ],
+      "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/c/c8/Marie_Curie_c._1920s.jpg/300px-Marie_Curie_c._1920s.jpg"
+    },
+    {
+      "id": "ada-lovelace",
+      "name": {
+        "tr": "Ada Lovelace",
+        "en": "Ada Lovelace"
+      },
+      "birthYear": 1815,
+      "deathYear": 1852,
+      "nationality": "GB",
+      "countryOfWork": "GB",
+      "coordinates": {
+        "lat": 51.5074,
+        "lng": -0.1278
+      },
+      "category": "science",
+      "subcategory": "computing",
+      "era": "historical",
+      "bio": {
+        "tr": "Ada Lovelace, Charles Babbage'ın Analitik Motor'u için yazdığı notlarla dünyanın ilk bilgisayar programcısı olarak kabul edilir. Matematikçi ve yazar olan Lovelace, makinenin sayıların ötesinde müzik ve sanat gibi alanlarda da kullanılabileceğini öngörmüştür. Ünlü şair Lord Byron'ın kızı olan Ada, bilim ve sanatı bir araya getiren vizyoner bir düşünürdü.",
+        "en": "Ada Lovelace is regarded as the world's first computer programmer for her notes on Charles Babbage's Analytical Engine. A mathematician and writer, Lovelace foresaw that machines could go beyond mere number-crunching to create music and art. The daughter of poet Lord Byron, Ada was a visionary thinker who bridged science and the arts."
+      },
+      "shortBio": {
+        "tr": "Dünyanın ilk bilgisayar programcısı",
+        "en": "The world's first computer programmer"
+      },
+      "quote": {
+        "tr": "O makine analitik ilişkileri ve sonuçları ifade edebilir.",
+        "en": "The Analytical Engine weaves algebraic patterns, just as the Jacquard loom weaves flowers and leaves."
+      },
+      "achievements": {
+        "tr": [
+          "İlk bilgisayar algoritması (1843)",
+          "Analitik Motor için notlar",
+          "Bilgisayar biliminin öncüsü"
+        ],
+        "en": [
+          "First computer algorithm (1843)",
+          "Notes on the Analytical Engine",
+          "Pioneer of computer science"
+        ]
+      },
+      "illustrationFile": "ada-lovelace.webp",
+      "accentColor": "#6B4C9A",
+      "tags": [
+        "computing",
+        "programming",
+        "mathematics",
+        "pioneer"
+      ],
+      "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/4/4c/Ada_Lovelace_daguerreotype_by_Antoine_Claudet_1843_-_cropped.png/300px-Ada_Lovelace_daguerreotype_by_Antoine_Claudet_1843_-_cropped.png"
+    },
+    {
+      "id": "rosalind-franklin",
+      "name": {
+        "tr": "Rosalind Franklin",
+        "en": "Rosalind Franklin"
+      },
+      "birthYear": 1920,
+      "deathYear": 1958,
+      "nationality": "GB",
+      "countryOfWork": "GB",
+      "coordinates": {
+        "lat": 51.5074,
+        "lng": -0.1278
+      },
+      "category": "science",
+      "subcategory": "biology",
+      "era": "modern",
+      "bio": {
+        "tr": "Rosalind Franklin, X-ışını kristalografisi kullanarak DNA'nın yapısının çözülmesinde kritik bir rol oynamıştır. Ünlü Fotoğraf 51, DNA'nın çift sarmal yapısını gösteren ilk net görüntüydü. Keşfi Watson ve Crick'in modelinin temelini oluşturmuş, ancak katkıları hayatta iken yeterince tanınmamıştır.",
+        "en": "Rosalind Franklin played a critical role in discovering the structure of DNA using X-ray crystallography. Her famous Photo 51 was the first clear image showing DNA's double helix structure. Her discovery formed the basis for Watson and Crick's model, though her contributions were not fully recognized during her lifetime."
+      },
+      "shortBio": {
+        "tr": "DNA'nın çift sarmal yapısını keşfeden bilim insanı",
+        "en": "Scientist who captured the key image revealing DNA's double helix"
+      },
+      "quote": {
+        "tr": "Bilim ve günlük yaşam birbirinden ayrılamaz ve ayrılmamalıdır.",
+        "en": "Science and everyday life cannot and should not be separated."
+      },
+      "achievements": {
+        "tr": [
+          "Fotoğraf 51 - DNA görüntüsü",
+          "X-ışını kristalografisi çalışmaları",
+          "Virüs yapılarının aydınlatılması"
+        ],
+        "en": [
+          "Photo 51 - DNA image",
+          "X-ray crystallography research",
+          "Illumination of virus structures"
+        ]
+      },
+      "illustrationFile": "rosalind-franklin.webp",
+      "accentColor": "#6B4C9A",
+      "tags": [
+        "dna",
+        "biology",
+        "crystallography",
+        "genetics"
+      ],
+      "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/f/fd/Rosalind_Franklin_%28retouched%29.jpg/300px-Rosalind_Franklin_%28retouched%29.jpg"
+    },
+    {
+      "id": "katherine-johnson",
+      "name": {
+        "tr": "Katherine Johnson",
+        "en": "Katherine Johnson"
+      },
+      "birthYear": 1918,
+      "deathYear": 2020,
+      "nationality": "US",
+      "countryOfWork": "US",
+      "coordinates": {
+        "lat": 37.0841,
+        "lng": -76.3816
+      },
+      "category": "science",
+      "subcategory": "mathematics",
+      "era": "modern",
+      "bio": {
+        "tr": "Katherine Johnson, NASA'da çalışan Afrikalı-Amerikalı bir matematikçiydi. Yörünge mekaniği hesaplamalarıyla uzay programının başarısında kilit rol oynamıştır. John Glenn'in dünya çevresindeki yörünge uçuşunun hesaplamalarını bizzat yapmış, Apollo 11 ay görevinin rotasını belirlemiştir.",
+        "en": "Katherine Johnson was an African-American mathematician at NASA who played a key role in the success of the space program through her orbital mechanics calculations. She personally calculated the trajectory for John Glenn's orbit around Earth and determined the flight path for the Apollo 11 moon mission."
+      },
+      "shortBio": {
+        "tr": "NASA'nın uzay yolculuklarını hesaplayan matematikçi",
+        "en": "NASA mathematician who calculated space flight trajectories"
+      },
+      "quote": {
+        "tr": "Her şeyi sorguladım. Neden öyle? Neden böyle? Bu doğamda var.",
+        "en": "I counted everything. I counted the steps to the road, the steps up to church, the number of dishes."
+      },
+      "achievements": {
+        "tr": [
+          "Mercury ve Apollo görev hesaplamaları",
+          "Başkanlık Özgürlük Madalyası (2015)",
+          "33 yıl NASA hizmeti"
+        ],
+        "en": [
+          "Mercury and Apollo mission calculations",
+          "Presidential Medal of Freedom (2015)",
+          "33 years of NASA service"
+        ]
+      },
+      "illustrationFile": "katherine-johnson.webp",
+      "accentColor": "#6B4C9A",
+      "tags": [
+        "nasa",
+        "mathematics",
+        "space",
+        "civil-rights"
+      ],
+      "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/6/6d/Katherine_Johnson_1983.jpg/300px-Katherine_Johnson_1983.jpg"
+    },
+    {
+      "id": "tu-youyou",
+      "name": {
+        "tr": "Tu Youyou",
+        "en": "Tu Youyou"
+      },
+      "birthYear": 1930,
+      "deathYear": null,
+      "nationality": "CN",
+      "countryOfWork": "CN",
+      "coordinates": {
+        "lat": 30.2741,
+        "lng": 120.1551
+      },
+      "category": "science",
+      "subcategory": "medicine",
+      "era": "modern",
+      "bio": {
+        "tr": "Tu Youyou, sıtma tedavisinde devrim yaratan artemisinin ilacını keşfeden Çinli farmakologdur. Geleneksel Çin tıbbı metinlerinden ilham alarak bu keşfi gerçekleştirmiştir. Çalışmaları dünya genelinde milyonlarca hayat kurtarmış ve 2015'te Nobel Fizyoloji veya Tıp Ödülü'nü kazanmıştır.",
+        "en": "Tu Youyou is a Chinese pharmacologist who discovered artemisinin, a revolutionary treatment for malaria. She drew inspiration from traditional Chinese medicine texts for this discovery. Her work has saved millions of lives worldwide, and she was awarded the Nobel Prize in Physiology or Medicine in 2015."
+      },
+      "shortBio": {
+        "tr": "Sıtma ilacı artemisinini keşfeden Nobel ödüllü bilim insanı",
+        "en": "Nobel laureate who discovered the antimalarial drug artemisinin"
+      },
+      "quote": {
+        "tr": "Her bilim insanı, insanlığın iyiliği için çalışma fırsatını hayallerine borçludur.",
+        "en": "Every scientist dreams of doing something that can help the world."
+      },
+      "achievements": {
+        "tr": [
+          "Nobel Fizyoloji veya Tıp Ödülü (2015)",
+          "Artemisinin keşfi",
+          "Milyonlarca sıtma hastasının tedavisi"
+        ],
+        "en": [
+          "Nobel Prize in Physiology or Medicine (2015)",
+          "Discovery of Artemisinin",
+          "Treatment of millions of malaria patients"
+        ]
+      },
+      "illustrationFile": "tu-youyou.webp",
+      "accentColor": "#6B4C9A",
+      "tags": [
+        "nobel",
+        "medicine",
+        "malaria",
+        "pharmacology"
+      ],
+      "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/9/9f/D810_4987_Tu_Youyou%2C_medicine_%2822945001843%29_%28cropped%29.jpg/300px-D810_4987_Tu_Youyou%2C_medicine_%2822945001843%29_%28cropped%29.jpg"
+    },
+    {
+      "id": "maryam-mirzakhani",
+      "name": {
+        "tr": "Meryem Mirzahani",
+        "en": "Maryam Mirzakhani"
+      },
+      "birthYear": 1977,
+      "deathYear": 2017,
+      "nationality": "IR",
+      "countryOfWork": "US",
+      "coordinates": {
+        "lat": 37.4419,
+        "lng": -122.143
+      },
+      "category": "science",
+      "subcategory": "mathematics",
+      "era": "contemporary",
+      "bio": {
+        "tr": "Meryem Mirzahani, matematiğin en prestijli ödülü olan Fields Madalyası'nı kazanan ilk ve şimdiye kadar tek kadındır. İranlı matematikçi, Riemann yüzeylerinin geometrisi ve dinamiği konusundaki çığır açan çalışmalarıyla tanınır. Stanford Üniversitesi'nde profesör olarak görev yapmış, 40 yaşında kanser nedeniyle hayatını kaybetmiştir.",
+        "en": "Maryam Mirzakhani was the first and so far only woman to win the Fields Medal, the most prestigious award in mathematics. The Iranian mathematician was known for her groundbreaking work on the geometry and dynamics of Riemann surfaces. She served as a professor at Stanford University and passed away from cancer at the age of 40."
+      },
+      "shortBio": {
+        "tr": "Fields Madalyası kazanan ilk kadın matematikçi",
+        "en": "First woman to win the Fields Medal in mathematics"
+      },
+      "quote": {
+        "tr": "Güzelliği keşfetmenin keyfi, bir gezgin gibi olmaktır.",
+        "en": "The beauty of mathematics only shows itself to more patient followers."
+      },
+      "achievements": {
+        "tr": [
+          "Fields Madalyası (2014)",
+          "Riemann yüzeyleri araştırmaları",
+          "Stanford Üniversitesi profesörü"
+        ],
+        "en": [
+          "Fields Medal (2014)",
+          "Riemann surface research",
+          "Stanford University professor"
+        ]
+      },
+      "illustrationFile": "maryam-mirzakhani.webp",
+      "accentColor": "#6B4C9A",
+      "tags": [
+        "fields-medal",
+        "mathematics",
+        "geometry",
+        "iran"
+      ],
+      "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/b/b1/Maryam_Mirzakhani_in_Seoul_2014.jpg"
+    },
+    {
+      "id": "chien-shiung-wu",
+      "name": {
+        "tr": "Chien-Shiung Wu",
+        "en": "Chien-Shiung Wu"
+      },
+      "birthYear": 1912,
+      "deathYear": 1997,
+      "nationality": "CN",
+      "countryOfWork": "US",
+      "coordinates": {
+        "lat": 40.8075,
+        "lng": -73.9626
+      },
+      "category": "science",
+      "subcategory": "physics",
+      "era": "modern",
+      "bio": {
+        "tr": "Chien-Shiung Wu, deneysel fizikte çığır açan çalışmalarıyla tanınan Çinli-Amerikalı fizikçidir. Parite korunumunun çürütülmesinde yaptığı deney fiziğin temel yasalarından birini değiştirmiştir. \"Fiziğin Birinci Hanımefendisi\" olarak anılan Wu, Manhattan Projesi'nde de çalışmıştır.",
+        "en": "Chien-Shiung Wu was a Chinese-American physicist known for her groundbreaking work in experimental physics. Her experiment disproving the conservation of parity changed one of the fundamental laws of physics. Known as the 'First Lady of Physics,' Wu also worked on the Manhattan Project."
+      },
+      "shortBio": {
+        "tr": "Parite korunumunu çürüten deneysel fizikçi",
+        "en": "Experimental physicist who disproved conservation of parity"
+      },
+      "quote": {
+        "tr": "Bilimde cinsiyet ayrımı için yer olmamalıdır.",
+        "en": "There is only one thing worse than coming home from the lab to a sink full of dirty dishes, and that is not going to the lab at all."
+      },
+      "achievements": {
+        "tr": [
+          "Parite korunumunun çürütülmesi",
+          "Wolf Fizik Ödülü (1978)",
+          "Ulusal Bilim Madalyası"
+        ],
+        "en": [
+          "Disproof of parity conservation",
+          "Wolf Prize in Physics (1978)",
+          "National Medal of Science"
+        ]
+      },
+      "illustrationFile": "chien-shiung-wu.webp",
+      "accentColor": "#6B4C9A",
+      "tags": [
+        "physics",
+        "parity",
+        "experimental",
+        "pioneer"
+      ],
+      "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/d/d2/Chien-shiung_Wu_%281912-1997%29_C.jpg/300px-Chien-shiung_Wu_%281912-1997%29_C.jpg"
+    },
+    {
+      "id": "sabiha-gokcen",
+      "name": {
+        "tr": "Sabiha Gökçen",
+        "en": "Sabiha Gökçen"
+      },
+      "birthYear": 1913,
+      "deathYear": 2001,
+      "nationality": "TR",
+      "countryOfWork": "TR",
+      "coordinates": {
+        "lat": 39.9334,
+        "lng": 32.8597
+      },
+      "category": "science",
+      "subcategory": "aviation",
+      "era": "modern",
+      "bio": {
+        "tr": "Sabiha Gökçen, dünyanın ilk kadın savaş pilotu olarak tarihe geçmiştir. Mustafa Kemal Atatürk'ün manevi kızı olan Gökçen, Türk Hava Kuvvetleri'nde görev yaparak birçok askeri operasyona katılmıştır. Havacılık kariyerinde 8.000 saatten fazla uçuş gerçekleştirmiş ve Türk kadınlarının modernleşme sürecinin simgesi olmuştur.",
+        "en": "Sabiha Gökçen made history as the world's first female combat pilot. The adopted daughter of Mustafa Kemal Atatürk, Gökçen served in the Turkish Air Force and participated in numerous military operations. She logged over 8,000 flight hours and became a symbol of the modernization of Turkish women."
+      },
+      "shortBio": {
+        "tr": "Dünyanın ilk kadın savaş pilotu",
+        "en": "World's first female combat pilot"
+      },
+      "quote": {
+        "tr": "Gökyüzü herkes içindir, kadın ya da erkek fark etmez.",
+        "en": "The sky belongs to everyone, regardless of gender."
+      },
+      "achievements": {
+        "tr": [
+          "Dünyanın ilk kadın savaş pilotu",
+          "8.000+ saat uçuş",
+          "Türk Hava Kuvvetleri'nde görev"
+        ],
+        "en": [
+          "World's first female combat pilot",
+          "8,000+ flight hours",
+          "Service in Turkish Air Force"
+        ]
+      },
+      "illustrationFile": "sabiha-gokcen.webp",
+      "accentColor": "#6B4C9A",
+      "tags": [
+        "aviation",
+        "pilot",
+        "military",
+        "turkey",
+        "pioneer"
+      ],
+      "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/d/d1/Sabiha_gokcen3.jpg/300px-Sabiha_gokcen3.jpg"
+    },
+    {
+      "id": "mae-jemison",
+      "name": {
+        "tr": "Mae Jemison",
+        "en": "Mae Jemison"
+      },
+      "birthYear": 1956,
+      "deathYear": null,
+      "nationality": "US",
+      "countryOfWork": "US",
+      "coordinates": {
+        "lat": 29.5502,
+        "lng": -95.098
+      },
+      "category": "science",
+      "subcategory": "space",
+      "era": "contemporary",
+      "bio": {
+        "tr": "Mae Jemison, uzaya giden ilk Afrikalı-Amerikalı kadın astronottur. 1992'de Endeavour uzay mekiği ile uzaya çıkmış, mühendis ve doktor olarak çeşitli bilimsel deneyler gerçekleştirmiştir. NASA'dan ayrıldıktan sonra bilim eğitimi ve teknoloji alanında çalışmalarına devam etmiştir.",
+        "en": "Mae Jemison was the first African-American woman to travel into space. In 1992, she flew aboard the Space Shuttle Endeavour and conducted various scientific experiments as an engineer and physician. After leaving NASA, she continued her work in science education and technology."
+      },
+      "shortBio": {
+        "tr": "Uzaya giden ilk Afrikalı-Amerikalı kadın",
+        "en": "First African-American woman to travel into space"
+      },
+      "quote": {
+        "tr": "Asla kendi tutkularınızın peşinden gitmeyi bırakmayın.",
+        "en": "Never limit yourself because of others' limited imagination."
+      },
+      "achievements": {
+        "tr": [
+          "İlk Afrikalı-Amerikalı kadın astronot",
+          "STS-47 uzay görevi (1992)",
+          "Barış Gönüllüsü doktor"
+        ],
+        "en": [
+          "First African-American woman astronaut",
+          "STS-47 space mission (1992)",
+          "Peace Corps physician"
+        ]
+      },
+      "illustrationFile": "mae-jemison.webp",
+      "accentColor": "#6B4C9A",
+      "tags": [
+        "space",
+        "nasa",
+        "astronaut",
+        "pioneer"
+      ],
+      "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/5/55/Mae_Carol_Jemison.jpg/300px-Mae_Carol_Jemison.jpg"
+    },
+    {
+      "id": "hedy-lamarr",
+      "name": {
+        "tr": "Hedy Lamarr",
+        "en": "Hedy Lamarr"
+      },
+      "birthYear": 1914,
+      "deathYear": 2000,
+      "nationality": "AT",
+      "countryOfWork": "US",
+      "coordinates": {
+        "lat": 34.0522,
+        "lng": -118.2437
+      },
+      "category": "science",
+      "subcategory": "technology",
+      "era": "modern",
+      "bio": {
+        "tr": "Hedy Lamarr, Hollywood'un altın çağının yıldızı olmasının yanı sıra, frekans atlamalı yayılmış spektrum teknolojisinin mucididir. II. Dünya Savaşı sırasında torpido güdüm sistemleri için geliştirdiği bu buluş, bugünkü Wi-Fi, Bluetooth ve GPS teknolojilerinin temelini oluşturmuştur.",
+        "en": "Hedy Lamarr was not only a star of Hollywood's golden age but also the inventor of frequency-hopping spread spectrum technology. Developed during World War II for torpedo guidance systems, her invention laid the foundation for today's Wi-Fi, Bluetooth, and GPS technologies."
+      },
+      "shortBio": {
+        "tr": "Wi-Fi ve Bluetooth'un temelini atan mucit ve aktris",
+        "en": "Inventor and actress who laid the groundwork for Wi-Fi and Bluetooth"
+      },
+      "quote": {
+        "tr": "Herhangi bir kız glamur olabilir, tek yapması gereken durup aptal gibi görünmektir.",
+        "en": "Any girl can be glamorous. All she has to do is stand still and look stupid."
+      },
+      "achievements": {
+        "tr": [
+          "Frekans atlamalı yayılmış spektrum patenti",
+          "Wi-Fi ve Bluetooth'un öncüsü",
+          "Ulusal Mucitler Şöhret Salonu"
+        ],
+        "en": [
+          "Frequency-hopping spread spectrum patent",
+          "Precursor to Wi-Fi and Bluetooth",
+          "National Inventors Hall of Fame"
+        ]
+      },
+      "illustrationFile": "hedy-lamarr.webp",
+      "accentColor": "#6B4C9A",
+      "tags": [
+        "technology",
+        "invention",
+        "wireless",
+        "cinema"
+      ],
+      "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/8/83/Hedy_Lamarr_Publicity_Photo_for_The_Heavenly_Body_1944.jpg/300px-Hedy_Lamarr_Publicity_Photo_for_The_Heavenly_Body_1944.jpg"
+    },
+    {
+      "id": "jane-goodall",
+      "name": {
+        "tr": "Jane Goodall",
+        "en": "Jane Goodall"
+      },
+      "birthYear": 1934,
+      "deathYear": null,
+      "nationality": "GB",
+      "countryOfWork": "TZ",
+      "coordinates": {
+        "lat": -4.6769,
+        "lng": 29.6342
+      },
+      "category": "science",
+      "subcategory": "biology",
+      "era": "contemporary",
+      "bio": {
+        "tr": "Jane Goodall, şempanze davranışları üzerine yaptığı öncü araştırmalarla tanınan İngiliz primatolog ve çevrecidir. Tanzanya'daki Gombe Ulusal Parkı'nda 60 yılı aşkın süredir devam eden araştırmaları, hayvan zekâsı hakkındaki anlayışımızı kökten değiştirmiştir. BM Barış Elçisi olan Goodall, çevre koruma ve hayvan hakları savunuculuğu yapmaktadır.",
+        "en": "Jane Goodall is a British primatologist and environmentalist known for her pioneering research on chimpanzee behavior. Her research at Gombe National Park in Tanzania, spanning over 60 years, has fundamentally changed our understanding of animal intelligence. A UN Messenger of Peace, Goodall advocates for environmental conservation and animal rights."
+      },
+      "shortBio": {
+        "tr": "Şempanze araştırmalarıyla tanınan öncü primatolog",
+        "en": "Pioneering primatologist known for chimpanzee research"
+      },
+      "quote": {
+        "tr": "Yaptığınız şey fark yaratır ve ne tür bir fark yaratmak istediğinize karar vermelisiniz.",
+        "en": "What you do makes a difference, and you have to decide what kind of difference you want to make."
+      },
+      "achievements": {
+        "tr": [
+          "60+ yıl şempanze araştırması",
+          "BM Barış Elçisi",
+          "Jane Goodall Enstitüsü kurucusu"
+        ],
+        "en": [
+          "60+ years of chimpanzee research",
+          "UN Messenger of Peace",
+          "Founder of the Jane Goodall Institute"
+        ]
+      },
+      "illustrationFile": "jane-goodall.webp",
+      "accentColor": "#6B4C9A",
+      "tags": [
+        "primatology",
+        "conservation",
+        "environment",
+        "animals"
+      ],
+      "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/9/98/Deputy_Secretary_Higginbottom_Poses_for_a_Photo_With_Dr._Jane_Goodall_and_the_State_Department%27s_Global_Health_Diplomacy_Director_Jordan_in_Washington_%2822365513310%29_%282%29_%28cropped_2%29.jpg/400px-thumbnail.jpg"
+    },
+    {
+      "id": "frida-kahlo",
+      "name": {
+        "tr": "Frida Kahlo",
+        "en": "Frida Kahlo"
+      },
+      "birthYear": 1907,
+      "deathYear": 1954,
+      "nationality": "MX",
+      "countryOfWork": "MX",
+      "coordinates": {
+        "lat": 19.4326,
+        "lng": -99.1332
+      },
+      "category": "arts",
+      "subcategory": "painting",
+      "era": "modern",
+      "bio": {
+        "tr": "Frida Kahlo, otoportreleri ve acı ile tutkuyu harmanlayan eşsiz tarzıyla tanınan Meksikalı ressamdır. Genç yaşta geçirdiği trafik kazasının ardından yaşadığı fiziksel acıları sanatına yansıtmıştır. Meksika kültürü, feminizm ve kimlik temaları eserlerinin merkezinde yer almış, 20. yüzyılın en etkili sanatçılarından biri olmuştur.",
+        "en": "Frida Kahlo was a Mexican painter known for her self-portraits and unique style blending pain and passion. She channeled the physical suffering from a traffic accident in her youth into her art. Mexican culture, feminism, and identity themes were central to her work, making her one of the most influential artists of the 20th century."
+      },
+      "shortBio": {
+        "tr": "Acıyı sanata dönüştüren efsanevi Meksikalı ressam",
+        "en": "Legendary Mexican painter who transformed pain into art"
+      },
+      "quote": {
+        "tr": "Kanatlarım varsa neden yürüyeyim ki?",
+        "en": "Feet, what do I need you for when I have wings to fly?"
+      },
+      "achievements": {
+        "tr": [
+          "200'den fazla eser",
+          "Louvre'da sergilenen ilk Meksikalı sanatçı",
+          "Modern feminizmin ikonu"
+        ],
+        "en": [
+          "Over 200 works",
+          "First Mexican artist exhibited at the Louvre",
+          "Icon of modern feminism"
+        ]
+      },
+      "illustrationFile": "frida-kahlo.webp",
+      "accentColor": "#C75B39",
+      "tags": [
+        "painting",
+        "surrealism",
+        "feminism",
+        "mexico"
+      ],
+      "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/0/06/Frida_Kahlo%2C_by_Guillermo_Kahlo.jpg/300px-Frida_Kahlo%2C_by_Guillermo_Kahlo.jpg"
+    },
+    {
+      "id": "virginia-woolf",
+      "name": {
+        "tr": "Virginia Woolf",
+        "en": "Virginia Woolf"
+      },
+      "birthYear": 1882,
+      "deathYear": 1941,
+      "nationality": "GB",
+      "countryOfWork": "GB",
+      "coordinates": {
+        "lat": 51.5074,
+        "lng": -0.1278
+      },
+      "category": "arts",
+      "subcategory": "literature",
+      "era": "modern",
+      "bio": {
+        "tr": "Virginia Woolf, modernist edebiyatın en önemli yazarlarından biridir. Bilinç akışı tekniğini ustaca kullanan Woolf, Mrs Dalloway ve Deniz Feneri gibi başyapıtlar üretmiştir. Feminist edebiyat eleştirisinin öncülerinden olan Woolf, 'Kendine Ait Bir Oda' eseriyle kadınların yazarlık haklarını savunmuştur.",
+        "en": "Virginia Woolf was one of the most important writers of modernist literature. Masterfully employing the stream of consciousness technique, Woolf produced masterpieces such as Mrs Dalloway and To the Lighthouse. A pioneer of feminist literary criticism, she advocated for women's rights in writing through 'A Room of One's Own.'"
+      },
+      "shortBio": {
+        "tr": "Modernist edebiyatın öncü kadın yazarı",
+        "en": "Pioneer woman writer of modernist literature"
+      },
+      "quote": {
+        "tr": "Bir kadının yazabilmesi için parası ve kendine ait bir odası olmalıdır.",
+        "en": "A woman must have money and a room of her own if she is to write."
+      },
+      "achievements": {
+        "tr": [
+          "Mrs Dalloway (1925)",
+          "Kendine Ait Bir Oda (1929)",
+          "Modernist edebiyatın öncüsü"
+        ],
+        "en": [
+          "Mrs Dalloway (1925)",
+          "A Room of One's Own (1929)",
+          "Pioneer of modernist literature"
+        ]
+      },
+      "illustrationFile": "virginia-woolf.webp",
+      "accentColor": "#C75B39",
+      "tags": [
+        "literature",
+        "modernism",
+        "feminism",
+        "writing"
+      ],
+      "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/0/0b/George_Charles_Beresford_-_Virginia_Woolf_in_1902_-_Restoration.jpg/300px-George_Charles_Beresford_-_Virginia_Woolf_in_1902_-_Restoration.jpg"
+    },
+    {
+      "id": "maya-angelou",
+      "name": {
+        "tr": "Maya Angelou",
+        "en": "Maya Angelou"
+      },
+      "birthYear": 1928,
+      "deathYear": 2014,
+      "nationality": "US",
+      "countryOfWork": "US",
+      "coordinates": {
+        "lat": 36.0999,
+        "lng": -80.2442
+      },
+      "category": "arts",
+      "subcategory": "literature",
+      "era": "modern",
+      "bio": {
+        "tr": "Maya Angelou, Amerikan edebiyatının en önemli şair ve yazarlarından biridir. Otobiyografik eseri 'Kafesteki Kuşun Şarkısını Biliyorum' dünya klasikleri arasında yer almaktadır. Sivil haklar hareketi aktivisti olarak Martin Luther King Jr. ve Malcolm X ile çalışmış, şiirleriyle nesilleri etkilemiştir.",
+        "en": "Maya Angelou was one of the most important poets and writers in American literature. Her autobiographical work 'I Know Why the Caged Bird Sings' is considered a world classic. As a civil rights activist, she worked with Martin Luther King Jr. and Malcolm X, inspiring generations with her poetry."
+      },
+      "shortBio": {
+        "tr": "Amerikan edebiyatının efsanevi şairi ve yazarı",
+        "en": "Legendary poet and writer of American literature"
+      },
+      "quote": {
+        "tr": "İnsanlar söylediklerinizi unutur, yaptıklarınızı unutur, ama onlara nasıl hissettirdiğinizi asla unutmaz.",
+        "en": "People will forget what you said, people will forget what you did, but people will never forget how you made them feel."
+      },
+      "achievements": {
+        "tr": [
+          "Kafesteki Kuşun Şarkısını Biliyorum",
+          "Başkanlık Özgürlük Madalyası",
+          "Clinton yemin töreni şiiri"
+        ],
+        "en": [
+          "I Know Why the Caged Bird Sings",
+          "Presidential Medal of Freedom",
+          "Clinton inauguration poem"
+        ]
+      },
+      "illustrationFile": "maya-angelou.webp",
+      "accentColor": "#C75B39",
+      "tags": [
+        "poetry",
+        "literature",
+        "civil-rights",
+        "autobiography"
+      ],
+      "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/4/4f/Angelou_at_Clinton_inauguration_%28cropped_2%29.jpg/300px-Angelou_at_Clinton_inauguration_%28cropped_2%29.jpg"
+    },
+    {
+      "id": "halide-edib-adivar",
+      "name": {
+        "tr": "Halide Edib Adıvar",
+        "en": "Halide Edib Adıvar"
+      },
+      "birthYear": 1884,
+      "deathYear": 1964,
+      "nationality": "TR",
+      "countryOfWork": "TR",
+      "coordinates": {
+        "lat": 41.0082,
+        "lng": 28.9784
+      },
+      "category": "arts",
+      "subcategory": "literature",
+      "era": "modern",
+      "bio": {
+        "tr": "Halide Edib Adıvar, Türk edebiyatının en önemli kadın yazarlarından biridir. Kurtuluş Savaşı'nda aktif görev almış, Sultanahmet Mitingi'ndeki konuşmasıyla tarihe geçmiştir. Ateşten Gömlek ve Sinekli Bakkal gibi romanlarıyla Türk romanının gelişimine büyük katkı sağlamıştır.",
+        "en": "Halide Edib Adıvar was one of the most important female writers of Turkish literature. She actively served in the War of Independence and made history with her speech at the Sultanahmet Rally. With novels such as The Shirt of Flame and The Clown and His Daughter, she greatly contributed to the development of the Turkish novel."
+      },
+      "shortBio": {
+        "tr": "Türk edebiyatının öncü kadın yazarı ve bağımsızlık savaşçısı",
+        "en": "Pioneer woman writer of Turkish literature and independence fighter"
+      },
+      "quote": {
+        "tr": "Milletler esir edilebilir, fakat asla öldürülemez.",
+        "en": "Nations can be enslaved, but they can never be killed."
+      },
+      "achievements": {
+        "tr": [
+          "Ateşten Gömlek romanı",
+          "Sultanahmet Mitingi konuşması",
+          "İstanbul Üniversitesi profesörlüğü"
+        ],
+        "en": [
+          "The Shirt of Flame novel",
+          "Sultanahmet Rally speech",
+          "Istanbul University professorship"
+        ]
+      },
+      "illustrationFile": "halide-edib-adivar.webp",
+      "accentColor": "#C75B39",
+      "tags": [
+        "literature",
+        "turkey",
+        "independence",
+        "feminism"
+      ],
+      "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/2/26/Halide_Edib_Ad%C4%B1var.jpg/300px-Halide_Edib_Ad%C4%B1var.jpg"
+    },
+    {
+      "id": "zaha-hadid",
+      "name": {
+        "tr": "Zaha Hadid",
+        "en": "Zaha Hadid"
+      },
+      "birthYear": 1950,
+      "deathYear": 2016,
+      "nationality": "IQ",
+      "countryOfWork": "GB",
+      "coordinates": {
+        "lat": 51.5074,
+        "lng": -0.1278
+      },
+      "category": "arts",
+      "subcategory": "architecture",
+      "era": "contemporary",
+      "bio": {
+        "tr": "Zaha Hadid, mimarlığın en prestijli ödülü Pritzker Ödülü'nü kazanan ilk kadın mimardır. Irak doğumlu İngiliz mimar, akıcı formları ve cesur geometrik tasarımlarıyla mimarlık dünyasında devrim yaratmıştır. Heydar Aliyev Merkezi ve Londra Olimpiyat Yüzme Merkezi gibi ikonik yapıları tasarlamıştır.",
+        "en": "Zaha Hadid was the first woman to win the Pritzker Prize, architecture's most prestigious award. The Iraqi-British architect revolutionized the architectural world with her fluid forms and bold geometric designs. She designed iconic structures such as the Heydar Aliyev Center and the London Olympic Aquatics Centre."
+      },
+      "shortBio": {
+        "tr": "Pritzker Ödülü'nü kazanan ilk kadın mimar",
+        "en": "First woman to win the Pritzker Architecture Prize"
+      },
+      "quote": {
+        "tr": "Mimarlığın güzelliği mücadelededir.",
+        "en": "There are 360 degrees, so why stick to one?"
+      },
+      "achievements": {
+        "tr": [
+          "Pritzker Mimarlık Ödülü (2004)",
+          "RIBA Altın Madalya (2016)",
+          "900'den fazla proje"
+        ],
+        "en": [
+          "Pritzker Architecture Prize (2004)",
+          "RIBA Gold Medal (2016)",
+          "Over 900 projects"
+        ]
+      },
+      "illustrationFile": "zaha-hadid.webp",
+      "accentColor": "#C75B39",
+      "tags": [
+        "architecture",
+        "design",
+        "pioneer",
+        "pritzker"
+      ],
+      "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/7/73/Zaha_Hadid_in_Heydar_Aliyev_Cultural_center_in_Baku_nov_2013.jpg/300px-Zaha_Hadid_in_Heydar_Aliyev_Cultural_center_in_Baku_nov_2013.jpg"
+    },
+    {
+      "id": "toni-morrison",
+      "name": {
+        "tr": "Toni Morrison",
+        "en": "Toni Morrison"
+      },
+      "birthYear": 1931,
+      "deathYear": 2019,
+      "nationality": "US",
+      "countryOfWork": "US",
+      "coordinates": {
+        "lat": 40.3573,
+        "lng": -74.6672
+      },
+      "category": "arts",
+      "subcategory": "literature",
+      "era": "modern",
+      "bio": {
+        "tr": "Toni Morrison, Nobel Edebiyat Ödülü kazanan ilk Afrikalı-Amerikalı kadın yazardır. Sevilen, Süleyman'ın Şarkısı ve Mavi Gözler gibi romanlarıyla Afrikalı-Amerikalı deneyimini güçlü bir şekilde edebiyata taşımıştır. Princeton Üniversitesi'nde profesör olarak da görev yapmıştır.",
+        "en": "Toni Morrison was the first African-American woman to win the Nobel Prize in Literature. With novels such as Beloved, Song of Solomon, and The Bluest Eye, she powerfully brought the African-American experience into literature. She also served as a professor at Princeton University."
+      },
+      "shortBio": {
+        "tr": "Nobel Edebiyat Ödülü'nü kazanan ilk Afrikalı-Amerikalı kadın",
+        "en": "First African-American woman to win the Nobel Prize in Literature"
+      },
+      "quote": {
+        "tr": "Özgür olmak istiyorsan, başkasını da özgür bırakmalısın.",
+        "en": "If you want to fly, you have to give up the things that weigh you down."
+      },
+      "achievements": {
+        "tr": [
+          "Nobel Edebiyat Ödülü (1993)",
+          "Pulitzer Ödülü - Sevilen",
+          "Başkanlık Özgürlük Madalyası"
+        ],
+        "en": [
+          "Nobel Prize in Literature (1993)",
+          "Pulitzer Prize - Beloved",
+          "Presidential Medal of Freedom"
+        ]
+      },
+      "illustrationFile": "toni-morrison.webp",
+      "accentColor": "#C75B39",
+      "tags": [
+        "literature",
+        "nobel",
+        "african-american",
+        "novels"
+      ],
+      "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/3/3a/Toni_Morrison.jpg/300px-Toni_Morrison.jpg"
+    },
+    {
+      "id": "umm-kulthum",
+      "name": {
+        "tr": "Ümmü Gülsüm",
+        "en": "Umm Kulthum"
+      },
+      "birthYear": 1898,
+      "deathYear": 1975,
+      "nationality": "EG",
+      "countryOfWork": "EG",
+      "coordinates": {
+        "lat": 30.0444,
+        "lng": 31.2357
+      },
+      "category": "arts",
+      "subcategory": "music",
+      "era": "modern",
+      "bio": {
+        "tr": "Ümmü Gülsüm, 20. yüzyılın en etkili Arap şarkıcısı ve müzisyenidir. \"Doğu'nun Yıldızı\" olarak anılan sanatçı, 50 yılı aşkın kariyerinde Arap müziğini dünyaya tanıtmıştır. Konserleri saatler süren performanslarıyla efsaneleşmiş, cenazesine milyonlarca kişi katılmıştır.",
+        "en": "Umm Kulthum was the most influential Arab singer and musician of the 20th century. Known as the 'Star of the East,' she introduced Arab music to the world throughout her career spanning over 50 years. Her concerts became legendary with performances lasting hours, and millions attended her funeral."
+      },
+      "shortBio": {
+        "tr": "20. yüzyılın en etkili Arap şarkıcısı",
+        "en": "The most influential Arab singer of the 20th century"
+      },
+      "quote": {
+        "tr": "Müzik, ruhun dilidir.",
+        "en": "Music is the language of the soul."
+      },
+      "achievements": {
+        "tr": [
+          "50+ yıllık kariyer",
+          "\"Doğu'nun Yıldızı\" unvanı",
+          "Arap müziğinin dünya çapında tanınması"
+        ],
+        "en": [
+          "50+ year career",
+          "'Star of the East' title",
+          "Global recognition of Arab music"
+        ]
+      },
+      "illustrationFile": "umm-kulthum.webp",
+      "accentColor": "#C75B39",
+      "tags": [
+        "music",
+        "singing",
+        "arab-culture",
+        "legend"
+      ],
+      "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/6/63/Umm_Kulthum4.jpg/300px-Umm_Kulthum4.jpg"
+    },
+    {
+      "id": "elif-safak",
+      "name": {
+        "tr": "Elif Şafak",
+        "en": "Elif Shafak"
+      },
+      "birthYear": 1971,
+      "deathYear": null,
+      "nationality": "TR",
+      "countryOfWork": "GB",
+      "coordinates": {
+        "lat": 51.5074,
+        "lng": -0.1278
+      },
+      "category": "arts",
+      "subcategory": "literature",
+      "era": "contemporary",
+      "bio": {
+        "tr": "Elif Şafak, Türkiye'nin uluslararası arenada en çok okunan yazarıdır. Aşk, İskender ve 10 Dakika 38 Saniye gibi romanlarıyla dünya edebiyatında önemli bir yer edinmiştir. Hem Türkçe hem İngilizce yazan Şafak, eserlerinde feminizm, kimlik ve çokkültürlülük temalarını işlemektedir.",
+        "en": "Elif Shafak is Turkey's most widely read author internationally. With novels such as The Forty Rules of Love, Honour, and 10 Minutes 38 Seconds, she has earned a significant place in world literature. Writing in both Turkish and English, Shafak explores themes of feminism, identity, and multiculturalism."
+      },
+      "shortBio": {
+        "tr": "Türkiye'nin dünyada en çok okunan yazarı",
+        "en": "Turkey's most widely read author internationally"
+      },
+      "quote": {
+        "tr": "Dünyayı değiştirmek istiyorsan, önce hikâyeleri değiştir.",
+        "en": "If you want to change the world, change the stories."
+      },
+      "achievements": {
+        "tr": [
+          "19 dile çevrilen kitaplar",
+          "Aşk - uluslararası bestseller",
+          "TED konuşmacısı"
+        ],
+        "en": [
+          "Books translated into 19 languages",
+          "The Forty Rules of Love - international bestseller",
+          "TED speaker"
+        ]
+      },
+      "illustrationFile": "elif-safak.webp",
+      "accentColor": "#C75B39",
+      "tags": [
+        "literature",
+        "turkey",
+        "feminism",
+        "multicultural"
+      ],
+      "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/1/16/Elif_Shafak_photo.jpg/300px-Elif_Shafak_photo.jpg"
+    },
+    {
+      "id": "murasaki-shikibu",
+      "name": {
+        "tr": "Murasaki Shikibu",
+        "en": "Murasaki Shikibu"
+      },
+      "birthYear": 978,
+      "deathYear": 1014,
+      "nationality": "JP",
+      "countryOfWork": "JP",
+      "coordinates": {
+        "lat": 35.0116,
+        "lng": 135.7681
+      },
+      "category": "arts",
+      "subcategory": "literature",
+      "era": "historical",
+      "bio": {
+        "tr": "Murasaki Shikibu, dünyanın ilk romanı kabul edilen Genji'nin Hikâyesi'nin yazarıdır. 11. yüzyılda Japonya'nın Heian döneminde yaşayan saray hanımefendisi, psikolojik derinliği ve toplumsal gözlemleriyle edebiyat tarihinde çığır açmıştır. Eseri bin yılı aşkın süredir okunan ve incelenen bir başyapıttır.",
+        "en": "Murasaki Shikibu is the author of The Tale of Genji, considered the world's first novel. A lady of the court living in Japan's Heian period in the 11th century, she broke new ground in literary history with her psychological depth and social observations. Her work is a masterpiece that has been read and studied for over a millennium."
+      },
+      "shortBio": {
+        "tr": "Dünyanın ilk romanının yazarı",
+        "en": "Author of the world's first novel"
+      },
+      "quote": {
+        "tr": "Gerçek güzellik, kalbin derinliklerinde yatar.",
+        "en": "Real beauty lies in the depths of the heart."
+      },
+      "achievements": {
+        "tr": [
+          "Genji'nin Hikâyesi (dünyanın ilk romanı)",
+          "Japon edebiyatının temel taşı",
+          "1000+ yıldır okunan eser"
+        ],
+        "en": [
+          "The Tale of Genji (world's first novel)",
+          "Foundation of Japanese literature",
+          "Work read for over 1000 years"
+        ]
+      },
+      "illustrationFile": "murasaki-shikibu.webp",
+      "accentColor": "#C75B39",
+      "tags": [
+        "literature",
+        "japan",
+        "novel",
+        "historical"
+      ],
+      "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/1/19/Murasaki-Shikibu-composing-Genji-Monogatari.png/300px-Murasaki-Shikibu-composing-Genji-Monogatari.png"
+    },
+    {
+      "id": "fahrelnissa-zeid",
+      "name": {
+        "tr": "Fahrelnissa Zeid",
+        "en": "Fahrelnissa Zeid"
+      },
+      "birthYear": 1901,
+      "deathYear": 1991,
+      "nationality": "TR",
+      "countryOfWork": "TR",
+      "coordinates": {
+        "lat": 41.0082,
+        "lng": 28.9784
+      },
+      "category": "arts",
+      "subcategory": "painting",
+      "era": "modern",
+      "bio": {
+        "tr": "Fahrelnissa Zeid, soyut dışavurumculuk akımının öncü isimlerinden biri olan Türk ressamdır. Osmanlı ve Batı sanatını birleştiren devasa tuvallerle çalışmış, renk ve form kullanımıyla uluslararası alanda tanınmıştır. Irak prensesiyle evli olan Zeid, Amman'da kendi sanat okulunu kurmuştur.",
+        "en": "Fahrelnissa Zeid was a Turkish painter who was one of the pioneers of abstract expressionism. Working on massive canvases that blended Ottoman and Western art, she gained international recognition for her use of color and form. Married to an Iraqi prince, Zeid founded her own art school in Amman."
+      },
+      "shortBio": {
+        "tr": "Soyut dışavurumculuğun öncü Türk ressamı",
+        "en": "Pioneer Turkish painter of abstract expressionism"
+      },
+      "quote": {
+        "tr": "Resim yapmak benim için nefes almak gibidir.",
+        "en": "Painting is like breathing to me."
+      },
+      "achievements": {
+        "tr": [
+          "Soyut dışavurumculuk öncüsü",
+          "Tate Modern koleksiyonu",
+          "Amman Güzel Sanatlar Enstitüsü"
+        ],
+        "en": [
+          "Abstract expressionism pioneer",
+          "Tate Modern collection",
+          "Amman Institute of Fine Arts"
+        ]
+      },
+      "illustrationFile": "fahrelnissa-zeid.webp",
+      "accentColor": "#C75B39",
+      "tags": [
+        "painting",
+        "abstract",
+        "turkey",
+        "expressionism"
+      ],
+      "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/2/27/Princess_Fahrelnissa_Zeid_family_1937.jpg/300px-Princess_Fahrelnissa_Zeid_family_1937.jpg"
+    },
+    {
+      "id": "billie-holiday",
+      "name": {
+        "tr": "Billie Holiday",
+        "en": "Billie Holiday"
+      },
+      "birthYear": 1915,
+      "deathYear": 1959,
+      "nationality": "US",
+      "countryOfWork": "US",
+      "coordinates": {
+        "lat": 40.7128,
+        "lng": -74.006
+      },
+      "category": "arts",
+      "subcategory": "music",
+      "era": "modern",
+      "bio": {
+        "tr": "Billie Holiday, caz müziğinin en büyük vokallerinden biri olarak kabul edilir. 'Strange Fruit' şarkısıyla ırkçılığa karşı güçlü bir ses olmuş, müzikal ifadesiyle bir dönemin duygusal haritasını çizmiştir. Zorlu bir yaşam sürmesine rağmen eşsiz vokali ve duygusal derinliğiyle müzik tarihinde unutulmaz bir yer edinmiştir.",
+        "en": "Billie Holiday is regarded as one of the greatest jazz vocalists. With 'Strange Fruit,' she became a powerful voice against racism, mapping the emotional landscape of an era through her musical expression. Despite a difficult life, she earned an unforgettable place in music history with her unique vocals and emotional depth."
+      },
+      "shortBio": {
+        "tr": "Caz müziğinin efsanevi sesi",
+        "en": "The legendary voice of jazz music"
+      },
+      "quote": {
+        "tr": "Eğer kalbinle şarkı söylemezsen, şarkı söylemenin anlamı yoktur.",
+        "en": "If you don't sing from the heart, there's no point in singing."
+      },
+      "achievements": {
+        "tr": [
+          "Strange Fruit - sivil haklar sembolü",
+          "Grammy Şöhret Salonu",
+          "Caz müziğinde devrim"
+        ],
+        "en": [
+          "Strange Fruit - civil rights symbol",
+          "Grammy Hall of Fame",
+          "Revolution in jazz music"
+        ]
+      },
+      "illustrationFile": "billie-holiday.webp",
+      "accentColor": "#C75B39",
+      "tags": [
+        "jazz",
+        "music",
+        "civil-rights",
+        "vocals"
+      ],
+      "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/b/bf/Portrait_of_Billie_Holiday_and_Mister%2C_Downbeat%2C_New_York%2C_N.Y.%2C_ca._Feb._1947_%28LOC%2C_5020400274%2C_cropped%29.jpg/300px-Portrait_of_Billie_Holiday_and_Mister%2C_Downbeat%2C_New_York%2C_N.Y.%2C_ca._Feb._1947_%28LOC%2C_5020400274%2C_cropped%29.jpg"
+    },
+    {
+      "id": "malala-yousafzai",
+      "name": {
+        "tr": "Malala Yusufzay",
+        "en": "Malala Yousafzai"
+      },
+      "birthYear": 1997,
+      "deathYear": null,
+      "nationality": "PK",
+      "countryOfWork": "GB",
+      "coordinates": {
+        "lat": 51.752,
+        "lng": -1.2577
+      },
+      "category": "politics",
+      "subcategory": "education",
+      "era": "contemporary",
+      "bio": {
+        "tr": "Malala Yusufzay, kız çocuklarının eğitim hakkı için mücadele eden Pakistanlı aktivist ve en genç Nobel Barış Ödülü sahibidir. Taliban tarafından okul otobüsünde vurulmasının ardından dünya çapında eğitim hakkı sembolü haline gelmiştir. Malala Fonu aracılığıyla milyonlarca kız çocuğunun eğitime erişimini sağlamaya çalışmaktadır.",
+        "en": "Malala Yousafzai is a Pakistani activist fighting for girls' right to education and the youngest Nobel Peace Prize laureate. After being shot by the Taliban on a school bus, she became a global symbol for the right to education. Through the Malala Fund, she works to provide millions of girls access to education."
+      },
+      "shortBio": {
+        "tr": "En genç Nobel Barış Ödülü sahibi ve eğitim aktivisti",
+        "en": "Youngest Nobel Peace Prize laureate and education activist"
+      },
+      "quote": {
+        "tr": "Bir çocuk, bir öğretmen, bir kitap ve bir kalem dünyayı değiştirebilir.",
+        "en": "One child, one teacher, one book, one pen can change the world."
+      },
+      "achievements": {
+        "tr": [
+          "Nobel Barış Ödülü (2014) - en genç",
+          "Malala Fonu kurucusu",
+          "BM Barış Elçisi"
+        ],
+        "en": [
+          "Nobel Peace Prize (2014) - youngest ever",
+          "Malala Fund founder",
+          "UN Messenger of Peace"
+        ]
+      },
+      "illustrationFile": "malala-yousafzai.webp",
+      "accentColor": "#2E6B62",
+      "tags": [
+        "education",
+        "activism",
+        "nobel",
+        "pakistan"
+      ],
+      "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/0/03/Malala_Yousafzai_2023_portrait_2x3.jpg/300px-Malala_Yousafzai_2023_portrait_2x3.jpg"
+    },
+    {
+      "id": "rosa-parks",
+      "name": {
+        "tr": "Rosa Parks",
+        "en": "Rosa Parks"
+      },
+      "birthYear": 1913,
+      "deathYear": 2005,
+      "nationality": "US",
+      "countryOfWork": "US",
+      "coordinates": {
+        "lat": 32.3792,
+        "lng": -86.3077
+      },
+      "category": "politics",
+      "subcategory": "civil-rights",
+      "era": "modern",
+      "bio": {
+        "tr": "Rosa Parks, 1955'te Alabama'da otobüste yerini beyaz bir yolcuya vermeyi reddederek Amerikan sivil haklar hareketinin sembolü olmuştur. Bu cesur eylemi Montgomery otobüs boykotunu başlatmış ve ırk ayrımcılığına karşı mücadelede dönüm noktası olmuştur. 'Sivil haklar hareketinin annesi' olarak anılmaktadır.",
+        "en": "Rosa Parks became a symbol of the American civil rights movement in 1955 when she refused to give up her seat to a white passenger on a bus in Alabama. Her brave act sparked the Montgomery bus boycott and became a turning point in the fight against racial segregation. She is known as the 'mother of the civil rights movement.'"
+      },
+      "shortBio": {
+        "tr": "Sivil haklar hareketinin annesi",
+        "en": "Mother of the civil rights movement"
+      },
+      "quote": {
+        "tr": "Korkmuyordum, sadece yorulmuştum. Boyun eğmekten yorulmuştum.",
+        "en": "I was not tired physically. I was tired of giving in."
+      },
+      "achievements": {
+        "tr": [
+          "Montgomery otobüs boykotu (1955)",
+          "Başkanlık Özgürlük Madalyası",
+          "Kongre Altın Madalyası"
+        ],
+        "en": [
+          "Montgomery bus boycott (1955)",
+          "Presidential Medal of Freedom",
+          "Congressional Gold Medal"
+        ]
+      },
+      "illustrationFile": "rosa-parks.webp",
+      "accentColor": "#2E6B62",
+      "tags": [
+        "civil-rights",
+        "activism",
+        "equality",
+        "usa"
+      ],
+      "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/b/b1/Rosa_Parks%2C_November_1956_%28cropped%29.jpg/300px-Rosa_Parks%2C_November_1956_%28cropped%29.jpg"
+    },
+    {
+      "id": "emmeline-pankhurst",
+      "name": {
+        "tr": "Emmeline Pankhurst",
+        "en": "Emmeline Pankhurst"
+      },
+      "birthYear": 1858,
+      "deathYear": 1928,
+      "nationality": "GB",
+      "countryOfWork": "GB",
+      "coordinates": {
+        "lat": 53.4808,
+        "lng": -2.2426
+      },
+      "category": "politics",
+      "subcategory": "suffrage",
+      "era": "historical",
+      "bio": {
+        "tr": "Emmeline Pankhurst, İngiltere'deki kadın oy hakkı hareketinin lideriydi. Kadınların Sosyal ve Politik Birliği'ni kurarak kadınların oy hakkı için militan mücadele yürütmüştür. Tutuklanma ve açlık grevlerine rağmen mücadelesinden vazgeçmemiş, 1918'de kadınlara oy hakkı tanınmasında kilit rol oynamıştır.",
+        "en": "Emmeline Pankhurst was the leader of the women's suffrage movement in Britain. She founded the Women's Social and Political Union and led a militant campaign for women's voting rights. Despite arrests and hunger strikes, she never gave up her fight and played a key role in women gaining the right to vote in 1918."
+      },
+      "shortBio": {
+        "tr": "İngiliz kadın oy hakkı hareketinin lideri",
+        "en": "Leader of the British women's suffrage movement"
+      },
+      "quote": {
+        "tr": "Eylemler, kelimelerden daha güçlüdür.",
+        "en": "Deeds, not words."
+      },
+      "achievements": {
+        "tr": [
+          "Kadın Oy Hakkı Hareketi lideri",
+          "WSPU kurucusu",
+          "1918 oy hakkı kazanımı"
+        ],
+        "en": [
+          "Women's Suffrage Movement leader",
+          "WSPU founder",
+          "1918 voting rights achievement"
+        ]
+      },
+      "illustrationFile": "emmeline-pankhurst.webp",
+      "accentColor": "#2E6B62",
+      "tags": [
+        "suffrage",
+        "voting",
+        "feminism",
+        "activism"
+      ],
+      "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/2/25/Emmeline_Pankhurst%2C_seated_%281913%29.jpg/300px-Emmeline_Pankhurst%2C_seated_%281913%29.jpg"
+    },
+    {
+      "id": "benazir-bhutto",
+      "name": {
+        "tr": "Benazir Butto",
+        "en": "Benazir Bhutto"
+      },
+      "birthYear": 1953,
+      "deathYear": 2007,
+      "nationality": "PK",
+      "countryOfWork": "PK",
+      "coordinates": {
+        "lat": 33.6844,
+        "lng": 73.0479
+      },
+      "category": "politics",
+      "subcategory": "leadership",
+      "era": "contemporary",
+      "bio": {
+        "tr": "Benazir Butto, Müslüman çoğunluklu bir ülkede başbakan olan ilk kadındır. Pakistan'da iki dönem başbakanlık yapmış, demokratikleşme ve kadın hakları için mücadele etmiştir. Siyasi sürgün ve hapis cezalarına rağmen ülkesine dönmüş, 2007'de bir suikast sonucu hayatını kaybetmiştir.",
+        "en": "Benazir Bhutto was the first woman to lead a Muslim-majority country as prime minister. She served two terms as Prime Minister of Pakistan, fighting for democratization and women's rights. Despite political exile and imprisonment, she returned to her country and was assassinated in 2007."
+      },
+      "shortBio": {
+        "tr": "Müslüman çoğunluklu ülkede başbakan olan ilk kadın",
+        "en": "First woman to head a Muslim-majority country"
+      },
+      "quote": {
+        "tr": "Demokrasi en iyi intikam biçimidir.",
+        "en": "Democracy is the best revenge."
+      },
+      "achievements": {
+        "tr": [
+          "Pakistan'ın ilk kadın başbakanı",
+          "İki dönem başbakanlık",
+          "Kadın hakları savunuculuğu"
+        ],
+        "en": [
+          "Pakistan's first female prime minister",
+          "Two terms as PM",
+          "Women's rights advocacy"
+        ]
+      },
+      "illustrationFile": "benazir-bhutto.webp",
+      "accentColor": "#2E6B62",
+      "tags": [
+        "politics",
+        "leadership",
+        "pakistan",
+        "democracy"
+      ],
+      "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/c/c4/Oliver_Mark_-_Benazir_Bhutto%2C_Dubai_2006_%28cropped%29.jpg/300px-Oliver_Mark_-_Benazir_Bhutto%2C_Dubai_2006_%28cropped%29.jpg"
+    },
+    {
+      "id": "wangari-maathai",
+      "name": {
+        "tr": "Wangari Maathai",
+        "en": "Wangari Maathai"
+      },
+      "birthYear": 1940,
+      "deathYear": 2011,
+      "nationality": "KE",
+      "countryOfWork": "KE",
+      "coordinates": {
+        "lat": -1.2921,
+        "lng": 36.8219
+      },
+      "category": "politics",
+      "subcategory": "environment",
+      "era": "modern",
+      "bio": {
+        "tr": "Wangari Maathai, çevre ve kadın hakları aktivisti olarak Nobel Barış Ödülü kazanan ilk Afrikalı kadındır. Yeşil Kuşak Hareketi'ni kurarak Kenya'da 51 milyondan fazla ağaç dikilmesini sağlamıştır. Çevre koruma, demokrasi ve kadın güçlenmesi arasındaki bağı dünyaya göstermiştir.",
+        "en": "Wangari Maathai was the first African woman to win the Nobel Peace Prize for her environmental and women's rights activism. She founded the Green Belt Movement, leading to the planting of over 51 million trees in Kenya. She demonstrated to the world the connection between environmental conservation, democracy, and women's empowerment."
+      },
+      "shortBio": {
+        "tr": "Nobel Barış Ödüllü çevreci ve insan hakları aktivisti",
+        "en": "Nobel Peace Prize-winning environmentalist and rights activist"
+      },
+      "quote": {
+        "tr": "İnsanlık tarihinde çevre bu kadar tehdit altında olmamıştı.",
+        "en": "In the course of history, there comes a time when humanity is called to shift to a new level of consciousness."
+      },
+      "achievements": {
+        "tr": [
+          "Nobel Barış Ödülü (2004)",
+          "Yeşil Kuşak Hareketi - 51M+ ağaç",
+          "Afrika'nın ilk kadın doktora sahibi"
+        ],
+        "en": [
+          "Nobel Peace Prize (2004)",
+          "Green Belt Movement - 51M+ trees",
+          "First African woman with doctorate"
+        ]
+      },
+      "illustrationFile": "wangari-maathai.webp",
+      "accentColor": "#2E6B62",
+      "tags": [
+        "environment",
+        "nobel",
+        "africa",
+        "activism"
+      ],
+      "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/d/d8/Wangari_Maathai.jpg/300px-Wangari_Maathai.jpg"
+    },
+    {
+      "id": "ruth-bader-ginsburg",
+      "name": {
+        "tr": "Ruth Bader Ginsburg",
+        "en": "Ruth Bader Ginsburg"
+      },
+      "birthYear": 1933,
+      "deathYear": 2020,
+      "nationality": "US",
+      "countryOfWork": "US",
+      "coordinates": {
+        "lat": 38.8977,
+        "lng": -77.0365
+      },
+      "category": "politics",
+      "subcategory": "law",
+      "era": "contemporary",
+      "bio": {
+        "tr": "Ruth Bader Ginsburg, ABD Yüksek Mahkemesi'nin ikinci kadın yargıcıydı. Cinsiyet eşitliği davalarıyla hukuk tarihini değiştirmiş, 'Notorious RBG' lakabıyla pop kültür ikonu olmuştur. 27 yıl boyunca yüksek mahkemede görev yaparak kadın hakları ve eşitlik mücadelesinin sembolü haline gelmiştir.",
+        "en": "Ruth Bader Ginsburg was the second female justice on the U.S. Supreme Court. She changed legal history through gender equality cases and became a pop culture icon known as 'Notorious RBG.' Serving on the Supreme Court for 27 years, she became a symbol of the fight for women's rights and equality."
+      },
+      "shortBio": {
+        "tr": "ABD Yüksek Mahkemesi yargıcı ve cinsiyet eşitliği şampiyonu",
+        "en": "U.S. Supreme Court Justice and gender equality champion"
+      },
+      "quote": {
+        "tr": "Kadınlar karar verilen her yerde olmalı.",
+        "en": "Women belong in all places where decisions are being made."
+      },
+      "achievements": {
+        "tr": [
+          "ABD Yüksek Mahkemesi yargıcı (1993-2020)",
+          "6 cinsiyet ayrımcılığı davası kazanımı",
+          "Pop kültür ikonu - 'Notorious RBG'"
+        ],
+        "en": [
+          "U.S. Supreme Court Justice (1993-2020)",
+          "Won 6 gender discrimination cases",
+          "Pop culture icon - 'Notorious RBG'"
+        ]
+      },
+      "illustrationFile": "ruth-bader-ginsburg.webp",
+      "accentColor": "#2E6B62",
+      "tags": [
+        "law",
+        "equality",
+        "supreme-court",
+        "feminism"
+      ],
+      "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/7/76/Ruth_Bader_Ginsburg_2016_portrait.jpg/300px-Ruth_Bader_Ginsburg_2016_portrait.jpg"
+    },
+    {
+      "id": "angela-merkel",
+      "name": {
+        "tr": "Angela Merkel",
+        "en": "Angela Merkel"
+      },
+      "birthYear": 1954,
+      "deathYear": null,
+      "nationality": "DE",
+      "countryOfWork": "DE",
+      "coordinates": {
+        "lat": 52.52,
+        "lng": 13.405
+      },
+      "category": "politics",
+      "subcategory": "leadership",
+      "era": "contemporary",
+      "bio": {
+        "tr": "Angela Merkel, Almanya'nın ilk kadın şansölyesi olarak 16 yıl boyunca ülkeyi yönetmiştir. Avrupa'nın en güçlü lideri olarak AB'nin birliğini korumuş, mülteci krizi ve ekonomik krizlerde liderlik göstermiştir. Fizik doktorası olan Merkel, bilimsel düşünce tarzını siyasete taşımıştır.",
+        "en": "Angela Merkel served as Germany's first female Chancellor for 16 years. As Europe's most powerful leader, she preserved EU unity and showed leadership during the refugee crisis and economic crises. With a doctorate in physics, Merkel brought scientific thinking to politics."
+      },
+      "shortBio": {
+        "tr": "Almanya'nın ilk kadın şansölyesi",
+        "en": "Germany's first female Chancellor"
+      },
+      "quote": {
+        "tr": "Korku hiçbir zaman iyi bir danışman değildir.",
+        "en": "Fear has never been a good adviser."
+      },
+      "achievements": {
+        "tr": [
+          "Almanya Şansölyesi (2005-2021)",
+          "Forbes en güçlü kadın listesi 1. sıra",
+          "Avrupa birliğinin korunması"
+        ],
+        "en": [
+          "German Chancellor (2005-2021)",
+          "Forbes most powerful woman #1",
+          "Preservation of European unity"
+        ]
+      },
+      "illustrationFile": "angela-merkel.webp",
+      "accentColor": "#2E6B62",
+      "tags": [
+        "politics",
+        "leadership",
+        "germany",
+        "europe"
+      ],
+      "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/0/0f/Angela_Merkel_2019_cropped.jpg/300px-Angela_Merkel_2019_cropped.jpg"
+    },
+    {
+      "id": "ellen-johnson-sirleaf",
+      "name": {
+        "tr": "Ellen Johnson Sirleaf",
+        "en": "Ellen Johnson Sirleaf"
+      },
+      "birthYear": 1938,
+      "deathYear": null,
+      "nationality": "LR",
+      "countryOfWork": "LR",
+      "coordinates": {
+        "lat": 6.2907,
+        "lng": -10.7605
+      },
+      "category": "politics",
+      "subcategory": "leadership",
+      "era": "contemporary",
+      "bio": {
+        "tr": "Ellen Johnson Sirleaf, Afrika'da seçimle göreve gelen ilk kadın devlet başkanıdır. Liberya'yı iç savaş sonrası yeniden inşa etmiş, ekonomik kalkınma ve barış sürecinde öncü rol oynamıştır. 2011'de Nobel Barış Ödülü kazanarak kadınların barış inşasındaki rolünü dünyaya göstermiştir.",
+        "en": "Ellen Johnson Sirleaf was the first democratically elected female head of state in Africa. She rebuilt Liberia after civil war and played a pioneering role in economic development and peace processes. Winning the Nobel Peace Prize in 2011, she showed the world women's role in peace-building."
+      },
+      "shortBio": {
+        "tr": "Afrika'nın ilk seçilmiş kadın devlet başkanı",
+        "en": "Africa's first elected female head of state"
+      },
+      "quote": {
+        "tr": "Boyut önemli değil. Mesele ne yapmak istediğinizdir.",
+        "en": "The size of your dreams must always exceed your current capacity to achieve them."
+      },
+      "achievements": {
+        "tr": [
+          "Afrika'nın ilk kadın devlet başkanı",
+          "Nobel Barış Ödülü (2011)",
+          "Liberya'nın yeniden inşası"
+        ],
+        "en": [
+          "Africa's first female head of state",
+          "Nobel Peace Prize (2011)",
+          "Rebuilding of Liberia"
+        ]
+      },
+      "illustrationFile": "ellen-johnson-sirleaf.webp",
+      "accentColor": "#2E6B62",
+      "tags": [
+        "politics",
+        "leadership",
+        "africa",
+        "nobel"
+      ],
+      "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/f/f1/Ellen_Johnson_Sirleaf_February_2015.jpg/300px-Ellen_Johnson_Sirleaf_February_2015.jpg"
+    },
+    {
+      "id": "tansu-ciller",
+      "name": {
+        "tr": "Tansu Çiller",
+        "en": "Tansu Çiller"
+      },
+      "birthYear": 1946,
+      "deathYear": null,
+      "nationality": "TR",
+      "countryOfWork": "TR",
+      "coordinates": {
+        "lat": 39.9334,
+        "lng": 32.8597
+      },
+      "category": "politics",
+      "subcategory": "leadership",
+      "era": "contemporary",
+      "bio": {
+        "tr": "Tansu Çiller, Türkiye Cumhuriyeti'nin ilk ve şimdiye kadar tek kadın başbakanıdır. Ekonomi profesörü olan Çiller, 1993-1996 yılları arasında başbakanlık görevini yürütmüştür. Türk siyasetinde kadınların en üst düzey yönetim pozisyonuna ulaşabileceğini göstermiştir.",
+        "en": "Tansu Çiller is the first and so far only female Prime Minister of the Republic of Turkey. An economics professor, Çiller served as prime minister from 1993 to 1996. She demonstrated that women can reach the highest levels of leadership in Turkish politics."
+      },
+      "shortBio": {
+        "tr": "Türkiye'nin ilk ve tek kadın başbakanı",
+        "en": "Turkey's first and only female Prime Minister"
+      },
+      "quote": {
+        "tr": "Türk kadını her alanda başarılı olabilir.",
+        "en": "Turkish women can succeed in every field."
+      },
+      "achievements": {
+        "tr": [
+          "Türkiye Başbakanı (1993-1996)",
+          "İlk kadın başbakan",
+          "Ekonomi profesörü"
+        ],
+        "en": [
+          "Prime Minister of Turkey (1993-1996)",
+          "First female PM",
+          "Economics professor"
+        ]
+      },
+      "illustrationFile": "tansu-ciller.webp",
+      "accentColor": "#2E6B62",
+      "tags": [
+        "politics",
+        "turkey",
+        "leadership",
+        "prime-minister"
+      ],
+      "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/9/9f/Turkish_prime_minister_Tansu_%C3%87iller_in_Brussels.jpg/300px-Turkish_prime_minister_Tansu_%C3%87iller_in_Brussels.jpg"
+    },
+    {
+      "id": "rigoberta-menchu",
+      "name": {
+        "tr": "Rigoberta Menchú",
+        "en": "Rigoberta Menchú"
+      },
+      "birthYear": 1959,
+      "deathYear": null,
+      "nationality": "GT",
+      "countryOfWork": "GT",
+      "coordinates": {
+        "lat": 14.6349,
+        "lng": -90.5069
+      },
+      "category": "politics",
+      "subcategory": "indigenous-rights",
+      "era": "contemporary",
+      "bio": {
+        "tr": "Rigoberta Menchú, yerli halkların hakları için mücadele eden Guatemalalı aktivist ve Nobel Barış Ödülü sahibidir. Maya-Quiché halkından gelen Menchú, Guatemala iç savaşı sırasında ailesini kaybetmiş, uluslararası arenada yerli hakları savunuculuğu yapmıştır.",
+        "en": "Rigoberta Menchú is a Guatemalan activist and Nobel Peace Prize laureate who fights for indigenous peoples' rights. From the Maya-Quiché people, Menchú lost her family during the Guatemalan civil war and advocated for indigenous rights on the international stage."
+      },
+      "shortBio": {
+        "tr": "Yerli hakları savunucusu ve Nobel Barış Ödülü sahibi",
+        "en": "Indigenous rights advocate and Nobel Peace Prize laureate"
+      },
+      "quote": {
+        "tr": "Barış, yalnızca savaşın yokluğu değildir.",
+        "en": "Peace is not just the absence of war."
+      },
+      "achievements": {
+        "tr": [
+          "Nobel Barış Ödülü (1992)",
+          "Yerli hakları savunuculuğu",
+          "BM İyi Niyet Elçisi"
+        ],
+        "en": [
+          "Nobel Peace Prize (1992)",
+          "Indigenous rights advocacy",
+          "UN Goodwill Ambassador"
+        ]
+      },
+      "illustrationFile": "rigoberta-menchu.webp",
+      "accentColor": "#2E6B62",
+      "tags": [
+        "indigenous",
+        "activism",
+        "nobel",
+        "guatemala"
+      ],
+      "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/8/81/20240620_NP_PRESIDENTE_BERNARDO_AREVALO_Y_KARIN_HERRERA_PARTICIPAN_EN_DIALOGO_PREMIO_NOBEL_DE_LA_PAZ_054_%28cropped%29.jpg/300px-20240620_NP_PRESIDENTE_BERNARDO_AREVALO_Y_KARIN_HERRERA_PARTICIPAN_EN_DIALOGO_PREMIO_NOBEL_DE_LA_PAZ_054_%28cropped%29.jpg"
+    },
+    {
+      "id": "jacinda-ardern",
+      "name": {
+        "tr": "Jacinda Ardern",
+        "en": "Jacinda Ardern"
+      },
+      "birthYear": 1980,
+      "deathYear": null,
+      "nationality": "NZ",
+      "countryOfWork": "NZ",
+      "coordinates": {
+        "lat": -41.2865,
+        "lng": 174.7762
+      },
+      "category": "politics",
+      "subcategory": "leadership",
+      "era": "contemporary",
+      "bio": {
+        "tr": "Jacinda Ardern, Yeni Zelanda'nın en genç kadın başbakanı olarak görev yapmıştır. Christchurch cami saldırısı ve COVID-19 pandemisi sırasında gösterdiği empati dolu liderlik tarzıyla dünya çapında takdir toplamıştır. Görev sırasında doğum yapan ikinci devlet lideri olmuştur.",
+        "en": "Jacinda Ardern served as New Zealand's youngest female prime minister. She gained worldwide admiration for her empathetic leadership style during the Christchurch mosque shootings and COVID-19 pandemic. She became the second world leader to give birth while in office."
+      },
+      "shortBio": {
+        "tr": "Yeni Zelanda'nın en genç kadın başbakanı",
+        "en": "New Zealand's youngest female prime minister"
+      },
+      "quote": {
+        "tr": "Güçlü olmak için sert olmak zorunda değilsiniz.",
+        "en": "You can be strong and be kind."
+      },
+      "achievements": {
+        "tr": [
+          "Yeni Zelanda Başbakanı (2017-2023)",
+          "Silah reformu yasası",
+          "COVID-19 yönetimi"
+        ],
+        "en": [
+          "New Zealand PM (2017-2023)",
+          "Gun reform legislation",
+          "COVID-19 management"
+        ]
+      },
+      "illustrationFile": "jacinda-ardern.webp",
+      "accentColor": "#2E6B62",
+      "tags": [
+        "politics",
+        "leadership",
+        "new-zealand",
+        "empathy"
+      ],
+      "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/b/b6/New_Zealand_Prime_Minister_Jacinda_Ardern_in_2018.jpg/300px-New_Zealand_Prime_Minister_Jacinda_Ardern_in_2018.jpg"
+    },
+    {
+      "id": "cleopatra",
+      "name": {
+        "tr": "Kleopatra",
+        "en": "Cleopatra"
+      },
+      "birthYear": -69,
+      "deathYear": -30,
+      "nationality": "EG",
+      "countryOfWork": "EG",
+      "coordinates": {
+        "lat": 31.2001,
+        "lng": 29.9187
+      },
+      "category": "politics",
+      "subcategory": "leadership",
+      "era": "historical",
+      "bio": {
+        "tr": "Kleopatra VII, antik Mısır'ın son firavunuydu. Ptolemaios hanedanının son hükümdarı olan Kleopatra, yedi dil bilen, matematikçi ve diplomat olarak çağının en etkili liderlerinden biriydi. Roma İmparatorluğu'nun en güçlü liderleriyle ittifak kurarak Mısır'ın bağımsızlığını korumaya çalışmıştır.",
+        "en": "Cleopatra VII was the last pharaoh of ancient Egypt. As the final ruler of the Ptolemaic dynasty, Cleopatra was one of the most influential leaders of her era - a polyglot who spoke seven languages, and a mathematician and diplomat. She formed alliances with Rome's most powerful leaders to preserve Egypt's independence."
+      },
+      "shortBio": {
+        "tr": "Antik Mısır'ın son firavunu",
+        "en": "The last pharaoh of ancient Egypt"
+      },
+      "quote": {
+        "tr": "Taç giymeye cesaret eden kazanır.",
+        "en": "All strange and terrible events are welcome, but comforts we despise."
+      },
+      "achievements": {
+        "tr": [
+          "Mısır'ın son firavunu",
+          "7 dil bilgisi",
+          "Antik dünyanın en güçlü kadını"
+        ],
+        "en": [
+          "Last pharaoh of Egypt",
+          "Spoke 7 languages",
+          "Most powerful woman of the ancient world"
+        ]
+      },
+      "illustrationFile": "cleopatra.webp",
+      "accentColor": "#2E6B62",
+      "tags": [
+        "pharaoh",
+        "egypt",
+        "ancient",
+        "leadership"
+      ],
+      "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/3/3e/Kleopatra-VII.-Altes-Museum-Berlin1.jpg/300px-Kleopatra-VII.-Altes-Museum-Berlin1.jpg"
+    },
+    {
+      "id": "serena-williams",
+      "name": {
+        "tr": "Serena Williams",
+        "en": "Serena Williams"
+      },
+      "birthYear": 1981,
+      "deathYear": null,
+      "nationality": "US",
+      "countryOfWork": "US",
+      "coordinates": {
+        "lat": 26.1224,
+        "lng": -80.1373
+      },
+      "category": "sports",
+      "subcategory": "tennis",
+      "era": "contemporary",
+      "bio": {
+        "tr": "Serena Williams, 23 Grand Slam tek kadınlar şampiyonluğuyla tüm zamanların en büyük kadın tenisçisi olarak kabul edilir. Compton'da büyüyen Williams, ablası Venus ile birlikte teniste devrim yaratmıştır. Spor kariyerinin yanı sıra iş dünyasında da başarılı yatırımlar yapmaktadır.",
+        "en": "Serena Williams is widely regarded as the greatest female tennis player of all time with 23 Grand Slam singles titles. Growing up in Compton, Williams revolutionized tennis alongside her sister Venus. Beyond her sports career, she has made successful investments in business."
+      },
+      "shortBio": {
+        "tr": "23 Grand Slam şampiyonluğuyla tüm zamanların en büyük tenisçisi",
+        "en": "Greatest tennis player of all time with 23 Grand Slam titles"
+      },
+      "quote": {
+        "tr": "Her kadın bir süper kahramandır.",
+        "en": "Every woman is a superhero."
+      },
+      "achievements": {
+        "tr": [
+          "23 Grand Slam şampiyonluğu",
+          "4 Olimpiyat altın madalyası",
+          "319 hafta dünya 1 numarası"
+        ],
+        "en": [
+          "23 Grand Slam titles",
+          "4 Olympic gold medals",
+          "319 weeks as world No. 1"
+        ]
+      },
+      "illustrationFile": "serena-williams.webp",
+      "accentColor": "#CF8B3A",
+      "tags": [
+        "tennis",
+        "champion",
+        "sports",
+        "pioneer"
+      ],
+      "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/d/d3/Serena_Williams_at_the_2025_International_Tennis_Hall_of_Fame_Induction_Ceremony_Press_Conference_%28cropped%29.jpg/300px-Serena_Williams_at_the_2025_International_Tennis_Hall_of_Fame_Induction_Ceremony_Press_Conference_%28cropped%29.jpg"
+    },
+    {
+      "id": "nadia-comaneci",
+      "name": {
+        "tr": "Nadia Comăneci",
+        "en": "Nadia Comăneci"
+      },
+      "birthYear": 1961,
+      "deathYear": null,
+      "nationality": "RO",
+      "countryOfWork": "US",
+      "coordinates": {
+        "lat": 46.0705,
+        "lng": 23.5802
+      },
+      "category": "sports",
+      "subcategory": "gymnastics",
+      "era": "modern",
+      "bio": {
+        "tr": "Nadia Comăneci, 1976 Montreal Olimpiyat Oyunları'nda jimnastikte mükemmel 10.00 puanı alan ilk sporcu olarak tarihe geçmiştir. Sadece 14 yaşındayken bu başarıyı gerçekleştiren Romen jimnastikçi, Olimpiyat tarihinde toplam 9 mükemmel puan almıştır. Jimnastik sporunu dünyada popülerleştiren isimdir.",
+        "en": "Nadia Comăneci made history as the first gymnast to score a perfect 10.00 at the 1976 Montreal Olympic Games. The Romanian gymnast achieved this feat at just 14 years old and earned a total of 9 perfect scores in Olympic history. She is credited with popularizing gymnastics worldwide."
+      },
+      "shortBio": {
+        "tr": "Olimpiyat tarihinde mükemmel 10 alan ilk jimnastikçi",
+        "en": "First gymnast to score a perfect 10 at the Olympics"
+      },
+      "quote": {
+        "tr": "Mükemmeliyete ulaşmak zordur, ama imkânsız değildir.",
+        "en": "Hard work has made it easy. That is my secret."
+      },
+      "achievements": {
+        "tr": [
+          "İlk mükemmel 10 puanı (1976)",
+          "5 Olimpiyat madalyası",
+          "9 kez mükemmel puan"
+        ],
+        "en": [
+          "First perfect 10 score (1976)",
+          "5 Olympic medals",
+          "9 perfect scores"
+        ]
+      },
+      "illustrationFile": "nadia-comaneci.webp",
+      "accentColor": "#CF8B3A",
+      "tags": [
+        "gymnastics",
+        "olympics",
+        "perfect-ten",
+        "pioneer"
+      ],
+      "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/2/2f/25th_Laureus_World_Sports_Awards_-_Comaneci_-_240421_142851-2.jpg/300px-25th_Laureus_World_Sports_Awards_-_Comaneci_-_240421_142851-2.jpg"
+    },
+    {
+      "id": "billie-jean-king",
+      "name": {
+        "tr": "Billie Jean King",
+        "en": "Billie Jean King"
+      },
+      "birthYear": 1943,
+      "deathYear": null,
+      "nationality": "US",
+      "countryOfWork": "US",
+      "coordinates": {
+        "lat": 34.0522,
+        "lng": -118.2437
+      },
+      "category": "sports",
+      "subcategory": "tennis",
+      "era": "modern",
+      "bio": {
+        "tr": "Billie Jean King, 39 Grand Slam şampiyonluğu kazanmış efsanevi tenisçi ve sporda cinsiyet eşitliği savunucusudur. 1973'te Bobby Riggs ile oynadığı 'Cinsiyetler Savaşı' maçını kazanarak kadın sporcuların eşit ücret mücadelesini başlatmıştır. Kadın Tenis Birliği'nin (WTA) kurucu üyesidir.",
+        "en": "Billie Jean King is a legendary tennis player with 39 Grand Slam titles and a champion of gender equality in sports. By winning the 1973 'Battle of the Sexes' match against Bobby Riggs, she launched the fight for equal pay for female athletes. She is a founding member of the Women's Tennis Association (WTA)."
+      },
+      "shortBio": {
+        "tr": "Sporda cinsiyet eşitliğinin öncüsü ve efsanevi tenisçi",
+        "en": "Pioneer of gender equality in sports and legendary tennis player"
+      },
+      "quote": {
+        "tr": "Şampiyon olmanın anahtarı kendinize inanmaktır.",
+        "en": "Champions keep playing until they get it right."
+      },
+      "achievements": {
+        "tr": [
+          "39 Grand Slam şampiyonluğu",
+          "Cinsiyetler Savaşı galibiyeti (1973)",
+          "WTA kurucu üyesi"
+        ],
+        "en": [
+          "39 Grand Slam titles",
+          "Battle of the Sexes victory (1973)",
+          "WTA founding member"
+        ]
+      },
+      "illustrationFile": "billie-jean-king.webp",
+      "accentColor": "#CF8B3A",
+      "tags": [
+        "tennis",
+        "equality",
+        "sports",
+        "feminism"
+      ],
+      "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/b/bd/Billie_Jean_King_at_the_2026_Sundance_Film_Festival_02_%28crop_2%29.jpg/300px-Billie_Jean_King_at_the_2026_Sundance_Film_Festival_02_%28crop_2%29.jpg"
+    },
+    {
+      "id": "yasemin-dalkilic",
+      "name": {
+        "tr": "Yasemin Dalkılıç",
+        "en": "Yasemin Dalkılıç"
+      },
+      "birthYear": 1979,
+      "deathYear": null,
+      "nationality": "TR",
+      "countryOfWork": "TR",
+      "coordinates": {
+        "lat": 41.0082,
+        "lng": 28.9784
+      },
+      "category": "sports",
+      "subcategory": "diving",
+      "era": "contemporary",
+      "bio": {
+        "tr": "Yasemin Dalkılıç, serbest dalış dünya rekortmeni Türk sporculardır. Nefes tutarak yapılan dalışlarda birçok dünya rekoru kırmıştır. Türk serbest dalış sporunun uluslararası tanınmasında öncü rol oynamış, deniz koruma projeleriyle de katkıda bulunmaktadır.",
+        "en": "Yasemin Dalkılıç is a Turkish athlete and world record holder in freediving. She has broken multiple world records in breath-hold diving. She has played a pioneering role in the international recognition of Turkish freediving and also contributes to marine conservation projects."
+      },
+      "shortBio": {
+        "tr": "Serbest dalış dünya rekortmeni",
+        "en": "World record holder in freediving"
+      },
+      "quote": {
+        "tr": "Denizin derinlikleri bana özgürlüğü öğretti.",
+        "en": "The depths of the sea taught me freedom."
+      },
+      "achievements": {
+        "tr": [
+          "Serbest dalış dünya rekorları",
+          "Türk serbest dalışın öncüsü",
+          "Deniz koruma aktivisti"
+        ],
+        "en": [
+          "Freediving world records",
+          "Pioneer of Turkish freediving",
+          "Marine conservation activist"
+        ]
+      },
+      "illustrationFile": "yasemin-dalkilic.webp",
+      "accentColor": "#CF8B3A",
+      "tags": [
+        "freediving",
+        "turkey",
+        "world-record",
+        "ocean"
+      ],
+      "imageUrl": "/images/yasemin_dalkilic.webp"
+    },
+    {
+      "id": "tegla-loroupe",
+      "name": {
+        "tr": "Tegla Loroupe",
+        "en": "Tegla Loroupe"
+      },
+      "birthYear": 1973,
+      "deathYear": null,
+      "nationality": "KE",
+      "countryOfWork": "KE",
+      "coordinates": {
+        "lat": 1.2921,
+        "lng": 36.8219
+      },
+      "category": "sports",
+      "subcategory": "athletics",
+      "era": "contemporary",
+      "bio": {
+        "tr": "Tegla Loroupe, maraton dünya rekoru kıran Kenyalı uzun mesafe koşucusu ve barış aktivistdir. Üç kez maraton dünya rekorunu kırmış, spor kariyerinin ardından BM Barış Elçisi olarak çatışma bölgelerinde barış inşası çalışmaları yürütmektedir.",
+        "en": "Tegla Loroupe is a Kenyan long-distance runner who set world records in the marathon and a peace activist. She set the marathon world record three times and, after her sports career, works as a UN Peace Ambassador building peace in conflict zones."
+      },
+      "shortBio": {
+        "tr": "Maraton dünya rekortmeni ve barış aktivisti",
+        "en": "Marathon world record holder and peace activist"
+      },
+      "quote": {
+        "tr": "Koşarak barış getirebilirsiniz.",
+        "en": "Through running, you can bring peace."
+      },
+      "achievements": {
+        "tr": [
+          "3 kez maraton dünya rekoru",
+          "BM Barış Elçisi",
+          "Tegla Loroupe Barış Vakfı"
+        ],
+        "en": [
+          "3-time marathon world record",
+          "UN Peace Ambassador",
+          "Tegla Loroupe Peace Foundation"
+        ]
+      },
+      "illustrationFile": "tegla-loroupe.webp",
+      "accentColor": "#CF8B3A",
+      "tags": [
+        "marathon",
+        "running",
+        "peace",
+        "kenya"
+      ],
+      "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/9/96/25th_Laureus_World_Sports_Awards_-_Red_Carpet_-_Tegla_Loroupe_-_240422_183851_%28cropped%29.jpg/300px-25th_Laureus_World_Sports_Awards_-_Red_Carpet_-_Tegla_Loroupe_-_240422_183851_%28cropped%29.jpg"
+    },
+    {
+      "id": "megan-rapinoe",
+      "name": {
+        "tr": "Megan Rapinoe",
+        "en": "Megan Rapinoe"
+      },
+      "birthYear": 1985,
+      "deathYear": null,
+      "nationality": "US",
+      "countryOfWork": "US",
+      "coordinates": {
+        "lat": 47.6062,
+        "lng": -122.3321
+      },
+      "category": "sports",
+      "subcategory": "soccer",
+      "era": "contemporary",
+      "bio": {
+        "tr": "Megan Rapinoe, ABD Kadın Milli Futbol Takımı'nın yıldızı ve kadın sporcuların eşit ücret mücadelesinin sembolüdür. İki Dünya Kupası şampiyonluğu ve Olimpiyat altın madalyasının yanı sıra, sosyal adalet ve LGBTQ+ hakları savunuculuğuyla da tanınmaktadır.",
+        "en": "Megan Rapinoe is a star of the U.S. Women's National Soccer Team and a symbol of the fight for equal pay for female athletes. Beyond two World Cup titles and an Olympic gold medal, she is known for her advocacy for social justice and LGBTQ+ rights."
+      },
+      "shortBio": {
+        "tr": "İki kez Dünya Kupası şampiyonu ve eşit ücret savunucusu",
+        "en": "Two-time World Cup champion and equal pay advocate"
+      },
+      "quote": {
+        "tr": "Hepinizi bir araya getirmek için buradayız.",
+        "en": "You can't win a championship without gays on your team."
+      },
+      "achievements": {
+        "tr": [
+          "2 FIFA Dünya Kupası şampiyonluğu",
+          "Ballon d'Or Féminin (2019)",
+          "Eşit ücret davası öncüsü"
+        ],
+        "en": [
+          "2 FIFA World Cup titles",
+          "Ballon d'Or Féminin (2019)",
+          "Equal pay lawsuit pioneer"
+        ]
+      },
+      "illustrationFile": "megan-rapinoe.webp",
+      "accentColor": "#CF8B3A",
+      "tags": [
+        "soccer",
+        "equality",
+        "activism",
+        "lgbtq"
+      ],
+      "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/b/b7/Megan_Rapinoe_%2848675274817%29_%28cropped%29.jpg/300px-Megan_Rapinoe_%2848675274817%29_%28cropped%29.jpg"
+    },
+    {
+      "id": "caster-semenya",
+      "name": {
+        "tr": "Caster Semenya",
+        "en": "Caster Semenya"
+      },
+      "birthYear": 1991,
+      "deathYear": null,
+      "nationality": "ZA",
+      "countryOfWork": "ZA",
+      "coordinates": {
+        "lat": -25.7479,
+        "lng": 28.2293
+      },
+      "category": "sports",
+      "subcategory": "athletics",
+      "era": "contemporary",
+      "bio": {
+        "tr": "Caster Semenya, 800 metre koşuda iki kez Olimpiyat altın madalyası kazanan Güney Afrikalı atletdir. Interseks hakları konusundaki mücadelesiyle spor dünyasında cinsiyet politikalarının tartışılmasını sağlamıştır. Uluslararası atletizm kurallarına karşı mücadelesini sürdürmektedir.",
+        "en": "Caster Semenya is a South African athlete who won two Olympic gold medals in the 800 meters. Through her fight for intersex rights, she has sparked discussion about gender policies in the sports world. She continues her battle against international athletics regulations."
+      },
+      "shortBio": {
+        "tr": "İki kez Olimpiyat altın madalyalı atlet ve interseks hakları savunucusu",
+        "en": "Two-time Olympic gold medalist and intersex rights advocate"
+      },
+      "quote": {
+        "tr": "Ben doğduğum gibi koşuyorum.",
+        "en": "I am who I am and I'm proud of myself."
+      },
+      "achievements": {
+        "tr": [
+          "2 Olimpiyat altın madalyası (800m)",
+          "3 Dünya Şampiyonası altını",
+          "İnterseks hakları savunuculuğu"
+        ],
+        "en": [
+          "2 Olympic gold medals (800m)",
+          "3 World Championship golds",
+          "Intersex rights advocacy"
+        ]
+      },
+      "illustrationFile": "caster-semenya.webp",
+      "accentColor": "#CF8B3A",
+      "tags": [
+        "athletics",
+        "olympics",
+        "rights",
+        "south-africa"
+      ],
+      "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/b/b9/Caster_Semenya_%2842411013704%29_%28cropped%29.jpg/300px-Caster_Semenya_%2842411013704%29_%28cropped%29.jpg"
+    },
+    {
+      "id": "ibtihaj-muhammad",
+      "name": {
+        "tr": "İbtihaj Muhammad",
+        "en": "Ibtihaj Muhammad"
+      },
+      "birthYear": 1985,
+      "deathYear": null,
+      "nationality": "US",
+      "countryOfWork": "US",
+      "coordinates": {
+        "lat": 40.7128,
+        "lng": -74.006
+      },
+      "category": "sports",
+      "subcategory": "fencing",
+      "era": "contemporary",
+      "bio": {
+        "tr": "İbtihaj Muhammad, ABD Olimpiyat tarihinde başörtüsüyle yarışan ilk sporcu olarak tarihe geçmiştir. 2016 Rio Olimpiyatları'nda eskrim dalında bronz madalya kazanmıştır. Spor ve din arasındaki uyumu gösteren bir rol model olarak milyonlara ilham vermektedir.",
+        "en": "Ibtihaj Muhammad made history as the first American athlete to compete in the Olympics wearing a hijab. She won a bronze medal in fencing at the 2016 Rio Olympics. She serves as a role model demonstrating the harmony between sports and faith, inspiring millions."
+      },
+      "shortBio": {
+        "tr": "ABD'de başörtüsüyle yarışan ilk Olimpiyat sporcusu",
+        "en": "First American Olympian to compete in a hijab"
+      },
+      "quote": {
+        "tr": "Farklılıklarınız sizi güçlü kılar.",
+        "en": "Don't let anyone define who you are."
+      },
+      "achievements": {
+        "tr": [
+          "Olimpiyat bronz madalyası (2016)",
+          "Başörtülü ilk ABD Olimpiyatçısı",
+          "Time 100 listesi"
+        ],
+        "en": [
+          "Olympic bronze medal (2016)",
+          "First US Olympian in hijab",
+          "Time 100 list"
+        ]
+      },
+      "illustrationFile": "ibtihaj-muhammad.webp",
+      "accentColor": "#CF8B3A",
+      "tags": [
+        "fencing",
+        "olympics",
+        "hijab",
+        "pioneer"
+      ],
+      "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/9/99/Ibtihaj_Muhammad_Wasserman_Update.jpg/300px-Ibtihaj_Muhammad_Wasserman_Update.jpg"
+    },
+    {
+      "id": "nur-tatar",
+      "name": {
+        "tr": "Nur Tatar",
+        "en": "Nur Tatar"
+      },
+      "birthYear": 1992,
+      "deathYear": null,
+      "nationality": "TR",
+      "countryOfWork": "TR",
+      "coordinates": {
+        "lat": 39.9334,
+        "lng": 32.8597
+      },
+      "category": "sports",
+      "subcategory": "taekwondo",
+      "era": "contemporary",
+      "bio": {
+        "tr": "Nur Tatar, 2012 Londra Olimpiyat Oyunları'nda tekvando dalında bronz madalya kazanan Türk sporculardır. Avrupa ve Dünya şampiyonalarında da madalyalar kazanmıştır. Türk kadın sporcuların uluslararası başarılarının sembollerinden biridir.",
+        "en": "Nur Tatar is a Turkish athlete who won a bronze medal in taekwondo at the 2012 London Olympic Games. She has also won medals at European and World championships. She is one of the symbols of Turkish women athletes' international success."
+      },
+      "shortBio": {
+        "tr": "Olimpiyat bronz madalyalı Türk tekvandocu",
+        "en": "Olympic bronze medalist Turkish taekwondo athlete"
+      },
+      "quote": {
+        "tr": "Başarı, azim ve disiplinin ürünüdür.",
+        "en": "Success is the product of determination and discipline."
+      },
+      "achievements": {
+        "tr": [
+          "Olimpiyat bronz madalyası (2012)",
+          "Avrupa Şampiyonası madalyaları",
+          "Dünya Şampiyonası başarıları"
+        ],
+        "en": [
+          "Olympic bronze medal (2012)",
+          "European Championship medals",
+          "World Championship achievements"
+        ]
+      },
+      "illustrationFile": "nur-tatar.webp",
+      "accentColor": "#CF8B3A",
+      "tags": [
+        "taekwondo",
+        "olympics",
+        "turkey",
+        "martial-arts"
+      ],
+      "imageUrl": "/images/nur_Tatar.webp"
+    },
+    {
+      "id": "simone-biles",
+      "name": {
+        "tr": "Simone Biles",
+        "en": "Simone Biles"
+      },
+      "birthYear": 1997,
+      "deathYear": null,
+      "nationality": "US",
+      "countryOfWork": "US",
+      "coordinates": {
+        "lat": 29.7604,
+        "lng": -95.3698
+      },
+      "category": "sports",
+      "subcategory": "gymnastics",
+      "era": "contemporary",
+      "bio": {
+        "tr": "Simone Biles, tüm zamanların en çok madalya kazanan jimnastikçisidir. 37 Dünya ve Olimpiyat madalyasıyla tarihe geçen Biles, jimnastikte kendi adıyla anılan hareketler geliştirmiştir. 2021 Tokyo Olimpiyatları'nda ruh sağlığı konusundaki açıklığıyla sporcu sağlığı tartışmalarını başlatmıştır.",
+        "en": "Simone Biles is the most decorated gymnast of all time. With 37 World and Olympic medals, Biles has developed moves named after her in gymnastics. At the 2021 Tokyo Olympics, she started a conversation about athlete mental health through her openness about her own struggles."
+      },
+      "shortBio": {
+        "tr": "Tüm zamanların en çok madalya kazanan jimnastikçisi",
+        "en": "Most decorated gymnast of all time"
+      },
+      "quote": {
+        "tr": "Mücadele etmek başarısızlık değildir.",
+        "en": "I'm not the next Usain Bolt or Michael Phelps. I'm the first Simone Biles."
+      },
+      "achievements": {
+        "tr": [
+          "37 Dünya ve Olimpiyat madalyası",
+          "7 Olimpiyat madalyası",
+          "Kendi adını taşıyan 5 hareket"
+        ],
+        "en": [
+          "37 World and Olympic medals",
+          "7 Olympic medals",
+          "5 moves named after her"
+        ]
+      },
+      "illustrationFile": "simone-biles.webp",
+      "accentColor": "#CF8B3A",
+      "tags": [
+        "gymnastics",
+        "olympics",
+        "mental-health",
+        "champion"
+      ],
+      "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/f/f6/Simone_Biles_National_Team_2024.jpg/300px-Simone_Biles_National_Team_2024.jpg"
+    },
+    {
+      "id": "madam-cj-walker",
+      "name": {
+        "tr": "Madam C.J. Walker",
+        "en": "Madam C.J. Walker"
+      },
+      "birthYear": 1867,
+      "deathYear": 1919,
+      "nationality": "US",
+      "countryOfWork": "US",
+      "coordinates": {
+        "lat": 39.7684,
+        "lng": -86.1581
+      },
+      "category": "business",
+      "subcategory": "entrepreneurship",
+      "era": "historical",
+      "bio": {
+        "tr": "Madam C.J. Walker, Amerika'nın ilk kendi gücüyle milyoner olan kadınıdır. Afrikalı-Amerikalı kadınlara yönelik saç bakım ürünleri geliştirerek kozmetik imparatorluğu kurmuştur. Hayırseverliği ve toplumsal aktivizmiyle de tanınan Walker, Afrikalı-Amerikalı kadın girişimciliğinin öncüsüdür.",
+        "en": "Madam C.J. Walker was America's first self-made female millionaire. She built a cosmetics empire developing hair care products for African-American women. Also known for her philanthropy and social activism, Walker was a pioneer of African-American female entrepreneurship."
+      },
+      "shortBio": {
+        "tr": "Amerika'nın ilk kendi gücüyle milyoner olan kadını",
+        "en": "America's first self-made female millionaire"
+      },
+      "quote": {
+        "tr": "Bir başkasına fırsat kapısı açmayan bir kadın başarılı değildir.",
+        "en": "I got my start by giving myself a start."
+      },
+      "achievements": {
+        "tr": [
+          "İlk kadın milyoner (kendi gücüyle)",
+          "Walker Kozmetik İmparatorluğu",
+          "Afrikalı-Amerikalı hayırseverlik öncüsü"
+        ],
+        "en": [
+          "First self-made female millionaire",
+          "Walker Cosmetics Empire",
+          "African-American philanthropy pioneer"
+        ]
+      },
+      "illustrationFile": "madam-cj-walker.webp",
+      "accentColor": "#3A6B9F",
+      "tags": [
+        "business",
+        "entrepreneurship",
+        "pioneer",
+        "cosmetics"
+      ],
+      "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/d/dc/Madam_C._J._Walker_by_Addison_N._Scurlock.jpg/300px-Madam_C._J._Walker_by_Addison_N._Scurlock.jpg"
+    },
+    {
+      "id": "coco-chanel",
+      "name": {
+        "tr": "Coco Chanel",
+        "en": "Coco Chanel"
+      },
+      "birthYear": 1883,
+      "deathYear": 1971,
+      "nationality": "FR",
+      "countryOfWork": "FR",
+      "coordinates": {
+        "lat": 48.8566,
+        "lng": 2.3522
+      },
+      "category": "business",
+      "subcategory": "fashion",
+      "era": "modern",
+      "bio": {
+        "tr": "Coco Chanel, kadın modasını devrimleştiren Fransız moda tasarımcısı ve iş kadınıdır. Küçük siyah elbise, Chanel No. 5 parfümü ve tweed ceketleriyle moda dünyasını değiştirmiştir. Kadınları korseden kurtararak rahat ve şık giyimin öncüsü olmuş, dünya çapında bir moda imparatorluğu kurmuştur.",
+        "en": "Coco Chanel was a French fashion designer and businesswoman who revolutionized women's fashion. She changed the fashion world with the little black dress, Chanel No. 5 perfume, and tweed jackets. She freed women from corsets and pioneered comfortable yet elegant dressing, building a global fashion empire."
+      },
+      "shortBio": {
+        "tr": "Kadın modasını devrimleştiren moda tasarımcısı",
+        "en": "Fashion designer who revolutionized women's fashion"
+      },
+      "quote": {
+        "tr": "Moda değişir, ama stil kalıcıdır.",
+        "en": "Fashion changes, but style endures."
+      },
+      "achievements": {
+        "tr": [
+          "Chanel moda imparatorluğu",
+          "Küçük siyah elbise konsepti",
+          "Chanel No. 5 parfümü"
+        ],
+        "en": [
+          "Chanel fashion empire",
+          "Little black dress concept",
+          "Chanel No. 5 perfume"
+        ]
+      },
+      "illustrationFile": "coco-chanel.webp",
+      "accentColor": "#3A6B9F",
+      "tags": [
+        "fashion",
+        "design",
+        "luxury",
+        "france"
+      ],
+      "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/2/22/Coco_Chanel_in_Los_Angeles%2C_1931_%28cropped%29.jpg/300px-Coco_Chanel_in_Los_Angeles%2C_1931_%28cropped%29.jpg"
+    },
+    {
+      "id": "oprah-winfrey",
+      "name": {
+        "tr": "Oprah Winfrey",
+        "en": "Oprah Winfrey"
+      },
+      "birthYear": 1954,
+      "deathYear": null,
+      "nationality": "US",
+      "countryOfWork": "US",
+      "coordinates": {
+        "lat": 41.8781,
+        "lng": -87.6298
+      },
+      "category": "business",
+      "subcategory": "media",
+      "era": "contemporary",
+      "bio": {
+        "tr": "Oprah Winfrey, medya dünyasının en etkili isimlerinden biri olan Amerikalı televizyon sunucusu, yapımcı ve hayırseverdir. 25 yıl süren talk show'u televizyon tarihinde bir devrim yaratmıştır. Kendi medya imparatorluğunu kuran Winfrey, milyarlarca dolar bağış yaparak dünyanın en cömert hayırseverlerinden biri olmuştur.",
+        "en": "Oprah Winfrey is an American television host, producer, and philanthropist who is one of the most influential figures in the media world. Her 25-year talk show revolutionized television. Building her own media empire, Winfrey has become one of the world's most generous philanthropists, donating billions of dollars."
+      },
+      "shortBio": {
+        "tr": "Medya imparatoriçesi ve hayırseverlik öncüsü",
+        "en": "Media mogul and philanthropy pioneer"
+      },
+      "quote": {
+        "tr": "Kim olabileceğinizin en iyi hali olun.",
+        "en": "The biggest adventure you can take is to live the life of your dreams."
+      },
+      "achievements": {
+        "tr": [
+          "25 yıllık Oprah Winfrey Show",
+          "OWN televizyon ağı",
+          "Milyarlarca dolarlık hayırseverlik"
+        ],
+        "en": [
+          "25-year Oprah Winfrey Show",
+          "OWN television network",
+          "Billions in philanthropy"
+        ]
+      },
+      "illustrationFile": "oprah-winfrey.webp",
+      "accentColor": "#3A6B9F",
+      "tags": [
+        "media",
+        "television",
+        "philanthropy",
+        "business"
+      ],
+      "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/e/e0/Oprah_Winfrey_2016.jpg/300px-Oprah_Winfrey_2016.jpg"
+    },
+    {
+      "id": "indra-nooyi",
+      "name": {
+        "tr": "Indra Nooyi",
+        "en": "Indra Nooyi"
+      },
+      "birthYear": 1955,
+      "deathYear": null,
+      "nationality": "IN",
+      "countryOfWork": "US",
+      "coordinates": {
+        "lat": 41.0534,
+        "lng": -73.5387
+      },
+      "category": "business",
+      "subcategory": "corporate",
+      "era": "contemporary",
+      "bio": {
+        "tr": "Indra Nooyi, PepsiCo'nun eski CEO'su ve dünyanın en güçlü iş kadınlarından biridir. 12 yıl boyunca PepsiCo'yu yöneterek şirketin sağlıklı ürünlere yönelmesini sağlamıştır. Hindistan'dan ABD'ye göç eden Nooyi, kurumsal dünyada çeşitliliğin sembolü olmuştur.",
+        "en": "Indra Nooyi is the former CEO of PepsiCo and one of the world's most powerful businesswomen. She led PepsiCo for 12 years, steering the company toward healthier products. Emigrating from India to the US, Nooyi became a symbol of diversity in the corporate world."
+      },
+      "shortBio": {
+        "tr": "PepsiCo'nun eski CEO'su ve iş dünyasının öncü kadını",
+        "en": "Former PepsiCo CEO and pioneering businesswoman"
+      },
+      "quote": {
+        "tr": "Liderlik, sadece iş sonuçlarıyla değil, insanlarla da ilgilidir.",
+        "en": "Leadership is hard to define and good leadership even harder."
+      },
+      "achievements": {
+        "tr": [
+          "PepsiCo CEO'su (2006-2018)",
+          "Forbes en güçlü kadınlar listesi",
+          "Amazon Yönetim Kurulu üyesi"
+        ],
+        "en": [
+          "PepsiCo CEO (2006-2018)",
+          "Forbes most powerful women list",
+          "Amazon Board of Directors member"
+        ]
+      },
+      "illustrationFile": "indra-nooyi.webp",
+      "accentColor": "#3A6B9F",
+      "tags": [
+        "business",
+        "ceo",
+        "corporate",
+        "leadership"
+      ],
+      "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/4/42/IndraNooyiDavos2010ver2.jpg/300px-IndraNooyiDavos2010ver2.jpg"
+    },
+    {
+      "id": "sara-blakely",
+      "name": {
+        "tr": "Sara Blakely",
+        "en": "Sara Blakely"
+      },
+      "birthYear": 1971,
+      "deathYear": null,
+      "nationality": "US",
+      "countryOfWork": "US",
+      "coordinates": {
+        "lat": 33.749,
+        "lng": -84.388
+      },
+      "category": "business",
+      "subcategory": "entrepreneurship",
+      "era": "contemporary",
+      "bio": {
+        "tr": "Sara Blakely, 5.000 dolar sermaye ile Spanx şirketini kuran ve kendi gücüyle milyarder olan Amerikalı girişimcidir. Çorap ve iç giyim sektöründe devrim yaratarak dünya genelinde milyonlarca kadının gardırobunu değiştirmiştir. Hayırseverlik taahhüdüyle de bilinmektedir.",
+        "en": "Sara Blakely is an American entrepreneur who founded Spanx with $5,000 in savings and became a self-made billionaire. She revolutionized the hosiery and undergarment industry, changing the wardrobes of millions of women worldwide. She is also known for her philanthropy pledge."
+      },
+      "shortBio": {
+        "tr": "5.000 dolarla Spanx'i kuran kendi gücüyle milyarder",
+        "en": "Self-made billionaire who founded Spanx with $5,000"
+      },
+      "quote": {
+        "tr": "Başarısızlık korkulacak bir şey değildir, öğrenilecek bir şeydir.",
+        "en": "It's important to be willing to make mistakes. The worst thing that can happen is you become memorable."
+      },
+      "achievements": {
+        "tr": [
+          "Spanx kurucusu",
+          "En genç kadın milyarder (kendi gücüyle)",
+          "Giving Pledge taahhüdü"
+        ],
+        "en": [
+          "Spanx founder",
+          "Youngest self-made female billionaire",
+          "Giving Pledge commitment"
+        ]
+      },
+      "illustrationFile": "sara-blakely.webp",
+      "accentColor": "#3A6B9F",
+      "tags": [
+        "entrepreneurship",
+        "business",
+        "innovation",
+        "billionaire"
+      ],
+      "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/f/fc/Sara_Blakely.jpg/300px-Sara_Blakely.jpg"
+    },
+    {
+      "id": "whitney-wolfe-herd",
+      "name": {
+        "tr": "Whitney Wolfe Herd",
+        "en": "Whitney Wolfe Herd"
+      },
+      "birthYear": 1989,
+      "deathYear": null,
+      "nationality": "US",
+      "countryOfWork": "US",
+      "coordinates": {
+        "lat": 30.2672,
+        "lng": -97.7431
+      },
+      "category": "business",
+      "subcategory": "technology",
+      "era": "contemporary",
+      "bio": {
+        "tr": "Whitney Wolfe Herd, kadın odaklı tanışma uygulaması Bumble'ın kurucusudur. Kadınların ilk adımı atmasını sağlayan uygulama konseptiyle tanışma endüstrisini değiştirmiştir. 31 yaşında şirketini halka arz ederek en genç kadın CEO olarak borsaya açılmıştır.",
+        "en": "Whitney Wolfe Herd is the founder of Bumble, a women-first dating app. She changed the dating industry with the concept of letting women make the first move. At age 31, she took her company public, becoming the youngest female CEO to take a company to IPO."
+      },
+      "shortBio": {
+        "tr": "Bumble'ın kurucusu ve en genç kadın CEO olarak halka arz",
+        "en": "Bumble founder and youngest woman CEO to take a company public"
+      },
+      "quote": {
+        "tr": "Kadınlar her ilişkide ilk adımı atabilir.",
+        "en": "We can create a world where women make the first move."
+      },
+      "achievements": {
+        "tr": [
+          "Bumble kurucusu",
+          "En genç kadın CEO halka arzı",
+          "Time 100 listesi"
+        ],
+        "en": [
+          "Bumble founder",
+          "Youngest female CEO IPO",
+          "Time 100 list"
+        ]
+      },
+      "illustrationFile": "whitney-wolfe-herd.webp",
+      "accentColor": "#3A6B9F",
+      "tags": [
+        "technology",
+        "startup",
+        "dating",
+        "ceo"
+      ],
+      "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/3/3e/TechCrunch_Disrupt_San_Francisco_2018_-_day_2_%2830647055838%29.jpg/300px-TechCrunch_Disrupt_San_Francisco_2018_-_day_2_%2830647055838%29.jpg"
+    },
+    {
+      "id": "cher-wang",
+      "name": {
+        "tr": "Cher Wang",
+        "en": "Cher Wang"
+      },
+      "birthYear": 1958,
+      "deathYear": null,
+      "nationality": "TW",
+      "countryOfWork": "TW",
+      "coordinates": {
+        "lat": 25.033,
+        "lng": 121.5654
+      },
+      "category": "business",
+      "subcategory": "technology",
+      "era": "contemporary",
+      "bio": {
+        "tr": "Cher Wang, akıllı telefon üreticisi HTC'nin kurucu ortağı ve sanal gerçeklik şirketi Vive'ın arkasındaki isimdir. Tayvan'ın en etkili iş kadınlarından biri olan Wang, mobil teknoloji ve VR alanında öncü rol oynamıştır.",
+        "en": "Cher Wang is the co-founder of smartphone manufacturer HTC and the driving force behind the virtual reality company Vive. One of Taiwan's most influential businesswomen, Wang has played a pioneering role in mobile technology and VR."
+      },
+      "shortBio": {
+        "tr": "HTC kurucu ortağı ve teknoloji öncüsü",
+        "en": "HTC co-founder and technology pioneer"
+      },
+      "quote": {
+        "tr": "Teknoloji hayatı iyileştirmek için var.",
+        "en": "Innovation is about improving people's lives."
+      },
+      "achievements": {
+        "tr": [
+          "HTC kurucu ortağı",
+          "Vive VR platformu",
+          "Forbes en güçlü kadınlar listesi"
+        ],
+        "en": [
+          "HTC co-founder",
+          "Vive VR platform",
+          "Forbes most powerful women list"
+        ]
+      },
+      "illustrationFile": "cher-wang.webp",
+      "accentColor": "#3A6B9F",
+      "tags": [
+        "technology",
+        "smartphones",
+        "vr",
+        "taiwan"
+      ],
+      "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/d/db/Cher_Wang_in_WEF.jpg/300px-Cher_Wang_in_WEF.jpg"
+    },
+    {
+      "id": "folorunso-alakija",
+      "name": {
+        "tr": "Folorunso Alakija",
+        "en": "Folorunso Alakija"
+      },
+      "birthYear": 1951,
+      "deathYear": null,
+      "nationality": "NG",
+      "countryOfWork": "NG",
+      "coordinates": {
+        "lat": 6.5244,
+        "lng": 3.3792
+      },
+      "category": "business",
+      "subcategory": "oil-fashion",
+      "era": "contemporary",
+      "bio": {
+        "tr": "Folorunso Alakija, Afrika'nın en zengin kadını ve Nijeryalı iş kadınıdır. Moda tasarımından petrol endüstrisine geçerek büyük bir iş imparatorluğu kurmuştur. Hayırseverlik çalışmalarıyla da tanınan Alakija, Rose of Sharon Vakfı aracılığıyla binlerce insanın hayatını değiştirmektedir.",
+        "en": "Folorunso Alakija is Africa's richest woman and a Nigerian businesswoman. She built a vast business empire transitioning from fashion design to the oil industry. Also known for her philanthropy, Alakija changes thousands of lives through her Rose of Sharon Foundation."
+      },
+      "shortBio": {
+        "tr": "Afrika'nın en zengin kadını",
+        "en": "Africa's richest woman"
+      },
+      "quote": {
+        "tr": "İmkânsız diye bir şey yoktur, sadece henüz yapılmamış şeyler vardır.",
+        "en": "Nothing is impossible; there are only things that haven't been done yet."
+      },
+      "achievements": {
+        "tr": [
+          "Afrika'nın en zengin kadını",
+          "Famfa Oil şirketi",
+          "Rose of Sharon Vakfı"
+        ],
+        "en": [
+          "Africa's richest woman",
+          "Famfa Oil company",
+          "Rose of Sharon Foundation"
+        ]
+      },
+      "illustrationFile": "folorunso-alakija.webp",
+      "accentColor": "#3A6B9F",
+      "tags": [
+        "business",
+        "oil",
+        "fashion",
+        "africa"
+      ],
+      "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/3/3e/Folorunsho_Alakija.jpg/300px-Folorunsho_Alakija.jpg"
+    },
+    {
+      "id": "leyla-alaton",
+      "name": {
+        "tr": "Leyla Alaton",
+        "en": "Leyla Alaton"
+      },
+      "birthYear": 1963,
+      "deathYear": null,
+      "nationality": "TR",
+      "countryOfWork": "TR",
+      "coordinates": {
+        "lat": 41.0082,
+        "lng": 28.9784
+      },
+      "category": "business",
+      "subcategory": "corporate",
+      "era": "contemporary",
+      "bio": {
+        "tr": "Leyla Alaton, Türkiye'nin önde gelen iş kadınlarından biri ve Alarko Holding Yönetim Kurulu üyesidir. İş dünyasındaki başarısının yanı sıra kadın hakları ve toplumsal cinsiyet eşitliği konularında aktif savunuculuk yapmaktadır. Türk iş dünyasında kadın liderliğin sembollerinden biridir.",
+        "en": "Leyla Alaton is one of Turkey's leading businesswomen and a board member of Alarko Holding. Beyond her business success, she actively advocates for women's rights and gender equality. She is one of the symbols of female leadership in the Turkish business world."
+      },
+      "shortBio": {
+        "tr": "Türkiye'nin önde gelen iş kadını ve kadın hakları savunucusu",
+        "en": "Turkey's leading businesswoman and women's rights advocate"
+      },
+      "quote": {
+        "tr": "Kadınların iş dünyasında var olması, herkesin kazanmasıdır.",
+        "en": "Women's presence in business is a win for everyone."
+      },
+      "achievements": {
+        "tr": [
+          "Alarko Holding Yönetim Kurulu üyesi",
+          "Kadın hakları savunuculuğu",
+          "TÜSİAD Yüksek İstişare Kurulu üyesi"
+        ],
+        "en": [
+          "Alarko Holding Board member",
+          "Women's rights advocacy",
+          "TÜSİAD High Advisory Council member"
+        ]
+      },
+      "illustrationFile": "leyla-alaton.webp",
+      "accentColor": "#3A6B9F",
+      "tags": [
+        "business",
+        "turkey",
+        "leadership",
+        "women-rights"
+      ],
+      "imageUrl": "/images/leyla_alaton.webp"
+    },
+    {
+      "id": "vuslat-dogan-sabanci",
+      "name": {
+        "tr": "Vuslat Doğan Sabancı",
+        "en": "Vuslat Doğan Sabancı"
+      },
+      "birthYear": 1971,
+      "deathYear": null,
+      "nationality": "TR",
+      "countryOfWork": "TR",
+      "coordinates": {
+        "lat": 41.0082,
+        "lng": 28.9784
+      },
+      "category": "business",
+      "subcategory": "media-arts",
+      "era": "contemporary",
+      "bio": {
+        "tr": "Vuslat Doğan Sabancı, Türkiye'nin önde gelen iş kadınlarından biridir. Doğan Medya Grubu'nda üst düzey yöneticilik yapan Sabancı, iş dünyasının yanı sıra sanat ve kültür alanında önemli destekler vermektedir. Hürriyet gazetesinin yönetim kurulunda görev yapmış, toplumsal sorumluluk projeleriyle tanınmaktadır.",
+        "en": "Vuslat Doğan Sabancı is one of Turkey's leading businesswomen. Having served as a senior executive at Doğan Media Group, Sabancı provides significant support in the arts and culture alongside business. She served on the board of Hürriyet newspaper and is known for her social responsibility projects."
+      },
+      "shortBio": {
+        "tr": "Türk iş kadını ve sanat-kültür destekçisi",
+        "en": "Turkish businesswoman and arts-culture patron"
+      },
+      "quote": {
+        "tr": "Sanat ve kültür, toplumun gelişiminin temelidir.",
+        "en": "Art and culture are the foundation of society's development."
+      },
+      "achievements": {
+        "tr": [
+          "Doğan Medya Grubu yöneticisi",
+          "Sanat ve kültür patronajı",
+          "Toplumsal sorumluluk projeleri"
+        ],
+        "en": [
+          "Doğan Media Group executive",
+          "Arts and culture patronage",
+          "Social responsibility projects"
+        ]
+      },
+      "illustrationFile": "vuslat-dogan-sabanci.webp",
+      "accentColor": "#3A6B9F",
+      "tags": [
+        "business",
+        "media",
+        "arts",
+        "turkey"
+      ],
+      "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/2/22/Vuslat_Do%C4%9Fan_Sabanci.jpg/300px-Vuslat_Do%C4%9Fan_Sabanci.jpg"
+    }
+  ]
+}

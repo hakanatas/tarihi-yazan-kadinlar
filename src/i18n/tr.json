@@ -1,0 +1,88 @@
+{
+  "site": {
+    "title": "Tarihi Yazan Kadınlar",
+    "shortTitle": "Tarihi Yazan Kadınlar",
+    "subtitle": "8 Mart Dünya Kadınlar Günü",
+    "description": "Dünyayı değiştiren kadınların hikâyelerini keşfet"
+  },
+  "nav": {
+    "timeline": "Zaman Çizgisi",
+    "categories": "Kategoriler",
+    "stories": "Hikâyeler",
+    "map": "Dünya Haritası",
+    "numbers": "Rakamlarla",
+    "voices": "Sözleri"
+  },
+  "categories": {
+    "all": "Tümü",
+    "science": "Bilim ve Teknoloji",
+    "arts": "Sanat ve Edebiyat",
+    "politics": "Siyaset ve Aktivizm",
+    "sports": "Spor",
+    "business": "İş Dünyası"
+  },
+  "hero": {
+    "title1": "Tarihi Yazan",
+    "title2": "Kadınlar",
+    "subtitle": "Dünyayı değiştiren kadınların ilham veren hikâyelerini keşfet",
+    "scrollPrompt": "Keşfetmek için kaydır"
+  },
+  "intro": {
+    "title": "Her Hikâyenin Arkasında",
+    "description": "Tarih boyunca kadınlar bilimde, sanatta, siyasette, sporda ve iş dünyasında çığır açtı. Bu interaktif deneyimde, dünyayı değiştiren kadınların hikâyelerini keşfedeceksiniz.",
+    "counterWomen": "İlham Veren Kadın",
+    "counterCategories": "Kategori",
+    "counterCountries": "Ülke"
+  },
+  "timeline": {
+    "title": "Zamanı Akanlar",
+    "subtitle": "1800'lerden günümüze, kadınların tarih sahnesindeki yolculuğu"
+  },
+  "constellation": {
+    "title": "Kategoriler",
+    "subtitle": "Her alanda öncü kadınları keşfet"
+  },
+  "stories": {
+    "title": "Hikâyeler",
+    "subtitle": "Dünyayı değiştiren kadınların ilham veren yaşam öyküleri",
+    "readMore": "Devamını Oku",
+    "readLess": "Kapat"
+  },
+  "worldmap": {
+    "title": "Dünyanın Dört Bir Yanından",
+    "subtitle": "Her kıtadan ilham veren kadınlar"
+  },
+  "statistics": {
+    "title": "Rakamlarla",
+    "subtitle": "Kadınların ilerlemesi sayılarla",
+    "nobelTitle": "Nobel Ödüllü Kadınlar",
+    "parliamentTitle": "Mecliste Kadın Temsili",
+    "nobelCount": "Nobel Ödüllü Kadın",
+    "parliamentPercent": "Meclis Temsil Oranı",
+    "ceoCounting": "Fortune 500 Kadın CEO",
+    "year": "Yıl",
+    "count": "Sayı",
+    "percentage": "Oran (%)"
+  },
+  "quotes": {
+    "title": "Sözleri",
+    "subtitle": "Tarihi değiştiren kadınların ilham veren sözleri"
+  },
+  "today": {
+    "title": "Bugün ve Yarın",
+    "subtitle": "Günümüzde değişimi yönlendiren kadınlar"
+  },
+  "footer": {
+    "title": "8 Mart Dünya Kadınlar Günü",
+    "message": "Her kadının hikâyesi, gelecek nesillere ilham verir.",
+    "credits": "Sevgiyle tasarlandı • 2026"
+  },
+  "common": {
+    "born": "Doğum",
+    "died": "Ölüm",
+    "nationality": "Uyruk",
+    "category": "Kategori",
+    "achievements": "Başarılar",
+    "quote": "Söz"
+  }
+}

@@ -1,0 +1,132 @@
+/* ─── Mobile & Tablet Nav (< 768px) ─── */
+@media (max-width: 767px) {
+  .nav__links {
+    display: none !important;
+  }
+
+  .nav__menu-btn {
+    display: block !important;
+  }
+
+  .nav__dots {
+    display: none;
+  }
+}
+
+/* ─── Desktop Nav (>= 768px) ─── */
+@media (min-width: 768px) {
+  .nav__menu-btn {
+    display: none !important;
+  }
+
+  .nav__mobile-menu {
+    display: none !important;
+  }
+}
+
+/* ─── Mobile Adjustments (< 640px) ─── */
+@media (max-width: 639px) {
+  .hide-mobile {
+    display: none !important;
+  }
+
+  .section {
+    padding: var(--space-lg) 0;
+  }
+
+  .section__header {
+    margin-bottom: var(--space-md);
+  }
+
+  .story-card__illustration {
+    max-width: 100%;
+    aspect-ratio: 4/3;
+  }
+
+  /* Intro counters: stack on mobile */
+  .intro__counters {
+    grid-template-columns: 1fr !important;
+    max-width: 20rem !important;
+  }
+
+  /* Statistics grid */
+  .statistics__chart {
+    min-height: auto;
+  }
+
+  /* Hero adjustments */
+  .hero__symbol-wrapper {
+    transform: scale(0.8);
+  }
+
+  .hero__botanical {
+    display: none;
+  }
+
+  .hero__particle {
+    display: none;
+  }
+}
+
+/* ─── Tablet (640px - 767px) ─── */
+@media (min-width: 640px) and (max-width: 767px) {
+  .hide-tablet {
+    display: none !important;
+  }
+
+  /* Intro counters: 2 columns on tablet */
+  .intro__counters {
+    grid-template-columns: repeat(2, 1fr) !important;
+  }
+}
+
+/* ─── Desktop (>= 1024px) ─── */
+@media (min-width: 1024px) {
+  .hide-desktop {
+    display: none !important;
+  }
+
+  .show-desktop {
+    display: block !important;
+  }
+}
+
+/* ─── Large Desktop (>= 1280px) ─── */
+@media (min-width: 1280px) {
+  .container {
+    padding: 0 var(--space-lg);
+  }
+}
+
+/* ─── Touch Device Optimizations ─── */
+@media (hover: none) and (pointer: coarse) {
+  .woman-card:hover {
+    transform: none;
+    box-shadow: var(--shadow-card);
+  }
+
+  .woman-card:active {
+    transform: scale(0.98);
+  }
+
+  .tooltip {
+    display: none;
+  }
+}
+
+/* ─── Reduced Motion ─── */
+@media (prefers-reduced-motion: reduce) {
+  .hero__particle,
+  .hero__botanical,
+  .hero__symbol-ring {
+    display: none;
+  }
+
+  .hero-symbol {
+    animation: none;
+  }
+
+  .hero__scroll-dot {
+    animation: none;
+  }
+}

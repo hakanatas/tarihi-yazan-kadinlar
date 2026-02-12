@@ -1,0 +1,152 @@
+/* ─── Global Layout ─── */
+body {
+  background-color: var(--color-cream);
+  overflow-x: hidden;
+}
+
+.container {
+  width: 100%;
+  max-width: var(--content-max-width);
+  margin: 0 auto;
+  padding: 0 var(--space-sm);
+}
+
+@media (min-width: 768px) {
+  .container {
+    padding: 0 var(--space-md);
+  }
+}
+
+.text-container {
+  max-width: var(--text-max-width);
+  margin: 0 auto;
+}
+
+/* ─── Sections ─── */
+.section {
+  position: relative;
+  padding: var(--section-padding) 0;
+  overflow: hidden;
+}
+
+.section--dark {
+  background-color: var(--color-ink);
+  color: var(--color-cream);
+}
+
+.section--dark h1,
+.section--dark h2,
+.section--dark h3,
+.section--dark h4 {
+  color: var(--color-cream);
+}
+
+.section--warm {
+  background-color: var(--color-cream-warm);
+}
+
+.section--full-height {
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.section__header {
+  text-align: center;
+  margin-bottom: var(--space-lg);
+}
+
+.section__title {
+  font-size: var(--text-h1);
+  margin-bottom: var(--space-sm);
+}
+
+.section__subtitle {
+  font-size: var(--text-body-lg);
+  color: var(--color-charcoal-light);
+  max-width: 36rem;
+  margin: 0 auto;
+}
+
+.section--dark .section__subtitle {
+  color: var(--color-gold-light);
+}
+
+/* ─── Visual Dividers ─── */
+.divider {
+  width: 100%;
+  padding: var(--space-md) 0;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  overflow: hidden;
+}
+
+.divider__illustration {
+  width: 100%;
+  max-width: 50rem;
+  height: auto;
+  opacity: 0.7;
+}
+
+/* ─── Grid Layouts ─── */
+.grid {
+  display: grid;
+  gap: var(--space-md);
+}
+
+.grid--2 {
+  grid-template-columns: 1fr;
+}
+
+.grid--3 {
+  grid-template-columns: 1fr;
+}
+
+@media (min-width: 768px) {
+  .grid--2 {
+    grid-template-columns: repeat(2, 1fr);
+  }
+
+  .grid--3 {
+    grid-template-columns: repeat(2, 1fr);
+  }
+}
+
+@media (min-width: 1024px) {
+  .grid--3 {
+    grid-template-columns: repeat(3, 1fr);
+  }
+}
+
+/* ─── Flex Utilities ─── */
+.flex {
+  display: flex;
+}
+
+.flex-center {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.flex-between {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.flex-col {
+  flex-direction: column;
+}
+
+.flex-wrap {
+  flex-wrap: wrap;
+}
+
+.gap-xs { gap: var(--space-xs); }
+.gap-sm { gap: var(--space-sm); }
+.gap-md { gap: var(--space-md); }
+.gap-lg { gap: var(--space-lg); }

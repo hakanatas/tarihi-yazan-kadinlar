@@ -1,0 +1,525 @@
+<!DOCTYPE html>
+<html lang="tr" dir="ltr">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Tarihi Yazan Kadınlar | Women Who Made History</title>
+  <meta name="description" content="Dünyayı değiştiren kadınların hikâyelerini keşfet. 8 Mart Dünya Kadınlar Günü'ne özel interaktif deneyim." />
+
+  <!-- Open Graph -->
+  <meta property="og:title" content="Tarihi Yazan Kadınlar" />
+  <meta property="og:description" content="Dünyayı değiştiren kadınların hikâyelerini keşfet." />
+  <meta property="og:type" content="website" />
+  <meta property="og:locale" content="tr_TR" />
+  <meta property="og:locale:alternate" content="en_US" />
+
+  <!-- Twitter Card -->
+  <meta name="twitter:card" content="summary_large_image" />
+  <meta name="twitter:title" content="Tarihi Yazan Kadınlar" />
+
+  <!-- Preconnect to Google Fonts -->
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+
+  <!-- JSON-LD Structured Data -->
+  <script type="application/ld+json">
+  {
+    "@context": "https://schema.org",
+    "@type": "WebPage",
+    "name": "Tarihi Yazan Kadınlar - Women Who Made History",
+    "description": "An interactive exploration of women who changed the world. 8 Mart Dünya Kadınlar Günü.",
+    "inLanguage": ["tr", "en"],
+    "datePublished": "2026-03-08",
+    "keywords": ["women's day", "kadınlar günü", "women in history", "interactive", "data visualization"]
+  }
+  </script>
+
+  <link rel="stylesheet" href="/src/style.css" />
+</head>
+<body>
+  <!-- Progress Bar -->
+  <div class="progress-bar" id="progressBar"></div>
+
+  <!-- Navigation -->
+  <nav class="nav" id="mainNav">
+    <div class="nav__inner container flex-between">
+      <a href="#hero" class="nav__logo">
+        <span class="nav__logo-symbol">♀</span>
+        <span class="nav__logo-text" data-i18n="site.shortTitle">Tarihi Yazan Kadınlar</span>
+      </a>
+
+      <div class="nav__links hide-mobile">
+        <a href="#timeline" class="nav__link" data-i18n="nav.timeline">Zaman Çizgisi</a>
+        <a href="#constellation" class="nav__link" data-i18n="nav.categories">Kategoriler</a>
+        <a href="#stories" class="nav__link" data-i18n="nav.stories">Hikâyeler</a>
+        <a href="#worldmap" class="nav__link" data-i18n="nav.map">Dünya Haritası</a>
+        <a href="#statistics" class="nav__link" data-i18n="nav.numbers">Rakamlarla</a>
+        <a href="#quotes" class="nav__link" data-i18n="nav.voices">Sözleri</a>
+      </div>
+
+      <div class="nav__actions flex gap-sm">
+        <button class="lang-toggle" id="langToggle" aria-label="Dil değiştir">
+          <span class="lang-toggle__option lang-toggle__option--active" data-lang="tr">TR</span>
+          <span class="lang-toggle__separator">|</span>
+          <span class="lang-toggle__option" data-lang="en">EN</span>
+        </button>
+        <button class="nav__menu-btn hide-desktop" id="menuBtn" aria-label="Menü">
+          <svg width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+            <line x1="3" y1="6" x2="21" y2="6"/>
+            <line x1="3" y1="12" x2="21" y2="12"/>
+            <line x1="3" y1="18" x2="21" y2="18"/>
+          </svg>
+        </button>
+      </div>
+    </div>
+
+    <!-- Mobile Menu -->
+    <div class="nav__mobile-menu" id="mobileMenu">
+      <a href="#timeline" class="nav__mobile-link" data-i18n="nav.timeline">Zaman Çizgisi</a>
+      <a href="#constellation" class="nav__mobile-link" data-i18n="nav.categories">Kategoriler</a>
+      <a href="#stories" class="nav__mobile-link" data-i18n="nav.stories">Hikâyeler</a>
+      <a href="#worldmap" class="nav__mobile-link" data-i18n="nav.map">Dünya Haritası</a>
+      <a href="#statistics" class="nav__mobile-link" data-i18n="nav.numbers">Rakamlarla</a>
+      <a href="#quotes" class="nav__mobile-link" data-i18n="nav.voices">Sözleri</a>
+    </div>
+  </nav>
+
+  <!-- Section Navigation Dots (Desktop only) -->
+  <div class="nav__dots hide-mobile" id="navDots">
+    <a href="#hero" class="nav__dot is-active" data-section="hero" aria-label="Hero"></a>
+    <a href="#intro" class="nav__dot" data-section="intro" aria-label="Giriş"></a>
+    <a href="#timeline" class="nav__dot" data-section="timeline" aria-label="Zaman Çizgisi"></a>
+    <a href="#constellation" class="nav__dot" data-section="constellation" aria-label="Kategoriler"></a>
+    <a href="#stories" class="nav__dot" data-section="stories" aria-label="Hikâyeler"></a>
+    <a href="#worldmap" class="nav__dot" data-section="worldmap" aria-label="Harita"></a>
+    <a href="#statistics" class="nav__dot" data-section="statistics" aria-label="Rakamlar"></a>
+    <a href="#quotes" class="nav__dot" data-section="quotes" aria-label="Sözler"></a>
+  </div>
+
+  <!-- ═══════════════════════════════════════════ -->
+  <!-- HERO SECTION -->
+  <!-- ═══════════════════════════════════════════ -->
+  <section id="hero" class="section section--dark section--full-height hero">
+    <!-- Background gradient overlay -->
+    <div class="hero__bg-gradient" aria-hidden="true"></div>
+
+    <div class="hero__floating-elements" aria-hidden="true">
+      <!-- Tulip (Lale) -->
+      <svg class="hero__botanical float float--slow float--delay-1" width="120" height="180" viewBox="0 0 120 180" style="position:absolute;top:8%;left:4%;opacity:0;">
+        <path d="M60 70 C40 50 25 30 35 10 C45 -5 55 -5 60 5 C65 -5 75 -5 85 10 C95 30 80 50 60 70Z" fill="var(--color-burgundy)" opacity="0.25"/>
+        <path d="M60 70 C50 55 40 35 48 15 C52 5 58 5 60 12 C62 5 68 5 72 15 C80 35 70 55 60 70Z" fill="var(--color-burgundy-light)" opacity="0.2"/>
+        <line x1="60" y1="70" x2="60" y2="170" stroke="var(--color-sage)" stroke-width="2" opacity="0.3"/>
+        <path d="M60 110 C45 100 35 95 30 100" fill="none" stroke="var(--color-sage)" stroke-width="1.5" opacity="0.25"/>
+        <path d="M60 130 C75 120 85 115 90 120" fill="none" stroke="var(--color-sage)" stroke-width="1.5" opacity="0.25"/>
+      </svg>
+      <!-- Lavender -->
+      <svg class="hero__botanical float float--delay-2" width="100" height="160" viewBox="0 0 100 160" style="position:absolute;top:15%;right:6%;opacity:0;">
+        <line x1="50" y1="60" x2="50" y2="155" stroke="var(--color-sage)" stroke-width="1.5" opacity="0.3"/>
+        <ellipse cx="50" cy="55" rx="6" ry="10" fill="var(--color-burgundy-light)" opacity="0.2" transform="rotate(-15 50 55)"/>
+        <ellipse cx="50" cy="40" rx="5" ry="9" fill="var(--color-burgundy-light)" opacity="0.22" transform="rotate(10 50 40)"/>
+        <ellipse cx="50" cy="28" rx="5" ry="8" fill="var(--color-burgundy)" opacity="0.2" transform="rotate(-8 50 28)"/>
+        <ellipse cx="50" cy="17" rx="4" ry="7" fill="var(--color-burgundy)" opacity="0.18"/>
+        <ellipse cx="43" cy="48" rx="5" ry="8" fill="var(--color-burgundy-light)" opacity="0.18" transform="rotate(-20 43 48)"/>
+        <ellipse cx="57" cy="45" rx="5" ry="8" fill="var(--color-burgundy-light)" opacity="0.18" transform="rotate(20 57 45)"/>
+      </svg>
+      <!-- Olive Branch (Zeytin Dalı) -->
+      <svg class="hero__botanical float float--fast float--delay-3" width="140" height="80" viewBox="0 0 140 80" style="position:absolute;bottom:18%;left:8%;opacity:0;">
+        <path d="M10 50 Q40 30 70 40 Q100 50 130 35" fill="none" stroke="var(--color-sage)" stroke-width="2" opacity="0.3"/>
+        <ellipse cx="30" cy="38" rx="10" ry="6" fill="var(--color-sage)" opacity="0.2" transform="rotate(-20 30 38)"/>
+        <ellipse cx="55" cy="36" rx="10" ry="6" fill="var(--color-sage-light)" opacity="0.2" transform="rotate(-10 55 36)"/>
+        <ellipse cx="80" cy="42" rx="10" ry="6" fill="var(--color-sage)" opacity="0.2" transform="rotate(5 80 42)"/>
+        <ellipse cx="105" cy="38" rx="10" ry="6" fill="var(--color-sage-light)" opacity="0.2" transform="rotate(-15 105 38)"/>
+      </svg>
+      <!-- Rose -->
+      <svg class="hero__botanical float float--slow float--delay-1" width="80" height="120" viewBox="0 0 80 120" style="position:absolute;bottom:25%;right:10%;opacity:0;">
+        <circle cx="40" cy="30" r="18" fill="var(--color-gold)" opacity="0.12"/>
+        <circle cx="40" cy="30" r="12" fill="var(--color-gold-light)" opacity="0.15"/>
+        <circle cx="40" cy="30" r="6" fill="var(--color-gold)" opacity="0.2"/>
+        <line x1="40" y1="48" x2="40" y2="110" stroke="var(--color-sage)" stroke-width="1.5" opacity="0.25"/>
+        <path d="M40 70 C30 60 20 58 18 62" fill="none" stroke="var(--color-sage)" stroke-width="1" opacity="0.2"/>
+      </svg>
+      <!-- Small floating circle -->
+      <svg class="hero__botanical float float--delay-2" width="40" height="40" viewBox="0 0 40 40" style="position:absolute;top:60%;left:20%;opacity:0;">
+        <circle cx="20" cy="20" r="15" fill="none" stroke="var(--color-gold)" stroke-width="1" opacity="0.2"/>
+        <circle cx="20" cy="20" r="4" fill="var(--color-gold)" opacity="0.15"/>
+      </svg>
+    </div>
+
+    <div class="hero__content container flex-center flex-col" style="text-align:center;position:relative;z-index:2;">
+      <!-- Venus / "8" Symbol -->
+      <div class="hero__symbol-wrapper" style="position:relative;">
+        <!-- Decorative ring -->
+        <svg class="hero__symbol-ring" width="260" height="260" viewBox="0 0 260 260" style="position:absolute;top:50%;left:50%;transform:translate(-50%,-50%);opacity:0;" aria-hidden="true">
+          <circle cx="130" cy="130" r="120" fill="none" stroke="var(--color-gold)" stroke-width="0.5" opacity="0.3" stroke-dasharray="8 6"/>
+          <circle cx="130" cy="130" r="110" fill="none" stroke="var(--color-burgundy-light)" stroke-width="0.5" opacity="0.15" stroke-dasharray="4 8"/>
+        </svg>
+        <!-- Main Venus symbol -->
+        <svg class="hero-symbol" width="180" height="260" viewBox="0 0 180 260" aria-hidden="true">
+          <defs>
+            <radialGradient id="symbolGlow" cx="50%" cy="35%" r="50%">
+              <stop offset="0%" stop-color="var(--color-burgundy-light)" stop-opacity="0.15"/>
+              <stop offset="100%" stop-color="var(--color-burgundy)" stop-opacity="0"/>
+            </radialGradient>
+            <linearGradient id="goldGrad" x1="0%" y1="0%" x2="100%" y2="100%">
+              <stop offset="0%" stop-color="var(--color-gold-light)"/>
+              <stop offset="50%" stop-color="var(--color-gold)"/>
+              <stop offset="100%" stop-color="var(--color-gold-dark)"/>
+            </linearGradient>
+          </defs>
+          <!-- Inner glow -->
+          <circle cx="90" cy="90" r="70" fill="url(#symbolGlow)"/>
+          <!-- Venus circle - outer -->
+          <circle cx="90" cy="90" r="65" fill="none" stroke="url(#goldGrad)" stroke-width="2.5" opacity="0.9"/>
+          <!-- Venus circle - inner decorative -->
+          <circle cx="90" cy="90" r="58" fill="none" stroke="var(--color-gold-light)" stroke-width="0.5" opacity="0.3"/>
+          <!-- Cross -->
+          <line x1="90" y1="155" x2="90" y2="235" stroke="url(#goldGrad)" stroke-width="2.5" stroke-linecap="round" opacity="0.9"/>
+          <line x1="58" y1="192" x2="122" y2="192" stroke="url(#goldGrad)" stroke-width="2.5" stroke-linecap="round" opacity="0.9"/>
+          <!-- "8 MART" text -->
+          <text x="90" y="82" text-anchor="middle" dominant-baseline="middle" fill="var(--color-cream)" font-family="'Playfair Display', serif" font-size="48" font-weight="800" opacity="0.9">8</text>
+          <text x="90" y="116" text-anchor="middle" dominant-baseline="middle" fill="var(--color-gold-light)" font-family="'Inter', sans-serif" font-size="14" font-weight="700" letter-spacing="0.3em" opacity="0.7">MART</text>
+          <!-- Small decorative dots at compass points -->
+          <circle cx="90" cy="22" r="2" fill="var(--color-gold)" opacity="0.5"/>
+          <circle cx="158" cy="90" r="2" fill="var(--color-gold)" opacity="0.5"/>
+          <circle cx="22" cy="90" r="2" fill="var(--color-gold)" opacity="0.5"/>
+        </svg>
+      </div>
+
+      <h1 class="text-hero hero__title" style="color:var(--color-cream);margin-top:var(--space-md);">
+        <span class="hero__title-line" data-i18n="hero.title1">Tarihi Yazan</span><br/>
+        <span class="hero__title-line hero__title-line--accent" style="color:var(--color-gold);" data-i18n="hero.title2">Kadınlar</span>
+      </h1>
+
+      <p class="text-body-lg hero__subtitle" style="color:var(--color-gold-light);max-width:32rem;margin-top:var(--space-sm);" data-i18n="hero.subtitle">
+        Dünyayı değiştiren kadınların ilham veren hikâyelerini keşfet
+      </p>
+
+      <p class="text-handwritten hero__date" style="color:var(--color-sage-light);font-size:1.5rem;margin-top:var(--space-md);">
+        8 Mart • Dünya Kadınlar Günü
+      </p>
+    </div>
+
+    <!-- Scroll Prompt -->
+    <div class="hero__scroll-prompt" style="position:absolute;bottom:var(--space-md);left:50%;transform:translateX(-50%);text-align:center;opacity:0;">
+      <svg width="24" height="36" viewBox="0 0 24 36" fill="none" aria-hidden="true" style="margin:0 auto;">
+        <rect x="1" y="1" width="22" height="34" rx="11" stroke="var(--color-gold-light)" stroke-width="1.5" opacity="0.5"/>
+        <circle class="hero__scroll-dot" cx="12" cy="10" r="3" fill="var(--color-gold-light)" opacity="0.8"/>
+      </svg>
+      <span class="text-small" style="color:var(--color-gold-light);display:block;margin-top:0.5rem;opacity:0.7;" data-i18n="hero.scrollPrompt">Keşfetmek için kaydır</span>
+    </div>
+  </section>
+
+  <!-- ═══════════════════════════════════════════ -->
+  <!-- INTRO SECTION -->
+  <!-- ═══════════════════════════════════════════ -->
+  <section id="intro" class="section section--warm">
+    <div class="container" style="text-align:center;">
+      <div class="text-container" style="margin:0 auto;">
+        <h2 class="text-h1 reveal section__title" data-i18n="intro.title">Her Hikâyenin Arkasında</h2>
+        <p class="text-body-lg reveal stagger-1" style="margin-top:var(--space-sm);color:var(--color-charcoal-light);" data-i18n="intro.description">
+          Tarih boyunca kadınlar bilimde, sanatta, siyasette, sporda ve iş dünyasında çığır açtı.
+          Bu interaktif deneyimde, dünyayı değiştiren kadınların hikâyelerini keşfedeceksiniz.
+        </p>
+      </div>
+
+      <!-- Animated Counters -->
+      <div class="intro__counters" style="margin-top:var(--space-lg);display:grid;grid-template-columns:repeat(3,1fr);gap:var(--space-md);max-width:48rem;margin-left:auto;margin-right:auto;">
+        <div class="intro__counter reveal stagger-2" style="padding:var(--space-md);background:var(--color-white);border-radius:var(--radius-lg);box-shadow:var(--shadow-card);">
+          <div style="width:48px;height:48px;margin:0 auto var(--space-sm);border-radius:50%;background:linear-gradient(135deg, var(--color-burgundy), var(--color-burgundy-light));display:flex;align-items:center;justify-content:center;">
+            <svg width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="white" stroke-width="2" stroke-linecap="round"><path d="M17 21v-2a4 4 0 0 0-4-4H5a4 4 0 0 0-4 4v2"/><circle cx="9" cy="7" r="4"/><path d="M23 21v-2a4 4 0 0 0-3-3.87"/><path d="M16 3.13a4 4 0 0 1 0 7.75"/></svg>
+          </div>
+          <span class="text-counter" data-count="55" id="counterWomen">0</span>
+          <span class="text-body" style="display:block;color:var(--color-charcoal-light);margin-top:0.25rem;" data-i18n="intro.counterWomen">İlham Veren Kadın</span>
+        </div>
+        <div class="intro__counter reveal stagger-3" style="padding:var(--space-md);background:var(--color-white);border-radius:var(--radius-lg);box-shadow:var(--shadow-card);">
+          <div style="width:48px;height:48px;margin:0 auto var(--space-sm);border-radius:50%;background:linear-gradient(135deg, var(--color-gold-dark), var(--color-gold));display:flex;align-items:center;justify-content:center;">
+            <svg width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="white" stroke-width="2" stroke-linecap="round"><rect x="3" y="3" width="7" height="7"/><rect x="14" y="3" width="7" height="7"/><rect x="3" y="14" width="7" height="7"/><rect x="14" y="14" width="7" height="7"/></svg>
+          </div>
+          <span class="text-counter" data-count="5" id="counterCategories">0</span>
+          <span class="text-body" style="display:block;color:var(--color-charcoal-light);margin-top:0.25rem;" data-i18n="intro.counterCategories">Kategori</span>
+        </div>
+        <div class="intro__counter reveal stagger-4" style="padding:var(--space-md);background:var(--color-white);border-radius:var(--radius-lg);box-shadow:var(--shadow-card);">
+          <div style="width:48px;height:48px;margin:0 auto var(--space-sm);border-radius:50%;background:linear-gradient(135deg, var(--color-sage-dark), var(--color-sage));display:flex;align-items:center;justify-content:center;">
+            <svg width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="white" stroke-width="2" stroke-linecap="round"><circle cx="12" cy="12" r="10"/><line x1="2" y1="12" x2="22" y2="12"/><path d="M12 2a15.3 15.3 0 0 1 4 10 15.3 15.3 0 0 1-4 10 15.3 15.3 0 0 1-4-10 15.3 15.3 0 0 1 4-10z"/></svg>
+          </div>
+          <span class="text-counter" data-count="30" id="counterCountries">0</span>
+          <span class="text-body" style="display:block;color:var(--color-charcoal-light);margin-top:0.25rem;" data-i18n="intro.counterCountries">Ülke</span>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- DIVIDER -->
+  <div class="divider" aria-hidden="true">
+    <svg class="divider__illustration" viewBox="0 0 800 60" preserveAspectRatio="xMidYMid meet">
+      <path d="M0 30 Q100 10 200 30 T400 30 T600 30 T800 30" fill="none" stroke="var(--color-sage)" stroke-width="1.5" opacity="0.4"/>
+      <circle cx="200" cy="28" r="4" fill="var(--color-burgundy)" opacity="0.3"/>
+      <circle cx="400" cy="30" r="6" fill="var(--color-gold)" opacity="0.3"/>
+      <circle cx="600" cy="28" r="4" fill="var(--color-sage)" opacity="0.3"/>
+      <!-- Leaf shapes -->
+      <path d="M380 20 Q390 10 400 20 Q390 15 380 20Z" fill="var(--color-sage)" opacity="0.3"/>
+      <path d="M400 20 Q410 10 420 20 Q410 15 400 20Z" fill="var(--color-sage)" opacity="0.3"/>
+    </svg>
+  </div>
+
+  <!-- ═══════════════════════════════════════════ -->
+  <!-- TIMELINE SECTION -->
+  <!-- ═══════════════════════════════════════════ -->
+  <section id="timeline" class="section">
+    <div class="container">
+      <div class="section__header reveal">
+        <h2 class="section__title" data-i18n="timeline.title">Zamanı Akanlar</h2>
+        <p class="section__subtitle" data-i18n="timeline.subtitle">1800'lerden günümüze, kadınların tarih sahnesindeki yolculuğu</p>
+      </div>
+      <div id="timelineViz" class="timeline__viz" role="img" aria-label="Interactive timeline visualization">
+        <div class="loader"><div class="loader__spinner"></div></div>
+      </div>
+    </div>
+  </section>
+
+  <!-- DIVIDER -->
+  <div class="divider" aria-hidden="true">
+    <svg class="divider__illustration" viewBox="0 0 800 60" preserveAspectRatio="xMidYMid meet">
+      <path d="M0 30 Q150 5 300 30 T600 30 T800 25" fill="none" stroke="var(--color-gold)" stroke-width="1" opacity="0.3"/>
+      <path d="M0 35 Q200 55 400 35 T800 35" fill="none" stroke="var(--color-burgundy)" stroke-width="1" opacity="0.2"/>
+      <path d="M350 15 Q365 5 380 15 Q365 10 350 15Z" fill="var(--color-burgundy)" opacity="0.2"/>
+      <path d="M420 15 Q435 5 450 15 Q435 10 420 15Z" fill="var(--color-burgundy)" opacity="0.2"/>
+    </svg>
+  </div>
+
+  <!-- ═══════════════════════════════════════════ -->
+  <!-- CONSTELLATION SECTION -->
+  <!-- ═══════════════════════════════════════════ -->
+  <section id="constellation" class="section section--warm">
+    <div class="container">
+      <div class="section__header reveal">
+        <h2 class="section__title" data-i18n="constellation.title">Kategoriler</h2>
+        <p class="section__subtitle" data-i18n="constellation.subtitle">Her alanda öncü kadınları keşfet</p>
+      </div>
+      <!-- Category Filters -->
+      <div class="category-filters" id="constellationFilters">
+        <button class="category-filter is-active" data-category="all" data-i18n="categories.all">Tümü</button>
+        <button class="category-filter" data-category="science" data-i18n="categories.science">Bilim</button>
+        <button class="category-filter" data-category="arts" data-i18n="categories.arts">Sanat</button>
+        <button class="category-filter" data-category="politics" data-i18n="categories.politics">Siyaset</button>
+        <button class="category-filter" data-category="sports" data-i18n="categories.sports">Spor</button>
+        <button class="category-filter" data-category="business" data-i18n="categories.business">İş Dünyası</button>
+      </div>
+      <div id="constellationViz" class="constellation__viz" role="img" aria-label="Category constellation visualization">
+        <div class="loader"><div class="loader__spinner"></div></div>
+      </div>
+    </div>
+  </section>
+
+  <!-- DIVIDER -->
+  <div class="divider" aria-hidden="true">
+    <svg class="divider__illustration" viewBox="0 0 800 60" preserveAspectRatio="xMidYMid meet">
+      <path d="M0 30 Q100 15 200 30 Q300 45 400 30 Q500 15 600 30 Q700 45 800 30" fill="none" stroke="var(--color-sage)" stroke-width="1.5" opacity="0.3"/>
+      <circle cx="300" cy="30" r="3" fill="var(--color-gold)" opacity="0.4"/>
+      <circle cx="500" cy="30" r="5" fill="var(--color-burgundy)" opacity="0.3"/>
+    </svg>
+  </div>
+
+  <!-- ═══════════════════════════════════════════ -->
+  <!-- STORIES SECTION -->
+  <!-- ═══════════════════════════════════════════ -->
+  <section id="stories" class="section">
+    <div class="container">
+      <div class="section__header reveal">
+        <h2 class="section__title" data-i18n="stories.title">Hikâyeler</h2>
+        <p class="section__subtitle" data-i18n="stories.subtitle">Dünyayı değiştiren kadınların ilham veren yaşam öyküleri</p>
+      </div>
+
+      <!-- Science Stories -->
+      <div class="stories__category" id="storiesScience">
+        <h3 class="text-h2 reveal" style="color:var(--cat-science);margin-bottom:var(--space-md);">
+          <span data-i18n="categories.science">Bilim ve Teknoloji</span>
+        </h3>
+        <div class="stories__cards" data-category="science"></div>
+      </div>
+
+      <!-- Arts Stories -->
+      <div class="stories__category" id="storiesArts" style="margin-top:var(--space-xl);">
+        <h3 class="text-h2 reveal" style="color:var(--cat-arts);margin-bottom:var(--space-md);">
+          <span data-i18n="categories.arts">Sanat ve Edebiyat</span>
+        </h3>
+        <div class="stories__cards" data-category="arts"></div>
+      </div>
+
+      <!-- Politics Stories -->
+      <div class="stories__category" id="storiesPolitics" style="margin-top:var(--space-xl);">
+        <h3 class="text-h2 reveal" style="color:var(--cat-politics);margin-bottom:var(--space-md);">
+          <span data-i18n="categories.politics">Siyaset ve Aktivizm</span>
+        </h3>
+        <div class="stories__cards" data-category="politics"></div>
+      </div>
+
+      <!-- Sports Stories -->
+      <div class="stories__category" id="storiesSports" style="margin-top:var(--space-xl);">
+        <h3 class="text-h2 reveal" style="color:var(--cat-sports);margin-bottom:var(--space-md);">
+          <span data-i18n="categories.sports">Spor</span>
+        </h3>
+        <div class="stories__cards" data-category="sports"></div>
+      </div>
+
+      <!-- Business Stories -->
+      <div class="stories__category" id="storiesBusiness" style="margin-top:var(--space-xl);">
+        <h3 class="text-h2 reveal" style="color:var(--cat-business);margin-bottom:var(--space-md);">
+          <span data-i18n="categories.business">İş Dünyası</span>
+        </h3>
+        <div class="stories__cards" data-category="business"></div>
+      </div>
+    </div>
+  </section>
+
+  <!-- DIVIDER -->
+  <div class="divider" aria-hidden="true">
+    <svg class="divider__illustration" viewBox="0 0 800 60" preserveAspectRatio="xMidYMid meet">
+      <path d="M0 30 Q200 0 400 30 T800 30" fill="none" stroke="var(--color-burgundy)" stroke-width="1" opacity="0.25"/>
+      <path d="M0 32 Q200 55 400 32 T800 32" fill="none" stroke="var(--color-gold)" stroke-width="1" opacity="0.2"/>
+    </svg>
+  </div>
+
+  <!-- ═══════════════════════════════════════════ -->
+  <!-- WORLD MAP SECTION -->
+  <!-- ═══════════════════════════════════════════ -->
+  <section id="worldmap" class="section section--warm">
+    <div class="container">
+      <div class="section__header reveal">
+        <h2 class="section__title" data-i18n="worldmap.title">Dünyanın Dört Bir Yanından</h2>
+        <p class="section__subtitle" data-i18n="worldmap.subtitle">Her kıtadan ilham veren kadınlar</p>
+      </div>
+      <div class="category-filters" id="mapFilters">
+        <button class="category-filter is-active" data-category="all" data-i18n="categories.all">Tümü</button>
+        <button class="category-filter" data-category="science" data-i18n="categories.science">Bilim</button>
+        <button class="category-filter" data-category="arts" data-i18n="categories.arts">Sanat</button>
+        <button class="category-filter" data-category="politics" data-i18n="categories.politics">Siyaset</button>
+        <button class="category-filter" data-category="sports" data-i18n="categories.sports">Spor</button>
+        <button class="category-filter" data-category="business" data-i18n="categories.business">İş Dünyası</button>
+      </div>
+      <div id="worldmapViz" class="worldmap__viz" role="img" aria-label="World map visualization">
+        <div class="loader"><div class="loader__spinner"></div></div>
+      </div>
+    </div>
+  </section>
+
+  <!-- DIVIDER -->
+  <div class="divider" aria-hidden="true">
+    <svg class="divider__illustration" viewBox="0 0 800 60" preserveAspectRatio="xMidYMid meet">
+      <path d="M0 30 Q100 10 200 25 Q300 40 400 30 Q500 20 600 35 Q700 45 800 30" fill="none" stroke="var(--color-sage)" stroke-width="1.5" opacity="0.35"/>
+    </svg>
+  </div>
+
+  <!-- ═══════════════════════════════════════════ -->
+  <!-- STATISTICS SECTION -->
+  <!-- ═══════════════════════════════════════════ -->
+  <section id="statistics" class="section">
+    <div class="container">
+      <div class="section__header reveal">
+        <h2 class="section__title" data-i18n="statistics.title">Rakamlarla</h2>
+        <p class="section__subtitle" data-i18n="statistics.subtitle">Kadınların ilerlemesi sayılarla</p>
+      </div>
+
+      <div class="grid grid--2" style="margin-top:var(--space-lg);">
+        <div class="statistics__chart reveal" id="nobelChart">
+          <h3 class="text-h3" data-i18n="statistics.nobelTitle">Nobel Ödüllü Kadınlar</h3>
+          <div class="statistics__chart-container"></div>
+        </div>
+        <div class="statistics__chart reveal stagger-1" id="parliamentChart">
+          <h3 class="text-h3" data-i18n="statistics.parliamentTitle">Mecliste Kadın Temsili</h3>
+          <div class="statistics__chart-container"></div>
+        </div>
+      </div>
+
+      <div class="grid grid--3" style="margin-top:var(--space-lg);">
+        <div class="statistics__stat reveal stagger-2" style="text-align:center;">
+          <span class="text-counter" data-count="64" id="statNobel">0</span>
+          <span class="text-body" style="display:block;" data-i18n="statistics.nobelCount">Nobel Ödüllü Kadın</span>
+        </div>
+        <div class="statistics__stat reveal stagger-3" style="text-align:center;">
+          <span class="text-counter" data-count="27" id="statLeaders">0</span><span class="text-counter">%</span>
+          <span class="text-body" style="display:block;" data-i18n="statistics.parliamentPercent">Meclis Temsil Oranı</span>
+        </div>
+        <div class="statistics__stat reveal stagger-4" style="text-align:center;">
+          <span class="text-counter" data-count="40" id="statCEO">0</span><span class="text-counter">+</span>
+          <span class="text-body" style="display:block;" data-i18n="statistics.ceoCounting">Fortune 500 Kadın CEO</span>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- DIVIDER -->
+  <div class="divider" aria-hidden="true">
+    <svg class="divider__illustration" viewBox="0 0 800 60" preserveAspectRatio="xMidYMid meet">
+      <path d="M0 30 Q200 10 400 30 T800 30" fill="none" stroke="var(--color-gold)" stroke-width="1.5" opacity="0.3"/>
+    </svg>
+  </div>
+
+  <!-- ═══════════════════════════════════════════ -->
+  <!-- QUOTES SECTION -->
+  <!-- ═══════════════════════════════════════════ -->
+  <section id="quotes" class="section section--dark">
+    <div class="container">
+      <div class="section__header reveal">
+        <h2 class="section__title" style="color:var(--color-cream);" data-i18n="quotes.title">Sözleri</h2>
+        <p class="section__subtitle" data-i18n="quotes.subtitle">Tarihi değiştiren kadınların ilham veren sözleri</p>
+      </div>
+      <div id="quotesCarousel" class="quotes__carousel">
+        <!-- Quotes will be dynamically inserted -->
+      </div>
+    </div>
+  </section>
+
+  <!-- DIVIDER -->
+  <div class="divider" aria-hidden="true">
+    <svg class="divider__illustration" viewBox="0 0 800 60" preserveAspectRatio="xMidYMid meet">
+      <path d="M0 30 Q100 20 200 30 T400 30 T600 30 T800 30" fill="none" stroke="var(--color-sage)" stroke-width="1" opacity="0.3"/>
+    </svg>
+  </div>
+
+  <!-- ═══════════════════════════════════════════ -->
+  <!-- TODAY SECTION -->
+  <!-- ═══════════════════════════════════════════ -->
+  <section id="today" class="section section--warm">
+    <div class="container">
+      <div class="section__header reveal">
+        <h2 class="section__title" data-i18n="today.title">Bugün ve Yarın</h2>
+        <p class="section__subtitle" data-i18n="today.subtitle">Günümüzde değişimi yönlendiren kadınlar</p>
+      </div>
+      <div id="todayGrid" class="grid grid--3">
+        <!-- Contemporary women cards will be inserted -->
+      </div>
+    </div>
+  </section>
+
+  <!-- ═══════════════════════════════════════════ -->
+  <!-- FOOTER -->
+  <!-- ═══════════════════════════════════════════ -->
+  <footer class="footer section--dark" style="padding:var(--space-lg) 0 var(--space-md);">
+    <div class="container">
+      <div class="footer__content" style="text-align:center;">
+        <div class="footer__symbol" style="font-size:3rem;color:var(--color-gold);margin-bottom:var(--space-sm);">♀</div>
+        <h3 class="text-h2" style="color:var(--color-cream);margin-bottom:var(--space-xs);" data-i18n="footer.title">8 Mart Dünya Kadınlar Günü</h3>
+        <p class="text-body" style="color:var(--color-gold-light);max-width:30rem;margin:0 auto var(--space-md);" data-i18n="footer.message">
+          Her kadının hikâyesi, gelecek nesillere ilham verir.
+        </p>
+
+        <div class="footer__links flex-center gap-md" style="margin-bottom:var(--space-md);">
+          <button class="lang-toggle" onclick="window.switchLanguage && window.switchLanguage('tr')">
+            <span>Türkçe</span>
+          </button>
+          <button class="lang-toggle" onclick="window.switchLanguage && window.switchLanguage('en')">
+            <span>English</span>
+          </button>
+        </div>
+
+        <p class="text-small" style="color:var(--color-charcoal-light);" data-i18n="footer.credits">
+          Sevgiyle tasarlandı • 2026
+        </p>
+      </div>
+    </div>
+  </footer>
+
+  <script type="module" src="/src/main.js"></script>
+</body>
+</html>

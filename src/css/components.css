@@ -1,0 +1,375 @@
+/* ─── Woman Card ─── */
+.woman-card {
+  background: var(--color-white);
+  border-radius: var(--radius-lg);
+  overflow: hidden;
+  box-shadow: var(--shadow-card);
+  transition: transform var(--duration-normal) var(--ease-out),
+              box-shadow var(--duration-normal) var(--ease-out);
+  opacity: 0;
+  transform: translateY(40px);
+}
+
+.woman-card.is-visible {
+  opacity: 1;
+  transform: translateY(0);
+}
+
+.woman-card:hover {
+  transform: translateY(-4px);
+  box-shadow: var(--shadow-lg);
+}
+
+.woman-card__image-wrapper {
+  position: relative;
+  aspect-ratio: 1;
+  overflow: hidden;
+  background: var(--color-cream-warm);
+}
+
+.woman-card__image {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  transition: transform var(--duration-slow) var(--ease-out);
+}
+
+.woman-card:hover .woman-card__image {
+  transform: scale(1.05);
+}
+
+.woman-card__category-badge {
+  position: absolute;
+  top: var(--space-sm);
+  left: var(--space-sm);
+  padding: 0.25rem 0.75rem;
+  border-radius: var(--radius-full);
+  font-size: var(--text-small);
+  font-weight: 600;
+  color: var(--color-white);
+  text-transform: uppercase;
+  letter-spacing: 0.05em;
+}
+
+.woman-card__category-badge--science { background: var(--cat-science); }
+.woman-card__category-badge--arts { background: var(--cat-arts); }
+.woman-card__category-badge--politics { background: var(--cat-politics); }
+.woman-card__category-badge--sports { background: var(--cat-sports); }
+.woman-card__category-badge--business { background: var(--cat-business); }
+
+.woman-card__content {
+  padding: var(--space-sm) var(--space-md) var(--space-md);
+}
+
+.woman-card__name {
+  font-family: var(--font-display);
+  font-size: var(--text-h3);
+  font-weight: 700;
+  margin-bottom: 0.25rem;
+}
+
+.woman-card__dates {
+  font-size: var(--text-small);
+  color: var(--color-charcoal-light);
+  margin-bottom: var(--space-xs);
+}
+
+.woman-card__bio {
+  font-size: var(--text-body);
+  line-height: var(--leading-relaxed);
+  margin-bottom: var(--space-sm);
+  display: -webkit-box;
+  -webkit-line-clamp: 4;
+  -webkit-box-orient: vertical;
+  overflow: hidden;
+}
+
+.woman-card__bio.is-expanded {
+  -webkit-line-clamp: unset;
+}
+
+.woman-card__achievements {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 0.375rem;
+  margin-bottom: var(--space-sm);
+}
+
+.achievement-pill {
+  display: inline-flex;
+  padding: 0.2rem 0.625rem;
+  border-radius: var(--radius-full);
+  font-size: 0.75rem;
+  font-weight: 500;
+  background: var(--color-gold-light);
+  color: var(--color-charcoal);
+  white-space: nowrap;
+}
+
+.woman-card__quote {
+  font-family: var(--font-display);
+  font-style: italic;
+  font-size: var(--text-small);
+  color: var(--color-burgundy);
+  padding: var(--space-xs) 0;
+  border-top: 1px solid var(--color-cream-warm);
+}
+
+/* ─── Story Card (Full-Width Alternating) ─── */
+.story-card {
+  display: flex;
+  flex-direction: column;
+  gap: var(--space-md);
+  padding: var(--space-lg) 0;
+  opacity: 0;
+  transform: translateX(-60px);
+  transition: opacity var(--duration-slow) var(--ease-out),
+              transform var(--duration-slow) var(--ease-out);
+}
+
+.story-card.is-visible {
+  opacity: 1;
+  transform: translateX(0);
+}
+
+.story-card:nth-child(even) {
+  transform: translateX(60px);
+}
+
+.story-card:nth-child(even).is-visible {
+  transform: translateX(0);
+}
+
+@media (min-width: 768px) {
+  .story-card {
+    flex-direction: row;
+    align-items: center;
+  }
+
+  .story-card:nth-child(even) {
+    flex-direction: row-reverse;
+  }
+}
+
+.story-card__illustration {
+  flex: 0 0 auto;
+  width: 100%;
+  max-width: 320px;
+  aspect-ratio: 1;
+  border-radius: var(--radius-lg);
+  overflow: hidden;
+  background: var(--color-cream-warm);
+}
+
+@media (min-width: 768px) {
+  .story-card__illustration {
+    width: 40%;
+  }
+}
+
+.story-card__illustration img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
+
+.story-card__content {
+  flex: 1;
+}
+
+.story-card__name {
+  font-family: var(--font-display);
+  font-size: var(--text-h2);
+  margin-bottom: 0.5rem;
+}
+
+.story-card__meta {
+  font-size: var(--text-small);
+  color: var(--color-charcoal-light);
+  margin-bottom: var(--space-sm);
+}
+
+.story-card__text {
+  font-size: var(--text-body);
+  line-height: var(--leading-relaxed);
+  margin-bottom: var(--space-sm);
+}
+
+/* ─── Tooltip ─── */
+.tooltip {
+  position: absolute;
+  background: var(--color-white);
+  border-radius: var(--radius-md);
+  box-shadow: var(--shadow-lg);
+  padding: var(--space-sm);
+  pointer-events: none;
+  opacity: 0;
+  transform: translateY(8px);
+  transition: opacity var(--duration-fast) var(--ease-out),
+              transform var(--duration-fast) var(--ease-out);
+  z-index: var(--z-tooltip);
+  max-width: 280px;
+}
+
+.tooltip.is-visible {
+  opacity: 1;
+  transform: translateY(0);
+}
+
+.tooltip__name {
+  font-family: var(--font-display);
+  font-weight: 700;
+  font-size: var(--text-body);
+  margin-bottom: 0.25rem;
+}
+
+.tooltip__description {
+  font-size: var(--text-small);
+  line-height: var(--leading-normal);
+  color: var(--color-charcoal-light);
+}
+
+/* ─── Button ─── */
+.btn {
+  display: inline-flex;
+  align-items: center;
+  gap: 0.5rem;
+  padding: 0.75rem 1.5rem;
+  border-radius: var(--radius-full);
+  font-weight: 600;
+  font-size: var(--text-small);
+  transition: all var(--duration-fast) var(--ease-out);
+}
+
+.btn--primary {
+  background: var(--color-burgundy);
+  color: var(--color-white);
+}
+
+.btn--primary:hover {
+  background: var(--color-burgundy-dark);
+  transform: translateY(-2px);
+}
+
+.btn--outline {
+  border: 2px solid var(--color-burgundy);
+  color: var(--color-burgundy);
+}
+
+.btn--outline:hover {
+  background: var(--color-burgundy);
+  color: var(--color-white);
+}
+
+/* ─── Category Filter ─── */
+.category-filters {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  gap: 0.5rem;
+  margin-bottom: var(--space-md);
+}
+
+.category-filter {
+  padding: 0.5rem 1rem;
+  border-radius: var(--radius-full);
+  font-size: var(--text-small);
+  font-weight: 500;
+  background: var(--color-cream-warm);
+  color: var(--color-charcoal);
+  transition: all var(--duration-fast) var(--ease-out);
+  border: 2px solid transparent;
+}
+
+.category-filter:hover {
+  transform: translateY(-1px);
+}
+
+.category-filter.is-active {
+  color: var(--color-white);
+  border-color: transparent;
+}
+
+.category-filter[data-category="science"].is-active { background: var(--cat-science); }
+.category-filter[data-category="arts"].is-active { background: var(--cat-arts); }
+.category-filter[data-category="politics"].is-active { background: var(--cat-politics); }
+.category-filter[data-category="sports"].is-active { background: var(--cat-sports); }
+.category-filter[data-category="business"].is-active { background: var(--cat-business); }
+.category-filter[data-category="all"].is-active { background: var(--color-burgundy); }
+
+/* ─── Progress Bar ─── */
+.progress-bar {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 0%;
+  height: 3px;
+  background: linear-gradient(90deg, var(--color-burgundy), var(--color-gold));
+  z-index: var(--z-overlay);
+  transition: width 50ms linear;
+}
+
+/* ─── Loading Spinner ─── */
+.loader {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  min-height: 200px;
+}
+
+.loader__spinner {
+  width: 40px;
+  height: 40px;
+  border: 3px solid var(--color-cream-warm);
+  border-top-color: var(--color-burgundy);
+  border-radius: 50%;
+  animation: spin 0.8s linear infinite;
+}
+
+@keyframes spin {
+  to { transform: rotate(360deg); }
+}
+
+/* ─── Viz Containers ─── */
+.timeline__viz,
+.constellation__viz,
+.worldmap__viz {
+  position: relative;
+  min-height: 300px;
+  border-radius: var(--radius-lg);
+  overflow: hidden;
+}
+
+.worldmap__viz {
+  border: 1px solid var(--color-cream-warm);
+  box-shadow: var(--shadow-sm);
+}
+
+/* ─── Statistics Chart ─── */
+.statistics__chart {
+  background: var(--color-white);
+  border-radius: var(--radius-lg);
+  padding: var(--space-md);
+  box-shadow: var(--shadow-card);
+}
+
+.statistics__chart h3 {
+  margin-bottom: var(--space-sm);
+  text-align: center;
+}
+
+.statistics__chart-container {
+  min-height: 200px;
+}
+
+.statistics__stat {
+  background: var(--color-white);
+  border-radius: var(--radius-lg);
+  padding: var(--space-md);
+  box-shadow: var(--shadow-card);
+}
+
+/* ─── Story card separator ─── */
+.story-card + .story-card {
+  border-top: 1px solid var(--color-cream-warm);
+}

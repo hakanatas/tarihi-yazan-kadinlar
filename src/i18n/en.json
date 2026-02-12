@@ -1,0 +1,88 @@
+{
+  "site": {
+    "title": "Women Who Made History",
+    "shortTitle": "Women Who Made History",
+    "subtitle": "International Women's Day - March 8",
+    "description": "Discover the stories of women who changed the world"
+  },
+  "nav": {
+    "timeline": "Timeline",
+    "categories": "Categories",
+    "stories": "Stories",
+    "map": "World Map",
+    "numbers": "By the Numbers",
+    "voices": "Their Words"
+  },
+  "categories": {
+    "all": "All",
+    "science": "Science & Technology",
+    "arts": "Arts & Literature",
+    "politics": "Politics & Activism",
+    "sports": "Sports",
+    "business": "Business"
+  },
+  "hero": {
+    "title1": "Women Who",
+    "title2": "Made History",
+    "subtitle": "Discover the inspiring stories of women who changed the world",
+    "scrollPrompt": "Scroll to explore"
+  },
+  "intro": {
+    "title": "Behind Every Story",
+    "description": "Throughout history, women have broken new ground in science, arts, politics, sports, and business. In this interactive experience, you will discover the stories of women who changed the world.",
+    "counterWomen": "Inspiring Women",
+    "counterCategories": "Categories",
+    "counterCountries": "Countries"
+  },
+  "timeline": {
+    "title": "Those Who Flowed Through Time",
+    "subtitle": "From the 1800s to today, women's journey across history"
+  },
+  "constellation": {
+    "title": "Categories",
+    "subtitle": "Discover pioneering women in every field"
+  },
+  "stories": {
+    "title": "Stories",
+    "subtitle": "Inspiring life stories of women who changed the world",
+    "readMore": "Read More",
+    "readLess": "Close"
+  },
+  "worldmap": {
+    "title": "From Around the World",
+    "subtitle": "Inspiring women from every continent"
+  },
+  "statistics": {
+    "title": "By the Numbers",
+    "subtitle": "Women's progress in numbers",
+    "nobelTitle": "Women Nobel Laureates",
+    "parliamentTitle": "Women in Parliament",
+    "nobelCount": "Women Nobel Laureates",
+    "parliamentPercent": "Parliamentary Representation",
+    "ceoCounting": "Fortune 500 Women CEOs",
+    "year": "Year",
+    "count": "Count",
+    "percentage": "Percentage (%)"
+  },
+  "quotes": {
+    "title": "Their Words",
+    "subtitle": "Inspiring words from women who changed history"
+  },
+  "today": {
+    "title": "Today & Tomorrow",
+    "subtitle": "Women leading change today"
+  },
+  "footer": {
+    "title": "International Women's Day - March 8",
+    "message": "Every woman's story inspires future generations.",
+    "credits": "Crafted with love • 2026"
+  },
+  "common": {
+    "born": "Born",
+    "died": "Died",
+    "nationality": "Nationality",
+    "category": "Category",
+    "achievements": "Achievements",
+    "quote": "Quote"
+  }
+}

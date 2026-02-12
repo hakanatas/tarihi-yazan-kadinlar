@@ -1,0 +1,37 @@
+{
+  "nobelPrizes": {
+    "byDecade": [
+      { "decade": "1900s", "count": 2 },
+      { "decade": "1910s", "count": 1 },
+      { "decade": "1920s", "count": 2 },
+      { "decade": "1930s", "count": 2 },
+      { "decade": "1940s", "count": 1 },
+      { "decade": "1950s", "count": 1 },
+      { "decade": "1960s", "count": 2 },
+      { "decade": "1970s", "count": 2 },
+      { "decade": "1980s", "count": 3 },
+      { "decade": "1990s", "count": 5 },
+      { "decade": "2000s", "count": 8 },
+      { "decade": "2010s", "count": 14 },
+      { "decade": "2020s", "count": 10 }
+    ],
+    "total": 64
+  },
+  "parliamentRepresentation": {
+    "global": [
+      { "year": 1990, "percentage": 12.7 },
+      { "year": 1995, "percentage": 11.3 },
+      { "year": 2000, "percentage": 13.8 },
+      { "year": 2005, "percentage": 16.3 },
+      { "year": 2010, "percentage": 19.2 },
+      { "year": 2015, "percentage": 22.1 },
+      { "year": 2020, "percentage": 24.9 },
+      { "year": 2024, "percentage": 26.9 }
+    ]
+  },
+  "highlights": {
+    "totalNobelWomen": 64,
+    "parliamentPercentage": 26.9,
+    "fortune500CEOs": 41
+  }
+}
