@@ -11,6 +11,33 @@ import { initQuotes } from './js/sections/quotes.js';
 import { initToday } from './js/sections/today.js';
 import { initCounters } from './js/components/counter.js';
 import womenData from './data/women.json';
+import statisticsData from './data/statistics.json';
+
+function syncCounter(id, value, decimals = 0) {
+  const counter = document.getElementById(id);
+  if (!counter) return;
+
+  counter.dataset.count = String(value);
+
+  if (decimals > 0) {
+    counter.dataset.decimals = String(decimals);
+  } else {
+    delete counter.dataset.decimals;
+  }
+}
+
+function syncOverviewCounters(women, statistics) {
+  const uniqueCategories = new Set(women.map((woman) => woman.category).filter(Boolean)).size;
+  const uniqueNationalities = new Set(women.map((woman) => woman.nationality).filter(Boolean)).size;
+
+  syncCounter('counterWomen', women.length);
+  syncCounter('counterCategories', uniqueCategories);
+  syncCounter('counterCountries', uniqueNationalities);
+
+  syncCounter('statNobel', statistics.highlights.totalNobelWomen);
+  syncCounter('statLeaders', statistics.highlights.parliamentPercentage, 1);
+  syncCounter('statCEO', statistics.highlights.fortune500CEOs);
+}
 
 async function init() {
   // Phase 1: i18n
@@ -24,6 +51,7 @@ async function init() {
   initHero();
 
   // Phase 4: Counters
+  syncOverviewCounters(womenData.women, statisticsData);
   initCounters();
 
   // Phase 5: Data-driven sections

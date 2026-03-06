@@ -26,8 +26,8 @@
         "en": "Marie Curie was a pioneer in the field of radioactivity, the first woman to win a Nobel Prize, and the only person to win Nobel Prizes in two different sciences. She discovered the elements polonium and radium, and laid the groundwork for the use of radioactivity in medicine. During World War I, she developed mobile X-ray units to help treat wounded soldiers on the front lines."
       },
       "shortBio": {
-        "tr": "İki Nobel Ödülü kazanan ilk ve tek kişi",
-        "en": "First and only person to win two Nobel Prizes in different sciences"
+        "tr": "İki Nobel alan ilk kişi; iki bilim dalında Nobel alan tek kişi",
+        "en": "First person to win two Nobels; only person to win them in two sciences"
       },
       "quote": {
         "tr": "Hayatta korkulacak bir şey yok, sadece anlaşılması gereken şeyler var.",
@@ -129,8 +129,8 @@
         "en": "Rosalind Franklin played a critical role in discovering the structure of DNA using X-ray crystallography. Her famous Photo 51 was the first clear image showing DNA's double helix structure. Her discovery formed the basis for Watson and Crick's model, though her contributions were not fully recognized during her lifetime."
       },
       "shortBio": {
-        "tr": "DNA'nın çift sarmal yapısını keşfeden bilim insanı",
-        "en": "Scientist who captured the key image revealing DNA's double helix"
+        "tr": "DNA yapısının çözülmesinde kritik rol oynayan bilim insanı",
+        "en": "Scientist whose X-ray work was critical to revealing DNA's double helix"
       },
       "quote": {
         "tr": "Bilim ve günlük yaşam birbirinden ayrılamaz ve ayrılmamalıdır.",
@@ -220,8 +220,8 @@
       "nationality": "CN",
       "countryOfWork": "CN",
       "coordinates": {
-        "lat": 30.2741,
-        "lng": 120.1551
+        "lat": 39.9042,
+        "lng": 116.4074
       },
       "category": "science",
       "subcategory": "medicine",
@@ -278,8 +278,8 @@
       "subcategory": "mathematics",
       "era": "contemporary",
       "bio": {
-        "tr": "Meryem Mirzahani, matematiğin en prestijli ödülü olan Fields Madalyası'nı kazanan ilk ve şimdiye kadar tek kadındır. İranlı matematikçi, Riemann yüzeylerinin geometrisi ve dinamiği konusundaki çığır açan çalışmalarıyla tanınır. Stanford Üniversitesi'nde profesör olarak görev yapmış, 40 yaşında kanser nedeniyle hayatını kaybetmiştir.",
-        "en": "Maryam Mirzakhani was the first and so far only woman to win the Fields Medal, the most prestigious award in mathematics. The Iranian mathematician was known for her groundbreaking work on the geometry and dynamics of Riemann surfaces. She served as a professor at Stanford University and passed away from cancer at the age of 40."
+        "tr": "Meryem Mirzahani, matematiğin en prestijli ödülü olan Fields Madalyası'nı kazanan ilk kadındır. İranlı matematikçi, Riemann yüzeylerinin geometrisi ve dinamiği konusundaki çığır açan çalışmalarıyla tanınır. Stanford Üniversitesi'nde profesör olarak görev yapmış, 40 yaşında kanser nedeniyle hayatını kaybetmiştir.",
+        "en": "Maryam Mirzakhani was the first woman to win the Fields Medal, one of mathematics' most prestigious awards. The Iranian mathematician was known for her groundbreaking work on the geometry and dynamics of Riemann surfaces. She served as a professor at Stanford University and passed away from cancer at the age of 40."
       },
       "shortBio": {
         "tr": "Fields Madalyası kazanan ilk kadın matematikçi",
@@ -483,12 +483,12 @@
       "subcategory": "technology",
       "era": "modern",
       "bio": {
-        "tr": "Hedy Lamarr, Hollywood'un altın çağının yıldızı olmasının yanı sıra, frekans atlamalı yayılmış spektrum teknolojisinin mucididir. II. Dünya Savaşı sırasında torpido güdüm sistemleri için geliştirdiği bu buluş, bugünkü Wi-Fi, Bluetooth ve GPS teknolojilerinin temelini oluşturmuştur.",
-        "en": "Hedy Lamarr was not only a star of Hollywood's golden age but also the inventor of frequency-hopping spread spectrum technology. Developed during World War II for torpedo guidance systems, her invention laid the foundation for today's Wi-Fi, Bluetooth, and GPS technologies."
+        "tr": "Hedy Lamarr, Hollywood'un altın çağının yıldızı olmasının yanı sıra, besteci George Antheil ile birlikte frekans atlamalı haberleşme sistemini geliştiren mucitlerden biridir. II. Dünya Savaşı sırasında torpido güdüm sistemleri için tasarlanan bu patent, bugünkü bazı kablosuz iletişim teknolojilerinin gelişimine öncülük etmiştir.",
+        "en": "Hedy Lamarr was not only a star of Hollywood's golden age but also one of the inventors who, with composer George Antheil, developed a frequency-hopping communication system. Designed during World War II for torpedo guidance, the patent helped pave the way for some modern wireless communication technologies."
       },
       "shortBio": {
-        "tr": "Wi-Fi ve Bluetooth'un temelini atan mucit ve aktris",
-        "en": "Inventor and actress who laid the groundwork for Wi-Fi and Bluetooth"
+        "tr": "Kablosuz iletişim teknolojilerine öncülük eden aktris ve mucit",
+        "en": "Actress and inventor who helped pioneer wireless communication"
       },
       "quote": {
         "tr": "Herhangi bir kız glamur olabilir, tek yapması gereken durup aptal gibi görünmektir.",
@@ -496,13 +496,13 @@
       },
       "achievements": {
         "tr": [
-          "Frekans atlamalı yayılmış spektrum patenti",
-          "Wi-Fi ve Bluetooth'un öncüsü",
+          "George Antheil ile frekans atlamalı haberleşme patenti",
+          "Kablosuz iletişim teknolojilerine öncülük",
           "Ulusal Mucitler Şöhret Salonu"
         ],
         "en": [
-          "Frequency-hopping spread spectrum patent",
-          "Precursor to Wi-Fi and Bluetooth",
+          "Frequency-hopping communication patent with George Antheil",
+          "Pioneering wireless communication work",
           "National Inventors Hall of Fame"
         ]
       },
@@ -942,12 +942,12 @@
       "subcategory": "literature",
       "era": "contemporary",
       "bio": {
-        "tr": "Elif Şafak, Türkiye'nin uluslararası arenada en çok okunan yazarıdır. Aşk, İskender ve 10 Dakika 38 Saniye gibi romanlarıyla dünya edebiyatında önemli bir yer edinmiştir. Hem Türkçe hem İngilizce yazan Şafak, eserlerinde feminizm, kimlik ve çokkültürlülük temalarını işlemektedir.",
-        "en": "Elif Shafak is Turkey's most widely read author internationally. With novels such as The Forty Rules of Love, Honour, and 10 Minutes 38 Seconds, she has earned a significant place in world literature. Writing in both Turkish and English, Shafak explores themes of feminism, identity, and multiculturalism."
+        "tr": "Elif Şafak, Türkiye'nin uluslararası alanda en çok okunan çağdaş yazarlarından biridir. Aşk, İskender ve 10 Dakika 38 Saniye gibi romanlarıyla dünya edebiyatında önemli bir yer edinmiştir. Hem Türkçe hem İngilizce yazan Şafak, eserlerinde feminizm, kimlik ve çokkültürlülük temalarını işlemektedir.",
+        "en": "Elif Shafak is one of Turkey's most widely read contemporary authors internationally. With novels such as The Forty Rules of Love, Honour, and 10 Minutes 38 Seconds, she has earned a significant place in world literature. Writing in both Turkish and English, Shafak explores themes of feminism, identity, and multiculturalism."
       },
       "shortBio": {
-        "tr": "Türkiye'nin dünyada en çok okunan yazarı",
-        "en": "Turkey's most widely read author internationally"
+        "tr": "Türkiye'nin uluslararası alanda en çok okunan çağdaş yazarlarından biri",
+        "en": "One of Turkey's most widely read contemporary authors internationally"
       },
       "quote": {
         "tr": "Dünyayı değiştirmek istiyorsan, önce hikâyeleri değiştir.",
@@ -955,12 +955,12 @@
       },
       "achievements": {
         "tr": [
-          "19 dile çevrilen kitaplar",
+          "58 dile çevrilen eserler",
           "Aşk - uluslararası bestseller",
           "TED konuşmacısı"
         ],
         "en": [
-          "Books translated into 19 languages",
+          "Works translated into 58 languages",
           "The Forty Rules of Love - international bestseller",
           "TED speaker"
         ]
@@ -993,12 +993,12 @@
       "subcategory": "literature",
       "era": "historical",
       "bio": {
-        "tr": "Murasaki Shikibu, dünyanın ilk romanı kabul edilen Genji'nin Hikâyesi'nin yazarıdır. 11. yüzyılda Japonya'nın Heian döneminde yaşayan saray hanımefendisi, psikolojik derinliği ve toplumsal gözlemleriyle edebiyat tarihinde çığır açmıştır. Eseri bin yılı aşkın süredir okunan ve incelenen bir başyapıttır.",
-        "en": "Murasaki Shikibu is the author of The Tale of Genji, considered the world's first novel. A lady of the court living in Japan's Heian period in the 11th century, she broke new ground in literary history with her psychological depth and social observations. Her work is a masterpiece that has been read and studied for over a millennium."
+        "tr": "Murasaki Shikibu, Genji'nin Hikâyesi'nin yazarıdır; bu eser genellikle dünyanın ilk romanı ya da en eski tam romanı kabul edilir. 11. yüzyılda Japonya'nın Heian döneminde yaşayan saray hanımefendisi, psikolojik derinliği ve toplumsal gözlemleriyle edebiyat tarihinde çığır açmıştır. Eseri bin yılı aşkın süredir okunan ve incelenen bir başyapıttır.",
+        "en": "Murasaki Shikibu is the author of The Tale of Genji, a work often regarded as the world's first novel or the oldest full novel. A lady of the court living in Japan's Heian period in the 11th century, she broke new ground in literary history with her psychological depth and social observations. Her work is a masterpiece that has been read and studied for over a millennium."
       },
       "shortBio": {
-        "tr": "Dünyanın ilk romanının yazarı",
-        "en": "Author of the world's first novel"
+        "tr": "Genellikle ilk roman kabul edilen eserin yazarı",
+        "en": "Author of a work often regarded as the first novel"
       },
       "quote": {
         "tr": "Gerçek güzellik, kalbin derinliklerinde yatar.",
@@ -1006,12 +1006,12 @@
       },
       "achievements": {
         "tr": [
-          "Genji'nin Hikâyesi (dünyanın ilk romanı)",
+          "Genji'nin Hikâyesi (genellikle ilk roman kabul edilir)",
           "Japon edebiyatının temel taşı",
           "1000+ yıldır okunan eser"
         ],
         "en": [
-          "The Tale of Genji (world's first novel)",
+          "The Tale of Genji (often regarded as the first novel)",
           "Foundation of Japanese literature",
           "Work read for over 1000 years"
         ]
@@ -1139,8 +1139,8 @@
       "nationality": "PK",
       "countryOfWork": "GB",
       "coordinates": {
-        "lat": 51.752,
-        "lng": -1.2577
+        "lat": 34.7717,
+        "lng": 72.3601
       },
       "category": "politics",
       "subcategory": "education",
@@ -1962,12 +1962,12 @@
       "subcategory": "athletics",
       "era": "contemporary",
       "bio": {
-        "tr": "Tegla Loroupe, maraton dünya rekoru kıran Kenyalı uzun mesafe koşucusu ve barış aktivistdir. Üç kez maraton dünya rekorunu kırmış, spor kariyerinin ardından BM Barış Elçisi olarak çatışma bölgelerinde barış inşası çalışmaları yürütmektedir.",
-        "en": "Tegla Loroupe is a Kenyan long-distance runner who set world records in the marathon and a peace activist. She set the marathon world record three times and, after her sports career, works as a UN Peace Ambassador building peace in conflict zones."
+        "tr": "Tegla Loroupe, Kenyalı uzun mesafe koşucusu ve barış aktivistidir. 1998 ve 1999'da kadınlar maratonunda dünya dereceleri yapmış, büyük bir maraton kazanan ilk Afrikalı kadın olmuştur. Spor kariyerinin ardından Tegla Loroupe Peace Foundation aracılığıyla barış ve mülteci spor programları yürütmektedir.",
+        "en": "Tegla Loroupe is a Kenyan long-distance runner and peace activist. She set women's world-best marathon performances in 1998 and 1999 and became the first African woman to win a major marathon. After her athletic career, she has led peace and refugee sports programs through the Tegla Loroupe Peace Foundation."
       },
       "shortBio": {
-        "tr": "Maraton dünya rekortmeni ve barış aktivisti",
-        "en": "Marathon world record holder and peace activist"
+        "tr": "Maratonda öncü atlet ve barış aktivisti",
+        "en": "Pioneering marathon runner and peace activist"
       },
       "quote": {
         "tr": "Koşarak barış getirebilirsiniz.",
@@ -1975,13 +1975,13 @@
       },
       "achievements": {
         "tr": [
-          "3 kez maraton dünya rekoru",
-          "BM Barış Elçisi",
+          "Kadınlar maratonunda dünya dereceleri (1998, 1999)",
+          "Büyük bir maraton kazanan ilk Afrikalı kadın",
           "Tegla Loroupe Barış Vakfı"
         ],
         "en": [
-          "3-time marathon world record",
-          "UN Peace Ambassador",
+          "Women's world-best marathon performances (1998, 1999)",
+          "First African woman to win a major marathon",
           "Tegla Loroupe Peace Foundation"
         ]
       },
@@ -2166,12 +2166,12 @@
       "subcategory": "taekwondo",
       "era": "contemporary",
       "bio": {
-        "tr": "Nur Tatar, 2012 Londra Olimpiyat Oyunları'nda tekvando dalında bronz madalya kazanan Türk sporculardır. Avrupa ve Dünya şampiyonalarında da madalyalar kazanmıştır. Türk kadın sporcuların uluslararası başarılarının sembollerinden biridir.",
-        "en": "Nur Tatar is a Turkish athlete who won a bronze medal in taekwondo at the 2012 London Olympic Games. She has also won medals at European and World championships. She is one of the symbols of Turkish women athletes' international success."
+        "tr": "Nur Tatar, 2012 Londra Olimpiyat Oyunları'nda tekvandoda gümüş, 2016 Rio Olimpiyat Oyunları'nda ise bronz madalya kazanan Türk sporcudur. Avrupa ve Dünya şampiyonalarında da madalyalar kazanmıştır. Türk kadın sporcuların uluslararası başarılarının sembollerinden biridir.",
+        "en": "Nur Tatar is a Turkish taekwondo athlete who won silver at the 2012 London Olympic Games and bronze at the 2016 Rio Olympic Games. She has also won medals at European and World championships. She is one of the symbols of Turkish women athletes' international success."
       },
       "shortBio": {
-        "tr": "Olimpiyat bronz madalyalı Türk tekvandocu",
-        "en": "Olympic bronze medalist Turkish taekwondo athlete"
+        "tr": "Olimpiyat gümüş ve bronz madalyalı Türk tekvandocu",
+        "en": "Turkish taekwondo athlete with Olympic silver and bronze medals"
       },
       "quote": {
         "tr": "Başarı, azim ve disiplinin ürünüdür.",
@@ -2179,14 +2179,14 @@
       },
       "achievements": {
         "tr": [
-          "Olimpiyat bronz madalyası (2012)",
-          "Avrupa Şampiyonası madalyaları",
-          "Dünya Şampiyonası başarıları"
+          "Olimpiyat gümüş madalyası (2012)",
+          "Olimpiyat bronz madalyası (2016)",
+          "Avrupa ve Dünya şampiyonalarında madalyalar"
         ],
         "en": [
-          "Olympic bronze medal (2012)",
-          "European Championship medals",
-          "World Championship achievements"
+          "Olympic silver medal (2012)",
+          "Olympic bronze medal (2016)",
+          "Medals at European and World championships"
         ]
       },
       "illustrationFile": "nur-tatar.webp",
@@ -2414,8 +2414,8 @@
       "nationality": "IN",
       "countryOfWork": "US",
       "coordinates": {
-        "lat": 41.0534,
-        "lng": -73.5387
+        "lat": 41.0409,
+        "lng": -73.7146
       },
       "category": "business",
       "subcategory": "corporate",
@@ -2625,12 +2625,12 @@
       "subcategory": "oil-fashion",
       "era": "contemporary",
       "bio": {
-        "tr": "Folorunso Alakija, Afrika'nın en zengin kadını ve Nijeryalı iş kadınıdır. Moda tasarımından petrol endüstrisine geçerek büyük bir iş imparatorluğu kurmuştur. Hayırseverlik çalışmalarıyla da tanınan Alakija, Rose of Sharon Vakfı aracılığıyla binlerce insanın hayatını değiştirmektedir.",
-        "en": "Folorunso Alakija is Africa's richest woman and a Nigerian businesswoman. She built a vast business empire transitioning from fashion design to the oil industry. Also known for her philanthropy, Alakija changes thousands of lives through her Rose of Sharon Foundation."
+        "tr": "Folorunso Alakija, moda ve petrol sektörlerinde faaliyet gösteren Nijeryalı iş kadınıdır. Supreme Stitches markasıyla moda alanında tanındıktan sonra Famfa Oil'deki payıyla enerji sektöründe büyük bir servet oluşturmuştur. Hayırseverlik çalışmalarıyla da tanınan Alakija, Rose of Sharon Vakfı aracılığıyla eğitim ve girişimcilik projelerini desteklemektedir.",
+        "en": "Folorunso Alakija is a Nigerian businesswoman active in fashion and oil. After becoming known in fashion through the Supreme Stitches label, she built substantial wealth in the energy sector through her stake in Famfa Oil. Also known for her philanthropy, Alakija supports education and entrepreneurship through the Rose of Sharon Foundation."
       },
       "shortBio": {
-        "tr": "Afrika'nın en zengin kadını",
-        "en": "Africa's richest woman"
+        "tr": "Moda ve enerji alanlarında öne çıkan Nijeryalı girişimci",
+        "en": "Nigerian entrepreneur prominent in fashion and energy"
       },
       "quote": {
         "tr": "İmkânsız diye bir şey yoktur, sadece henüz yapılmamış şeyler vardır.",
@@ -2638,12 +2638,12 @@
       },
       "achievements": {
         "tr": [
-          "Afrika'nın en zengin kadını",
+          "Supreme Stitches moda markası",
           "Famfa Oil şirketi",
           "Rose of Sharon Vakfı"
         ],
         "en": [
-          "Africa's richest woman",
+          "Supreme Stitches fashion label",
           "Famfa Oil company",
           "Rose of Sharon Foundation"
         ]

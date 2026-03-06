@@ -11,7 +11,8 @@
     "stories": "Stories",
     "map": "World Map",
     "numbers": "By the Numbers",
-    "voices": "Their Words"
+    "voices": "Their Words",
+    "book": "📖 Book"
   },
   "categories": {
     "all": "All",
@@ -25,6 +26,7 @@
     "title1": "Women Who",
     "title2": "Made History",
     "subtitle": "Discover the inspiring stories of women who changed the world",
+    "date": "March 8 • International Women's Day",
     "scrollPrompt": "Scroll to explore"
   },
   "intro": {
@@ -55,9 +57,9 @@
   "statistics": {
     "title": "By the Numbers",
     "subtitle": "Women's progress in numbers",
-    "nobelTitle": "Women Nobel Laureates",
+    "nobelTitle": "Nobel Prizes Awarded to Women",
     "parliamentTitle": "Women in Parliament",
-    "nobelCount": "Women Nobel Laureates",
+    "nobelCount": "Nobel Prizes Awarded to Women",
     "parliamentPercent": "Parliamentary Representation",
     "ceoCounting": "Fortune 500 Women CEOs",
     "year": "Year",
@@ -76,6 +78,18 @@
     "title": "International Women's Day - March 8",
     "message": "Every woman's story inspires future generations.",
     "credits": "Crafted with love • 2026"
+  },
+  "aria": {
+    "languageToggle": "Switch language",
+    "menuToggle": "Menu",
+    "hero": "Hero section",
+    "intro": "Introduction",
+    "timeline": "Timeline",
+    "categories": "Categories",
+    "stories": "Stories",
+    "map": "World map",
+    "numbers": "By the numbers",
+    "quotes": "Quotes"
   },
   "common": {
     "born": "Born",

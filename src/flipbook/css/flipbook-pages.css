@@ -1,0 +1,345 @@
+/* ═══════════ FLIPBOOK PAGES ═══════════
+ * Adapted from generate-pdf.js inline CSS.
+ * Converted from mm/pt units to scalable units.
+ * Each .page fills its PageFlip container.
+ */
+
+/* ─── Base ─── */
+.page {
+  width: 100%;
+  height: 100%;
+  position: relative;
+  overflow: hidden;
+  padding: 5% 6%;
+  box-sizing: border-box;
+  font-family: 'Inter', sans-serif;
+  font-size: clamp(7px, 1.4vmin, 11px);
+  line-height: 1.5;
+  color: #2C2C2C;
+  background: #fefdfb;
+}
+
+/* Soft paper texture */
+.page::after {
+  content: '';
+  position: absolute;
+  inset: 0;
+  background: linear-gradient(135deg, rgba(0,0,0,0.008) 0%, transparent 50%, rgba(0,0,0,0.015) 100%);
+  pointer-events: none;
+}
+
+/* ═══════════ COVER ═══════════ */
+.cover-page {
+  display: flex; flex-direction: column;
+  align-items: center; justify-content: center;
+  text-align: center; padding: 0;
+  background: linear-gradient(170deg, #1A1A2E 0%, #2C1B47 35%, #1A1A2E 70%, #0f0f1e 100%);
+  color: #FAF6F0;
+}
+.cover-page::after { display: none; }
+.cover-venus { font-size: clamp(32px, 7vmin, 56px); color: #C8A951; opacity: 0.85; margin-bottom: 2%; }
+.cover-eight {
+  font-family: 'Playfair Display', serif;
+  font-size: clamp(40px, 10vmin, 72px); font-weight: 800;
+  color: #FAF6F0; line-height: 0.9;
+}
+.cover-mart {
+  font-size: clamp(8px, 2vmin, 14px); font-weight: 700;
+  letter-spacing: 0.5em; color: #C8A951;
+  margin-bottom: 8%;
+}
+.cover-line { width: 35%; height: 0.5px; background: #C8A951; margin: 3% 0; opacity: 0.5; }
+.cover-title {
+  font-family: 'Playfair Display', serif;
+  font-size: clamp(16px, 4vmin, 30px); font-weight: 700; line-height: 1.15;
+  margin-bottom: 2%;
+}
+.cover-title em { color: #C8A951; font-style: normal; }
+.cover-subtitle {
+  font-size: clamp(7px, 1.3vmin, 10px); color: #E8D5A3;
+  letter-spacing: 0.03em; max-width: 75%; line-height: 1.6;
+}
+.cover-bottom {
+  position: absolute; bottom: 6%;
+  font-family: 'Caveat', cursive;
+  font-size: clamp(8px, 1.5vmin, 12px); color: #C8A951; opacity: 0.6;
+}
+
+/* ═══════════ INNER COVER ═══════════ */
+.inner-page {
+  display: flex; flex-direction: column;
+  align-items: center; justify-content: center; text-align: center;
+}
+.inner-ornament { color: #C8A951; margin-bottom: 5%; }
+.inner-title {
+  font-family: 'Playfair Display', serif;
+  font-size: clamp(14px, 3.5vmin, 24px); font-weight: 700; color: #2C2C2C; margin-bottom: 2%;
+}
+.inner-subtitle { font-size: clamp(7px, 1.3vmin, 10px); color: #666; margin-bottom: 3%; line-height: 1.6; }
+.inner-line { width: 18%; height: 0.5px; background: #C8A951; margin: 2% 0; }
+.inner-info { font-size: clamp(6px, 1.1vmin, 9px); color: #999; }
+.inner-bottom {
+  position: absolute; bottom: 6%;
+  font-size: clamp(6px, 1vmin, 8px); color: #bbb; text-align: center;
+}
+
+/* ═══════════ TOC ═══════════ */
+.toc-page { padding: 6%; }
+.toc-title {
+  font-family: 'Playfair Display', serif;
+  font-size: clamp(12px, 3vmin, 20px); font-weight: 700;
+  text-align: center; margin-bottom: 2%; color: #2C2C2C;
+}
+.toc-ornament { text-align: center; margin-bottom: 4%; color: #C8A951; }
+.toc-content {}
+.toc-chapter { margin-bottom: 3%; }
+.toc-chapter-header {
+  display: flex; align-items: center; gap: 1.5%;
+  padding-bottom: 1%; margin-bottom: 1%;
+  border-bottom: 0.5px solid #eee;
+}
+.toc-chapter-icon { font-size: clamp(8px, 1.5vmin, 12px); }
+.toc-chapter-title {
+  font-family: 'Playfair Display', serif;
+  font-size: clamp(8px, 1.5vmin, 12px); font-weight: 600;
+}
+.toc-entry {
+  display: flex; align-items: baseline;
+  font-size: clamp(6.5px, 1.2vmin, 9px); padding: 0.4% 0 0.4% 4%;
+  cursor: pointer;
+  transition: background 0.2s;
+  border-radius: 2px;
+}
+.toc-entry:hover { background: rgba(200, 169, 81, 0.08); }
+.toc-name { white-space: nowrap; color: #444; }
+.toc-dots { flex: 1; border-bottom: 0.4px dotted #ccc; margin: 0 1.5%; min-width: 4%; }
+.toc-pn { white-space: nowrap; color: #999; font-size: clamp(6px, 1vmin, 8px); }
+
+/* ═══════════ FOREWORD ═══════════ */
+.foreword-page {
+  display: flex; flex-direction: column;
+  justify-content: center; padding: 8% 7%;
+}
+.foreword-ornament { text-align: center; color: #8B2252; margin-bottom: 3%; }
+.foreword-title {
+  font-family: 'Playfair Display', serif;
+  font-size: clamp(11px, 2.5vmin, 18px); font-weight: 700;
+  text-align: center; margin-bottom: 1%; color: #8B2252;
+}
+.foreword-subtitle {
+  text-align: center; font-size: clamp(6px, 1.1vmin, 8px); color: #999;
+  margin-bottom: 5%; letter-spacing: 0.1em;
+}
+.foreword-text {
+  font-size: clamp(7px, 1.3vmin, 10px); line-height: 1.75;
+  text-align: justify; color: #3a3a3a;
+}
+.foreword-text p { margin-bottom: 2.5%; text-indent: 3%; }
+.foreword-text p:first-child { text-indent: 0; }
+.foreword-text p:first-child::first-letter {
+  font-family: 'Playfair Display', serif;
+  font-size: clamp(16px, 4vmin, 28px); font-weight: 700; color: #8B2252;
+  float: left; line-height: 0.85; margin-right: 1%; margin-top: 0.5%;
+}
+.foreword-sig {
+  text-align: right; margin-top: 6%;
+  font-family: 'Caveat', cursive;
+  font-size: clamp(8px, 1.6vmin, 13px); color: #8B2252;
+}
+
+/* ═══════════ CHAPTER DIVIDER ═══════════ */
+.chapter-page {
+  padding: 0; display: flex; align-items: center; justify-content: center;
+  background: #fefdfb;
+}
+.chapter-bg { position: absolute; inset: 0; }
+.chapter-content { position: relative; text-align: center; z-index: 1; }
+.chapter-icon { font-size: clamp(20px, 5vmin, 36px); margin-bottom: 3%; }
+.chapter-line-top, .chapter-line-bottom {
+  width: 25%; height: 1px; margin: 0 auto 3%; opacity: 0.35;
+}
+.chapter-line-bottom { margin-top: 3%; }
+.chapter-title {
+  font-family: 'Playfair Display', serif;
+  font-size: clamp(14px, 3.5vmin, 26px); font-weight: 700;
+}
+.chapter-desc {
+  font-size: clamp(7px, 1.3vmin, 10px); color: #666;
+  font-style: italic; margin-top: 1.5%;
+}
+.chapter-count {
+  font-size: clamp(7px, 1.2vmin, 9px); color: #999; margin-top: 2%;
+  letter-spacing: 0.05em;
+}
+
+/* ═══════════ WOMAN PAGE ═══════════ */
+.woman-page { padding: 0 5% 4% 5%; overflow-y: auto; }
+.woman-page::-webkit-scrollbar { width: 3px; }
+.woman-page::-webkit-scrollbar-track { background: transparent; }
+.woman-page::-webkit-scrollbar-thumb { background: #ccc; border-radius: 3px; }
+.woman-page::-webkit-scrollbar-thumb:hover { background: #aaa; }
+.page-accent-line {
+  position: absolute; top: 0; left: 0;
+  width: 100%; height: 1.2%;
+}
+
+.woman-top {
+  display: flex; gap: 3%;
+  padding-top: 4%; margin-bottom: 2%;
+  align-items: flex-start;
+}
+
+.portrait-frame {
+  flex-shrink: 0;
+  padding: 1.5%;
+  border: 0.5px solid;
+  border-radius: 3%;
+}
+.portrait-wrapper {
+  width: clamp(60px, 18vmin, 130px);
+  height: clamp(73px, 22vmin, 158px);
+  border-radius: 2%;
+  overflow: hidden; background: #f5f0ea;
+}
+.portrait { width: 100%; height: 100%; object-fit: cover; display: block; }
+.portrait-placeholder {
+  display: flex; align-items: center; justify-content: center;
+  width: 100%; height: 100%;
+}
+.portrait-initials {
+  font-family: 'Playfair Display', serif;
+  font-size: clamp(14px, 3vmin, 24px); font-weight: 700; opacity: 0.4;
+}
+
+.woman-info { flex: 1; padding-top: 0.5%; }
+.cat-label {
+  font-size: clamp(5px, 0.9vmin, 7px); font-weight: 600;
+  letter-spacing: 0.12em; margin-bottom: 0.5%;
+}
+.woman-name {
+  font-family: 'Playfair Display', serif;
+  font-size: clamp(10px, 2.4vmin, 17px); font-weight: 700;
+  line-height: 1.1; margin-bottom: 1%; color: #2C2C2C;
+}
+.woman-meta { font-size: clamp(6px, 1.1vmin, 8px); color: #888; margin-bottom: 1.5%; }
+.meta-sep { margin: 0 1%; }
+.ornament { margin-bottom: 1.5%; }
+.ornament svg { width: clamp(30px, 8vmin, 60px); height: auto; }
+.woman-short {
+  font-size: clamp(6.5px, 1.2vmin, 9px); color: #555;
+  font-style: italic; line-height: 1.45;
+}
+
+.woman-body { margin-bottom: 2%; }
+.bio-text {
+  font-size: clamp(6.5px, 1.2vmin, 9px); line-height: 1.6;
+  text-align: justify; color: #333;
+}
+
+.quote-box {
+  margin: 2% 0;
+  padding: 2% 3% 2% 5%;
+  background: #faf8f4;
+  border-radius: 2%;
+  position: relative;
+}
+.quote-mark {
+  font-family: 'Playfair Display', serif;
+  font-size: clamp(18px, 4.5vmin, 32px); font-weight: 700;
+  position: absolute; left: 1.5%; top: -1%;
+  opacity: 0.25; line-height: 1;
+}
+.quote-text {
+  font-family: 'Caveat', cursive;
+  font-size: clamp(8px, 1.6vmin, 12px); line-height: 1.4;
+  color: #555; font-style: italic;
+}
+
+.ach-section { margin-top: 2%; }
+.ach-title {
+  font-size: clamp(6px, 1vmin, 8px); font-weight: 600;
+  letter-spacing: 0.08em; text-transform: uppercase;
+  margin-bottom: 1.5%;
+}
+.achievements { list-style: none; display: flex; flex-wrap: wrap; gap: 1%; padding: 0; margin: 0; }
+.achievements li {
+  font-size: clamp(6px, 1vmin, 8px); padding: 0.8% 2%;
+  background: #faf8f4; border: 0.5px solid #e8e2d8;
+  border-radius: 3px; color: #555;
+  display: flex; align-items: center; gap: 1%;
+}
+.ach-dot {
+  display: inline-block; width: clamp(3px, 0.5vmin, 5px); height: clamp(3px, 0.5vmin, 5px);
+  border-radius: 50%; flex-shrink: 0; opacity: 0.6;
+}
+
+/* ═══════════ TIMELINE ═══════════ */
+.timeline-section { margin-top: 2%; }
+.timeline-title {
+  font-size: clamp(6px, 1vmin, 8px); font-weight: 600;
+  letter-spacing: 0.08em; text-transform: uppercase;
+  margin-bottom: 1.5%;
+}
+.timeline {
+  display: flex; flex-wrap: wrap; gap: 0;
+  position: relative;
+  padding-left: 2%;
+  border-left: 0.5px solid;
+}
+.timeline-item {
+  display: flex; align-items: baseline; gap: 1.5%;
+  font-size: clamp(6px, 1vmin, 8px); padding: 0.5% 0;
+  width: 100%;
+}
+.timeline-year {
+  font-weight: 600; white-space: nowrap;
+  min-width: 7%;
+}
+.timeline-dot {
+  width: clamp(3px, 0.5vmin, 5px); height: clamp(3px, 0.5vmin, 5px);
+  border-radius: 50%;
+  flex-shrink: 0; position: relative; left: -3.5%;
+  margin-right: -2%;
+}
+.timeline-event { color: #555; flex: 1; }
+
+/* ═══════════ EXTRA QUOTES ═══════════ */
+.extra-quotes { margin-top: 2%; }
+.extra-quote-item {
+  font-size: clamp(6.5px, 1.1vmin, 8px); color: #666;
+  font-style: italic; line-height: 1.45;
+  padding: 1% 0 1% 3%;
+  border-left: 2px solid;
+  margin-bottom: 1.5%;
+}
+
+/* ═══════════ PAGE FOOTER ═══════════ */
+.page-footer {
+  position: absolute; bottom: 4%; left: 5%; right: 5%;
+  display: flex; justify-content: space-between; align-items: center;
+}
+.page-num { font-size: clamp(6px, 1vmin, 8px); color: #bbb; }
+.venus-icon svg { width: clamp(10px, 2vmin, 16px); height: auto; }
+
+/* ═══════════ AFTERWORD ═══════════ */
+.afterword-page {
+  display: flex; flex-direction: column;
+  justify-content: center; align-items: center;
+  text-align: center; padding: 10% 8%;
+}
+.afterword-ornament { color: #8B2252; margin-bottom: 4%; }
+.afterword-title {
+  font-family: 'Playfair Display', serif;
+  font-size: clamp(11px, 2.5vmin, 18px); font-weight: 700;
+  color: #8B2252; margin-bottom: 5%;
+}
+.afterword-text {
+  font-size: clamp(7px, 1.3vmin, 10px); line-height: 1.75;
+  max-width: 85%; color: #3a3a3a; text-align: center;
+}
+.afterword-text p { margin-bottom: 2.5%; }
+.afterword-venus { font-size: clamp(16px, 3.5vmin, 24px); color: #C8A951; margin-top: 6%; opacity: 0.5; }
+.afterword-final {
+  font-family: 'Caveat', cursive;
+  font-size: clamp(9px, 1.8vmin, 14px); color: #8B2252; margin-top: 3%;
+}

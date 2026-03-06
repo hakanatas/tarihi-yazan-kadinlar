@@ -5,6 +5,7 @@
   <meta name="viewport" content="width=device-width, initial-scale=1.0" />
   <title>Tarihi Yazan Kadınlar | Women Who Made History</title>
   <meta name="description" content="Dünyayı değiştiren kadınların hikâyelerini keşfet. 8 Mart Dünya Kadınlar Günü'ne özel interaktif deneyim." />
+  <link rel="icon" type="image/svg+xml" href="./favicon.svg" />
 
   <!-- Open Graph -->
   <meta property="og:title" content="Tarihi Yazan Kadınlar" />
@@ -55,15 +56,16 @@
         <a href="#worldmap" class="nav__link" data-i18n="nav.map">Dünya Haritası</a>
         <a href="#statistics" class="nav__link" data-i18n="nav.numbers">Rakamlarla</a>
         <a href="#quotes" class="nav__link" data-i18n="nav.voices">Sözleri</a>
+        <a href="book.html" class="nav__link nav__link--book" data-i18n="nav.book">📖 Kitap</a>
       </div>
 
       <div class="nav__actions flex gap-sm">
-        <button class="lang-toggle" id="langToggle" aria-label="Dil değiştir">
+        <button class="lang-toggle" id="langToggle" aria-label="Dil değiştir" data-i18n-aria="aria.languageToggle">
           <span class="lang-toggle__option lang-toggle__option--active" data-lang="tr">TR</span>
           <span class="lang-toggle__separator">|</span>
           <span class="lang-toggle__option" data-lang="en">EN</span>
         </button>
-        <button class="nav__menu-btn hide-desktop" id="menuBtn" aria-label="Menü">
+        <button class="nav__menu-btn hide-desktop" id="menuBtn" aria-label="Menü" data-i18n-aria="aria.menuToggle">
           <svg width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
             <line x1="3" y1="6" x2="21" y2="6"/>
             <line x1="3" y1="12" x2="21" y2="12"/>
@@ -81,19 +83,20 @@
       <a href="#worldmap" class="nav__mobile-link" data-i18n="nav.map">Dünya Haritası</a>
       <a href="#statistics" class="nav__mobile-link" data-i18n="nav.numbers">Rakamlarla</a>
       <a href="#quotes" class="nav__mobile-link" data-i18n="nav.voices">Sözleri</a>
+      <a href="book.html" class="nav__mobile-link nav__link--book" data-i18n="nav.book">📖 Kitap</a>
     </div>
   </nav>
 
   <!-- Section Navigation Dots (Desktop only) -->
   <div class="nav__dots hide-mobile" id="navDots">
-    <a href="#hero" class="nav__dot is-active" data-section="hero" aria-label="Hero"></a>
-    <a href="#intro" class="nav__dot" data-section="intro" aria-label="Giriş"></a>
-    <a href="#timeline" class="nav__dot" data-section="timeline" aria-label="Zaman Çizgisi"></a>
-    <a href="#constellation" class="nav__dot" data-section="constellation" aria-label="Kategoriler"></a>
-    <a href="#stories" class="nav__dot" data-section="stories" aria-label="Hikâyeler"></a>
-    <a href="#worldmap" class="nav__dot" data-section="worldmap" aria-label="Harita"></a>
-    <a href="#statistics" class="nav__dot" data-section="statistics" aria-label="Rakamlar"></a>
-    <a href="#quotes" class="nav__dot" data-section="quotes" aria-label="Sözler"></a>
+    <a href="#hero" class="nav__dot is-active" data-section="hero" aria-label="Ana bölüm" data-i18n-aria="aria.hero"></a>
+    <a href="#intro" class="nav__dot" data-section="intro" aria-label="Giriş" data-i18n-aria="aria.intro"></a>
+    <a href="#timeline" class="nav__dot" data-section="timeline" aria-label="Zaman Çizgisi" data-i18n-aria="aria.timeline"></a>
+    <a href="#constellation" class="nav__dot" data-section="constellation" aria-label="Kategoriler" data-i18n-aria="aria.categories"></a>
+    <a href="#stories" class="nav__dot" data-section="stories" aria-label="Hikâyeler" data-i18n-aria="aria.stories"></a>
+    <a href="#worldmap" class="nav__dot" data-section="worldmap" aria-label="Dünya Haritası" data-i18n-aria="aria.map"></a>
+    <a href="#statistics" class="nav__dot" data-section="statistics" aria-label="Rakamlarla" data-i18n-aria="aria.numbers"></a>
+    <a href="#quotes" class="nav__dot" data-section="quotes" aria-label="Sözler" data-i18n-aria="aria.quotes"></a>
   </div>
 
   <!-- ═══════════════════════════════════════════ -->
@@ -194,7 +197,7 @@
         Dünyayı değiştiren kadınların ilham veren hikâyelerini keşfet
       </p>
 
-      <p class="text-handwritten hero__date" style="color:var(--color-sage-light);font-size:1.5rem;margin-top:var(--space-md);">
+      <p class="text-handwritten hero__date" style="color:var(--color-sage-light);font-size:1.5rem;margin-top:var(--space-md);" data-i18n="hero.date">
         8 Mart • Dünya Kadınlar Günü
       </p>
     </div>
@@ -228,7 +231,7 @@
           <div style="width:48px;height:48px;margin:0 auto var(--space-sm);border-radius:50%;background:linear-gradient(135deg, var(--color-burgundy), var(--color-burgundy-light));display:flex;align-items:center;justify-content:center;">
             <svg width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="white" stroke-width="2" stroke-linecap="round"><path d="M17 21v-2a4 4 0 0 0-4-4H5a4 4 0 0 0-4 4v2"/><circle cx="9" cy="7" r="4"/><path d="M23 21v-2a4 4 0 0 0-3-3.87"/><path d="M16 3.13a4 4 0 0 1 0 7.75"/></svg>
           </div>
-          <span class="text-counter" data-count="55" id="counterWomen">0</span>
+          <span class="text-counter" data-count="54" id="counterWomen">0</span>
           <span class="text-body" style="display:block;color:var(--color-charcoal-light);margin-top:0.25rem;" data-i18n="intro.counterWomen">İlham Veren Kadın</span>
         </div>
         <div class="intro__counter reveal stagger-3" style="padding:var(--space-md);background:var(--color-white);border-radius:var(--radius-lg);box-shadow:var(--shadow-card);">
@@ -242,7 +245,7 @@
           <div style="width:48px;height:48px;margin:0 auto var(--space-sm);border-radius:50%;background:linear-gradient(135deg, var(--color-sage-dark), var(--color-sage));display:flex;align-items:center;justify-content:center;">
             <svg width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="white" stroke-width="2" stroke-linecap="round"><circle cx="12" cy="12" r="10"/><line x1="2" y1="12" x2="22" y2="12"/><path d="M12 2a15.3 15.3 0 0 1 4 10 15.3 15.3 0 0 1-4 10 15.3 15.3 0 0 1-4-10 15.3 15.3 0 0 1 4-10z"/></svg>
           </div>
-          <span class="text-counter" data-count="30" id="counterCountries">0</span>
+          <span class="text-counter" data-count="23" id="counterCountries">0</span>
           <span class="text-body" style="display:block;color:var(--color-charcoal-light);margin-top:0.25rem;" data-i18n="intro.counterCountries">Ülke</span>
         </div>
       </div>
@@ -437,11 +440,11 @@
           <span class="text-body" style="display:block;" data-i18n="statistics.nobelCount">Nobel Ödüllü Kadın</span>
         </div>
         <div class="statistics__stat reveal stagger-3" style="text-align:center;">
-          <span class="text-counter" data-count="27" id="statLeaders">0</span><span class="text-counter">%</span>
+          <span class="text-counter" data-count="26.9" data-decimals="1" id="statLeaders">0</span><span class="text-counter">%</span>
           <span class="text-body" style="display:block;" data-i18n="statistics.parliamentPercent">Meclis Temsil Oranı</span>
         </div>
         <div class="statistics__stat reveal stagger-4" style="text-align:center;">
-          <span class="text-counter" data-count="40" id="statCEO">0</span><span class="text-counter">+</span>
+          <span class="text-counter" data-count="41" id="statCEO">0</span>
           <span class="text-body" style="display:block;" data-i18n="statistics.ceoCounting">Fortune 500 Kadın CEO</span>
         </div>
       </div>

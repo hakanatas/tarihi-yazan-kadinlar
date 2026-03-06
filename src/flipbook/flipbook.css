@@ -1,0 +1,5 @@
+/* Flipbook — All CSS imports */
+@import './css/flipbook-layout.css';
+@import './css/flipbook-pages.css';
+@import './css/flipbook-toolbar.css';
+@import './css/flipbook-responsive.css';

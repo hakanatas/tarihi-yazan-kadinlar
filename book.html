@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="tr">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Tarihi Yazan Kadınlar — Kitap</title>
+  <meta name="description" content="Dünyayı değiştiren 54 kadının ilham veren hikâyeleri. Etkileşimli kitap.">
+  <link rel="icon" type="image/svg+xml" href="./favicon.svg">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Playfair+Display:ital,wght@0,400;0,600;0,700;0,800;1,400;1,600&family=Inter:wght@300;400;500;600&family=Caveat:wght@400;600&display=swap" rel="stylesheet">
+  <style>
+    /* Critical loading styles */
+    body { margin: 0; padding: 0; background: #1a1a2e; overflow: hidden; font-family: 'Inter', sans-serif; }
+    #flipbook-app { width: 100vw; height: 100vh; display: flex; flex-direction: column; }
+    .loading-screen {
+      position: fixed; inset: 0; z-index: 9999;
+      display: flex; flex-direction: column; align-items: center; justify-content: center;
+      background: linear-gradient(170deg, #1A1A2E 0%, #2C1B47 35%, #1A1A2E 70%);
+      color: #FAF6F0; transition: opacity 0.5s;
+    }
+    .loading-screen.hide { opacity: 0; pointer-events: none; }
+    .loading-venus { font-size: 48px; color: #C8A951; margin-bottom: 16px; animation: pulse 2s infinite; }
+    .loading-title { font-family: 'Playfair Display', serif; font-size: 24px; font-weight: 700; margin-bottom: 8px; }
+    .loading-subtitle { font-size: 14px; color: #C8A951; opacity: 0.7; }
+    .loading-spinner { width: 32px; height: 32px; border: 3px solid #C8A95133; border-top-color: #C8A951; border-radius: 50%; animation: spin 1s linear infinite; margin-top: 24px; }
+    @keyframes spin { to { transform: rotate(360deg); } }
+    @keyframes pulse { 0%, 100% { opacity: 0.7; } 50% { opacity: 1; } }
+  </style>
+</head>
+<body>
+  <div id="flipbook-app">
+    <div class="loading-screen" id="loading">
+      <div class="loading-venus">♀</div>
+      <div class="loading-title">Tarihi Yazan Kadınlar</div>
+      <div class="loading-subtitle">Kitap yükleniyor...</div>
+      <div class="loading-spinner"></div>
+    </div>
+  </div>
+  <script type="module" src="/src/flipbook/flipbook.js"></script>
+</body>
+</html>

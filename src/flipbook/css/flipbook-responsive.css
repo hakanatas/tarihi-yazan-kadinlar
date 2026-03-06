@@ -1,0 +1,110 @@
+/* ═══════════ RESPONSIVE ═══════════ */
+
+/* Mobile: Portrait mode, single page, compact toolbar */
+@media (max-width: 639px) {
+  .flipbook-toolbar {
+    padding: 0 8px;
+    height: 44px;
+  }
+
+  .toolbar-page-info {
+    font-size: 12px;
+  }
+
+  .toolbar-btn {
+    padding: 4px;
+  }
+
+  .toolbar-fullscreen {
+    display: none; /* Usually not supported well on mobile */
+  }
+
+  /* Slightly increase font sizes on small screens for readability */
+  .bio-text {
+    font-size: clamp(7.5px, 2vmin, 10px);
+    line-height: 1.55;
+  }
+
+  .woman-name {
+    font-size: clamp(11px, 3.5vmin, 16px);
+  }
+
+  /* Stack portrait and info vertically on very small screens */
+  .woman-top {
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+    gap: 2%;
+  }
+
+  .woman-info {
+    text-align: center;
+  }
+
+  .portrait-wrapper {
+    width: clamp(50px, 20vmin, 80px);
+    height: clamp(60px, 24vmin, 96px);
+  }
+
+  .ornament {
+    display: flex;
+    justify-content: center;
+  }
+
+  /* Hide less important sections on very small screens */
+  .extra-quotes { display: none; }
+}
+
+/* Tablet: Moderate adjustments */
+@media (min-width: 640px) and (max-width: 1023px) {
+  .flipbook-toolbar {
+    padding: 0 12px;
+  }
+}
+
+/* Desktop: Full experience */
+@media (min-width: 1024px) {
+  .flipbook-toolbar {
+    padding: 0 24px;
+  }
+
+  .toolbar-page-info {
+    font-size: 14px;
+  }
+}
+
+/* Fullscreen adjustments */
+:fullscreen #flipbook-app,
+:-webkit-full-screen #flipbook-app {
+  background: #0f0f1e;
+}
+
+:fullscreen .flipbook-toolbar,
+:-webkit-full-screen .flipbook-toolbar {
+  background: rgba(10, 10, 20, 0.98);
+}
+
+/* Touch feedback */
+@media (hover: none) and (pointer: coarse) {
+  .toolbar-btn:active {
+    background: rgba(200, 169, 81, 0.25);
+    transform: scale(0.95);
+  }
+
+  .toc-panel-item:active {
+    background: rgba(200, 169, 81, 0.15);
+  }
+}
+
+/* Prefer reduced motion */
+@media (prefers-reduced-motion: reduce) {
+  .toc-panel {
+    transition: none;
+  }
+  .toc-overlay {
+    transition: none;
+  }
+  .toolbar-progress-bar {
+    transition: none;
+  }
+}

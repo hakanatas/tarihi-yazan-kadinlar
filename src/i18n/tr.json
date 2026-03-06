@@ -11,7 +11,8 @@
     "stories": "Hikâyeler",
     "map": "Dünya Haritası",
     "numbers": "Rakamlarla",
-    "voices": "Sözleri"
+    "voices": "Sözleri",
+    "book": "📖 Kitap"
   },
   "categories": {
     "all": "Tümü",
@@ -25,6 +26,7 @@
     "title1": "Tarihi Yazan",
     "title2": "Kadınlar",
     "subtitle": "Dünyayı değiştiren kadınların ilham veren hikâyelerini keşfet",
+    "date": "8 Mart • Dünya Kadınlar Günü",
     "scrollPrompt": "Keşfetmek için kaydır"
   },
   "intro": {
@@ -55,9 +57,9 @@
   "statistics": {
     "title": "Rakamlarla",
     "subtitle": "Kadınların ilerlemesi sayılarla",
-    "nobelTitle": "Nobel Ödüllü Kadınlar",
+    "nobelTitle": "Kadınlara Verilen Nobel Ödülleri",
     "parliamentTitle": "Mecliste Kadın Temsili",
-    "nobelCount": "Nobel Ödüllü Kadın",
+    "nobelCount": "Kadınlara Verilen Nobel Ödülü",
     "parliamentPercent": "Meclis Temsil Oranı",
     "ceoCounting": "Fortune 500 Kadın CEO",
     "year": "Yıl",
@@ -76,6 +78,18 @@
     "title": "8 Mart Dünya Kadınlar Günü",
     "message": "Her kadının hikâyesi, gelecek nesillere ilham verir.",
     "credits": "Sevgiyle tasarlandı • 2026"
+  },
+  "aria": {
+    "languageToggle": "Dil değiştir",
+    "menuToggle": "Menü",
+    "hero": "Ana bölüm",
+    "intro": "Giriş",
+    "timeline": "Zaman Çizgisi",
+    "categories": "Kategoriler",
+    "stories": "Hikâyeler",
+    "map": "Dünya Haritası",
+    "numbers": "Rakamlarla",
+    "quotes": "Sözler"
   },
   "common": {
     "born": "Doğum",

@@ -1,3 +1,5 @@
+import { womanImageMap } from '../data/woman-image-map.js';
+
 export function debounce(fn, delay = 250) {
   let timeout;
   return (...args) => {
@@ -30,6 +32,16 @@ export function formatDateRange(birthYear, deathYear) {
   return `${birthYear}–${deathYear}`;
 }
 
+export function resolveAssetUrl(url) {
+  if (!url || !url.startsWith('/')) return url;
+  return `${import.meta.env.BASE_URL}${url.slice(1)}`;
+}
+
+export function getWomanImageUrl(woman) {
+  const localUrl = womanImageMap[woman.id];
+  return resolveAssetUrl(localUrl || woman.imageUrl);
+}
+
 export function getCategoryColor(category) {
   const colors = {
     science: '#6B4C9A',
@@ -55,16 +67,27 @@ export function getCategoryLightColor(category) {
 export function animateCounter(element, target, duration = 2000) {
   const start = 0;
   const startTime = performance.now();
+  const decimals = Number.parseInt(element.dataset.decimals || '0', 10);
+  const locale = document.documentElement.lang === 'en' ? 'en-US' : 'tr-TR';
+  const formatter = new Intl.NumberFormat(locale, {
+    minimumFractionDigits: decimals,
+    maximumFractionDigits: decimals,
+  });
 
   function update(currentTime) {
     const elapsed = currentTime - startTime;
     const progress = Math.min(elapsed / duration, 1);
     const eased = 1 - Math.pow(1 - progress, 3); // easeOutCubic
-    const current = Math.round(start + (target - start) * eased);
-    element.textContent = current;
+    const currentValue = start + (target - start) * eased;
+    const roundedValue = decimals > 0
+      ? Number(currentValue.toFixed(decimals))
+      : Math.round(currentValue);
+    element.textContent = formatter.format(roundedValue);
 
     if (progress < 1) {
       requestAnimationFrame(update);
+    } else {
+      element.textContent = formatter.format(target);
     }
   }
 

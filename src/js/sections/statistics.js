@@ -1,7 +1,7 @@
 import * as d3 from 'd3';
 import { ScrollTrigger } from '../scroll.js';
 import { getResponsiveValue } from '../utils.js';
-import { t } from '../i18n.js';
+import statisticsData from '../../data/statistics.json';
 
 export function initStatistics(lang) {
   renderNobelChart(lang);
@@ -14,21 +14,7 @@ function renderNobelChart(lang) {
 
   container.innerHTML = '';
 
-  const data = [
-    { decade: '1900s', count: 2 },
-    { decade: '1910s', count: 1 },
-    { decade: '1920s', count: 2 },
-    { decade: '1930s', count: 2 },
-    { decade: '1940s', count: 1 },
-    { decade: '1950s', count: 1 },
-    { decade: '1960s', count: 2 },
-    { decade: '1970s', count: 2 },
-    { decade: '1980s', count: 3 },
-    { decade: '1990s', count: 5 },
-    { decade: '2000s', count: 8 },
-    { decade: '2010s', count: 14 },
-    { decade: '2020s', count: 10 },
-  ];
+  const data = statisticsData.nobelPrizes.byDecade;
 
   const margin = { top: 20, right: 20, bottom: 50, left: 40 };
   const width = (container.clientWidth || 350) - margin.left - margin.right;
@@ -161,16 +147,8 @@ function renderParliamentChart(lang) {
 
   container.innerHTML = '';
 
-  const data = [
-    { year: 1990, percentage: 12.7 },
-    { year: 1995, percentage: 11.3 },
-    { year: 2000, percentage: 13.8 },
-    { year: 2005, percentage: 16.3 },
-    { year: 2010, percentage: 19.2 },
-    { year: 2015, percentage: 22.1 },
-    { year: 2020, percentage: 24.9 },
-    { year: 2024, percentage: 26.9 },
-  ];
+  const data = statisticsData.parliamentRepresentation.global;
+  const [minYear, maxYear] = d3.extent(data, (d) => d.year);
 
   const margin = { top: 20, right: 20, bottom: 40, left: 50 };
   const width = (container.clientWidth || 350) - margin.left - margin.right;
@@ -186,7 +164,7 @@ function renderParliamentChart(lang) {
     .append('g')
     .attr('transform', `translate(${margin.left},${margin.top})`);
 
-  const x = d3.scaleLinear().domain([1990, 2024]).range([0, width]);
+  const x = d3.scaleLinear().domain([minYear, maxYear]).range([0, width]);
   const y = d3.scaleLinear().domain([0, 35]).range([height, 0]);
 
   // Grid lines

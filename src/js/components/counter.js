@@ -5,7 +5,8 @@ export function initCounters() {
   const counters = document.querySelectorAll('[data-count]');
 
   counters.forEach((counter) => {
-    const target = parseInt(counter.dataset.count, 10);
+    const target = Number.parseFloat(counter.dataset.count);
+    if (Number.isNaN(target)) return;
 
     ScrollTrigger.create({
       trigger: counter,

@@ -1,5 +1,5 @@
 import { gsap, ScrollTrigger } from '../scroll.js';
-import { getCategoryColor, formatDateRange } from '../utils.js';
+import { getCategoryColor, formatDateRange, getWomanImageUrl } from '../utils.js';
 import { t } from '../i18n.js';
 
 export function initToday(women, lang) {
@@ -48,15 +48,16 @@ function createTodayCard(woman, lang) {
     .map((n) => n[0])
     .join('')
     .slice(0, 2);
+  const imageSrc = getWomanImageUrl(woman);
 
-  const imageContent = woman.imageUrl
-    ? `<img src="${woman.imageUrl}" alt="${woman.name[lang]}" class="woman-card__image" loading="lazy" onerror="this.style.display='none';this.nextElementSibling.style.display='flex'">`
+  const imageContent = imageSrc
+    ? `<img src="${imageSrc}" alt="${woman.name[lang]}" class="woman-card__image" loading="lazy" onerror="this.style.display='none';this.nextElementSibling.style.display='flex'">`
     : '';
 
   card.innerHTML = `
     <div class="woman-card__image-wrapper">
       ${imageContent}
-      <div style="width:100%;height:100%;display:${woman.imageUrl ? 'none' : 'flex'};align-items:center;justify-content:center;background:linear-gradient(145deg, ${categoryColor}10, ${categoryColor}25, ${categoryColor}12);">
+      <div style="width:100%;height:100%;display:${imageSrc ? 'none' : 'flex'};align-items:center;justify-content:center;background:linear-gradient(145deg, ${categoryColor}10, ${categoryColor}25, ${categoryColor}12);">
         <span style="font-family:'Playfair Display',serif;font-size:3.5rem;font-weight:700;color:${categoryColor};opacity:0.4;">${initials}</span>
       </div>
       <span class="woman-card__category-badge woman-card__category-badge--${woman.category}">

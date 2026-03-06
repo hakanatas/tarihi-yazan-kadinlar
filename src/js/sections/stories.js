@@ -1,5 +1,5 @@
 import { gsap, ScrollTrigger } from '../scroll.js';
-import { getCategoryColor, formatDateRange } from '../utils.js';
+import { getCategoryColor, formatDateRange, getWomanImageUrl } from '../utils.js';
 import { t } from '../i18n.js';
 
 export function initStories(women, lang) {
@@ -44,6 +44,7 @@ function createStoryCard(woman, lang, index) {
   card.style.transform = index % 2 === 0 ? 'translateX(-40px)' : 'translateX(40px)';
 
   const categoryColor = getCategoryColor(woman.category);
+  const imageSrc = getWomanImageUrl(woman);
 
   // Generate illustration (image or gradient with initials)
   const initials = woman.name[lang]
@@ -58,8 +59,8 @@ function createStoryCard(woman, lang, index) {
       </blockquote>`
     : '';
 
-  const illustrationContent = woman.imageUrl
-    ? `<img src="${woman.imageUrl}" alt="${woman.name[lang]}" style="width:100%;height:100%;object-fit:cover;" loading="lazy" onerror="this.parentElement.innerHTML='<div style=\\'width:100%;height:100%;display:flex;align-items:center;justify-content:center;background:linear-gradient(145deg, ${categoryColor}12, ${categoryColor}30, ${categoryColor}15);\\'><span style=\\'font-family:Playfair Display,serif;font-size:3.5rem;font-weight:700;color:${categoryColor};opacity:0.5;\\'>${initials}</span></div>'">`
+  const illustrationContent = imageSrc
+    ? `<img src="${imageSrc}" alt="${woman.name[lang]}" style="width:100%;height:100%;object-fit:cover;" loading="lazy" onerror="this.parentElement.innerHTML='<div style=\\'width:100%;height:100%;display:flex;align-items:center;justify-content:center;background:linear-gradient(145deg, ${categoryColor}12, ${categoryColor}30, ${categoryColor}15);\\'><span style=\\'font-family:Playfair Display,serif;font-size:3.5rem;font-weight:700;color:${categoryColor};opacity:0.5;\\'>${initials}</span></div>'">`
     : `<div style="width:100%;height:100%;display:flex;align-items:center;justify-content:center;background:linear-gradient(145deg, ${categoryColor}12, ${categoryColor}30, ${categoryColor}15);">
         <span style="font-family:'Playfair Display',serif;font-size:3.5rem;font-weight:700;color:${categoryColor};opacity:0.5;text-shadow:0 2px 10px ${categoryColor}20;">${initials}</span>
       </div>`;

@@ -80,12 +80,37 @@ function updateAllTranslations() {
     const key = el.getAttribute('data-i18n-aria');
     el.setAttribute('aria-label', i18next.t(key));
   });
+
+  updateDocumentMetadata();
 }
 
 function updateLangToggle(lang) {
   document.querySelectorAll('.lang-toggle__option').forEach((opt) => {
     opt.classList.toggle('lang-toggle__option--active', opt.dataset.lang === lang);
   });
+}
+
+function updateDocumentMetadata() {
+  const title = i18next.t('site.title');
+  const description = i18next.t('site.description');
+  const locale = i18next.language === 'en' ? 'en_US' : 'tr_TR';
+  const alternateLocale = i18next.language === 'en' ? 'tr_TR' : 'en_US';
+
+  document.title = title;
+
+  setMetaContent('meta[name="description"]', description);
+  setMetaContent('meta[property="og:title"]', title);
+  setMetaContent('meta[property="og:description"]', description);
+  setMetaContent('meta[property="og:locale"]', locale);
+  setMetaContent('meta[property="og:locale:alternate"]', alternateLocale);
+  setMetaContent('meta[name="twitter:title"]', title);
+}
+
+function setMetaContent(selector, content) {
+  const meta = document.querySelector(selector);
+  if (meta) {
+    meta.setAttribute('content', content);
+  }
 }
 
 // Expose for footer buttons

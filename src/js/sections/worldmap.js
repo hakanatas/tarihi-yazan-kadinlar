@@ -9,6 +9,70 @@ let currentMapFilter = 'all';
 let mapFiltersInitialized = false;
 let storedWomen = null;
 let storedLang = null;
+const MARKER_CLUSTER_DISTANCE = 1;
+const MARKER_CLUSTER_RADIUS = 3;
+const MARKER_CLUSTER_STEP = 0.8;
+const MARKER_DOT_RADIUS = 2.2;
+const MARKER_DOT_HOVER_RADIUS = 4.5;
+const MARKER_PULSE_RADIUS = 4.5;
+const MARKER_PULSE_HOVER_RADIUS = 9;
+
+function getDistance(a, b) {
+  return Math.hypot(a.anchorX - b.anchorX, a.anchorY - b.anchorY);
+}
+
+function getMarkerLayout(women, projection) {
+  const projected = women.map((woman) => {
+    const [anchorX, anchorY] = projection([woman.coordinates.lng, woman.coordinates.lat]);
+    return { ...woman, anchorX, anchorY, displayX: anchorX, displayY: anchorY };
+  });
+
+  const visited = new Set();
+  const clusters = [];
+
+  projected.forEach((point, index) => {
+    if (visited.has(index)) return;
+
+    const cluster = [];
+    const queue = [index];
+    visited.add(index);
+
+    while (queue.length > 0) {
+      const currentIndex = queue.shift();
+      const currentPoint = projected[currentIndex];
+      cluster.push(currentPoint);
+
+      projected.forEach((candidate, candidateIndex) => {
+        if (visited.has(candidateIndex)) return;
+        if (getDistance(currentPoint, candidate) < MARKER_CLUSTER_DISTANCE) {
+          visited.add(candidateIndex);
+          queue.push(candidateIndex);
+        }
+      });
+    }
+
+    clusters.push(cluster);
+  });
+
+  clusters.forEach((cluster) => {
+    if (cluster.length === 1) return;
+
+    cluster.sort((a, b) => a.name.en.localeCompare(b.name.en));
+
+    const centerX = d3.mean(cluster, (point) => point.anchorX);
+    const centerY = d3.mean(cluster, (point) => point.anchorY);
+    const radius = MARKER_CLUSTER_RADIUS + Math.max(0, cluster.length - 2) * MARKER_CLUSTER_STEP;
+    const startAngle = cluster.length === 2 ? 0 : -Math.PI / 2;
+
+    cluster.forEach((point, index) => {
+      const angle = startAngle + (2 * Math.PI * index) / cluster.length;
+      point.displayX = centerX + Math.cos(angle) * radius;
+      point.displayY = centerY + Math.sin(angle) * radius;
+    });
+  });
+
+  return projected;
+}
 
 export function initWorldMap(women, lang) {
   const container = document.getElementById('worldmapViz');
@@ -119,7 +183,7 @@ function renderMap(container, women, lang, filter) {
     .style('pointer-events', 'none');
 
   // Woman markers
-  const markersData = filtered.filter((w) => w.coordinates);
+  const markersData = getMarkerLayout(filtered.filter((w) => w.coordinates), projection);
 
   const markers = g
     .selectAll('.map-marker')
@@ -128,16 +192,31 @@ function renderMap(container, women, lang, filter) {
     .append('g')
     .attr('class', 'map-marker')
     .attr('transform', (d) => {
-      const [x, y] = projection([d.coordinates.lng, d.coordinates.lat]);
-      return `translate(${x},${y})`;
+      return `translate(${d.displayX},${d.displayY})`;
     })
     .style('cursor', 'pointer');
+
+  markers
+    .filter((d) => getDistance(
+      { anchorX: d.anchorX, anchorY: d.anchorY },
+      { anchorX: d.displayX, anchorY: d.displayY },
+    ) > 1)
+    .append('line')
+    .attr('class', 'marker-link')
+    .attr('x1', (d) => d.anchorX - d.displayX)
+    .attr('y1', (d) => d.anchorY - d.displayY)
+    .attr('x2', 0)
+    .attr('y2', 0)
+    .attr('stroke', '#B8A47A')
+    .attr('stroke-width', 0.7)
+    .attr('stroke-linecap', 'round')
+    .attr('opacity', 0.55);
 
   // Pulse ring
   markers
     .append('circle')
     .attr('class', 'marker-pulse')
-    .attr('r', 12)
+    .attr('r', MARKER_PULSE_RADIUS)
     .attr('fill', (d) => getCategoryColor(d.category))
     .attr('opacity', 0);
 
@@ -154,8 +233,8 @@ function renderMap(container, women, lang, filter) {
   // Interactions
   markers
     .on('mouseenter', function (event, d) {
-      d3.select(this).select('.marker-pulse').transition().duration(200).attr('opacity', 0.2).attr('r', 20);
-      d3.select(this).select('.marker-dot').transition().duration(200).attr('r', 8);
+      d3.select(this).select('.marker-pulse').transition().duration(200).attr('opacity', 0.22).attr('r', MARKER_PULSE_HOVER_RADIUS);
+      d3.select(this).select('.marker-dot').transition().duration(200).attr('r', MARKER_DOT_HOVER_RADIUS);
 
       tooltip
         .html(`
@@ -170,8 +249,8 @@ function renderMap(container, women, lang, filter) {
         .style('top', `${event.offsetY - 10}px`);
     })
     .on('mouseleave', function () {
-      d3.select(this).select('.marker-pulse').transition().duration(200).attr('opacity', 0).attr('r', 12);
-      d3.select(this).select('.marker-dot').transition().duration(200).attr('r', 6);
+      d3.select(this).select('.marker-pulse').transition().duration(200).attr('opacity', 0).attr('r', MARKER_PULSE_RADIUS);
+      d3.select(this).select('.marker-dot').transition().duration(200).attr('r', MARKER_DOT_RADIUS);
       tooltip.classed('is-visible', false);
     });
 
@@ -194,7 +273,7 @@ function renderMap(container, women, lang, filter) {
         .transition()
         .delay((d, i) => 400 + i * 50)
         .duration(500)
-        .attr('r', 6);
+        .attr('r', MARKER_DOT_RADIUS);
     },
   });
 }
